@@ -1,8 +1,8 @@
 # Enterprise RPG
 
-## What's that?
+## What's That?
 
-This blog is an attempt to define an ironic enterprise RPG, enabling you to:
+This blog is an attempt to define an **ironic enterprise RPG**, enabling you, amongst other things, to:
 
 * Simulate your colleagues;
 * Anticipate the results of confrontations and meetings;
@@ -12,7 +12,7 @@ This game is a work-in-progress and will probably require a set of RPG D&D compa
 
 (Image to be inserted here)
 
-## The entries
+## The Entries
 
 August 25 2020:
 
@@ -20,13 +20,16 @@ August 25 2020:
   * [What kind of dice?](2020/20200825-2.md)
   * [What is the enterprise RPG you are talking about?](2020/20200825.md)
   
+## The Game
+
+This section gathers the main rules following the everlasting RPG structure:
+
+* [Players Handbook](manuals/players.md)
+* [Game Masters Guide](manuals/gms.md)
+
+Warning: those pages are a work-in-progress and will evolve progressively with time.
+
 ## About
 
 * [About me](about.md)
 
-
-
-
-
-
-[About me]: about.md
