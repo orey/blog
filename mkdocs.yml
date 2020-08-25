@@ -4,13 +4,13 @@ site_author: Olivier Rey
 copyright: Copyleft Olivier Rey 2017-2020 - Site licensed under the GNU FDL V3
 google_analytics: ['UA-110156293-1', 'orey.github.io']
 repo_url: https://github.com/orey/enterprise-rpg/
-theme: windmill
+#theme: windmill
 site_dir: site
 nav:
 - Home:
-    - 'Index': 'index.md'
-    - 'Author': 'about.md'
-    - 'License': 'LICENSE.md'
+    - Home: index.md
+    - Author: about.md
+    - License: LICENSE.md
 - 2020:
     - 'Characteristics 1': '2020/20200825-3.md'
     - 'What kind of dice?': '2020/20200825-2.md'
