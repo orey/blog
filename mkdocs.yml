@@ -4,7 +4,7 @@ site_author: Olivier Rey
 copyright: Copyleft Olivier Rey 2017-2020 - Site licensed under the GNU FDL V3
 google_analytics: ['UA-110156293-1', 'orey.github.io']
 repo_url: https://github.com/orey/enterprise-rpg/
-theme: 'windmill'
+theme: windmill
 site_dir: site
 nav:
 - Home:
