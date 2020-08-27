@@ -14,16 +14,8 @@ This game is a work-in-progress and will probably require a set of RPG D&D compa
 
 ## The Entries
 
-August 27 2020:
-
 * [Create funny rolls](2020/202008.md#005)
-
-August 26 2020:
-
 * [More characteristics and skills](2020/202008.md#004)
-
-August 25 2020:
-
 * [Characteristics 1](2020/202008.md#003)
 * [What kind of dice?](2020/202008.md#002)
 * [What is the enterprise RPG you are talking about?](2020/202008.md#001)
