@@ -9,9 +9,10 @@ site_dir: site
 nav:
 - Home: index.md
 - 2020:
-    - 'Why an enterprise RPG?': '2020/20200825-1.md'
-    - 'What kind of dice?': '2020/20200825-2.md'
-    - 'Characteristics 1': '2020/20200825-3.md'
+    - 'August 2020': '2020/202008.md'
+- 'The Game':
+    - 'Players Handbook': 'manuals/players.md'
+    - 'Game Masters Guide': 'manuals/gms.md'
 - About:
     - Author: about.md
     - License: LICENSE.md
