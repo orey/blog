@@ -10,10 +10,11 @@ This blog is an attempt to define an **ironic enterprise RPG**, enabling you, am
 
 This game is a work-in-progress and will probably require a set of RPG D&D compatible dices like the following ones.
 
-(Image to be inserted here)
+![dices](images/dice.png)
 
 ## The Entries
 
+* [Spells, classes and armor class](2020/202008.md#006)
 * [Create funny rolls](2020/202008.md#005)
 * [More characteristics and skills](2020/202008.md#004)
 * [Characteristics 1](2020/202008.md#003)
