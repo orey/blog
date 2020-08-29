@@ -16,4 +16,5 @@ nav:
 - About:
     - Author: about.md
     - License: LICENSE.md
+    - Links: links.md
 

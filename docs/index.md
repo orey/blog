@@ -34,3 +34,7 @@ Warning: those pages are a work-in-progress and will evolve progressively with t
 
 * [About me](about.md)
 
+## Links
+
+* [Links](linkd.md)
+
