@@ -36,5 +36,5 @@ Warning: those pages are a work-in-progress and will evolve progressively with t
 
 ## Links
 
-* [Links](linkd.md)
+* [Links](links.md)
 
