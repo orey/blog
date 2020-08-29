@@ -1,0 +1,790 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="RPG for simulating your enterprise">
+      
+      
+      
+        <meta name="author" content="Olivier Rey">
+      
+      <link rel="shortcut icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.11">
+    
+    
+      
+        <title>August 2020 - Enterprise-RPG</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.860688db.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.943997b5.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#009485">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+        
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-110156293-1","orey.github.io"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview",document.location.pathname)})</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#august-2020" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Enterprise-RPG" class="md-header-nav__button md-logo" aria-label="Enterprise-RPG">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Enterprise-RPG
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              August 2020
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/orey/enterprise-rpg/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Enterprise-RPG" class="md-nav__button md-logo" aria-label="Enterprise-RPG">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Enterprise-RPG
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/orey/enterprise-rpg/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      2020
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="2020" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        2020
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        August 2020
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="August 2020" class="md-nav__link md-nav__link--active">
+      August 2020
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#spells-classes-and-armor-class" class="md-nav__link">
+    Spells, classes and armor class
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-funny-rolls" class="md-nav__link">
+    Create funny rolls
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-characteristics-and-skills" class="md-nav__link">
+    More characteristics and skills
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#characteristics" class="md-nav__link">
+    Characteristics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-kind-of-dice" class="md-nav__link">
+    What kind of dice?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-enterprise-rpg-you-are-talking-about" class="md-nav__link">
+    What is the enterprise RPG you are talking about?
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      The Game
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="The Game" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        The Game
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../manuals/players/" title="Players Handbook" class="md-nav__link">
+      Players Handbook
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../manuals/gms/" title="Game Masters Guide" class="md-nav__link">
+      Game Masters Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      About
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="About" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        About
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/" title="Author" class="md-nav__link">
+      Author
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../LICENSE/" title="License" class="md-nav__link">
+      License
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../links/" title="Links" class="md-nav__link">
+      Links
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#spells-classes-and-armor-class" class="md-nav__link">
+    Spells, classes and armor class
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-funny-rolls" class="md-nav__link">
+    Create funny rolls
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-characteristics-and-skills" class="md-nav__link">
+    More characteristics and skills
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#characteristics" class="md-nav__link">
+    Characteristics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-kind-of-dice" class="md-nav__link">
+    What kind of dice?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-enterprise-rpg-you-are-talking-about" class="md-nav__link">
+    What is the enterprise RPG you are talking about?
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/orey/enterprise-rpg/edit/master/docs/2020/202008.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="august-2020">August 2020</h1>
+<hr />
+<p><a name="006"></a></p>
+<h2 id="spells-classes-and-armor-class">Spells, classes and armor class</h2>
+<p><strong>Spells</strong></p>
+<p>Some enterprise PCs have Charism but not only. They are able to seduce people even if their real skills are low.</p>
+<p>On the contrary, many people can be charmed by those spells, above all if they are not skilled enough to realize the subterfuge.</p>
+<p>Skills should influence on saving throws with bonuses. Low skills should provide a malus for saving throws.</p>
+<p>Anyway, the seduction should be considered as a magic power.</p>
+<p>Magic could be based on Charisma.</p>
+<p><strong>Classes of characters</strong></p>
+<p>Indeed, as all PCs are human (are they really? ;), there are no races. But classes of characters also exist.</p>
+<p>The Classes should match basic profile characteristics. Engineer could be a profile. Salesman or saleswoman another. HR, Marketing, Finance, etc. could be classes.</p>
+<p>Classically, PC classes should require some level in a certain characteristic.</p>
+<p>The belonging of a certain "influence cycle" should be possible. In France, ENA, X or ENSAM are acting like secret societies that create networks of people assigning themselves positions without them to be always connected to their real skills. That belonging could add some bonus or malus in different situations.</p>
+<p><strong>Armor class</strong></p>
+<p>Generally the boss of a company will have a very low armor class. If the business is owned by him, the AC is 1.</p>
+<p>But for companies where the boss is just a nominated guy, which means he can be replaced, the his AC should be 2 or 3.</p>
+<p>For the rest of people, their AC should be the boss AC minus the number of hierarchical levels between the boss and the PC position.</p>
+<p>For instance, let us suppose your PC is the n-5 of a big boss who has an AC=2. Your AC is 7.</p>
+<p>Note: PC should have AC modifiers depending on the situations.</p>
+<p><em>August 27</em></p>
+<hr />
+<p><a name="005"></a></p>
+<h2 id="create-funny-rolls">Create funny rolls</h2>
+<p>If characteristics are balanced between one extreme and the other, for several situations, it would be quite funny to let the GM decide what "side" of the characteristics to roll for. One alternative is to make 2 rolls. I have to think about it.</p>
+<p><em>August 27</em></p>
+<hr />
+<p><a name="004"></a></p>
+<h2 id="more-characteristics-and-skills">More characteristics and skills</h2>
+<p>Let's go straight to the point: many characteristics and skills in Enterprise-RPG must represent the bad reality of companies.</p>
+<p>Let's try a first list:</p>
+<table>
+<thead>
+<tr>
+<th>Characteristic or skill?</th>
+<th>Type</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lying</td>
+<td>Skill</td>
+<td>Could be attached to some alignment notion</td>
+</tr>
+<tr>
+<td>Politics</td>
+<td>Characteristic</td>
+<td>Lying could be a skill deriving</td>
+</tr>
+<tr>
+<td>Physical</td>
+<td>Characteristic</td>
+<td>Not so useful</td>
+</tr>
+<tr>
+<td>Technical skills</td>
+<td>Skills</td>
+<td>Per domain</td>
+</tr>
+<tr>
+<td>Sell</td>
+<td>Skill</td>
+<td>Can be used in other contexts</td>
+</tr>
+<tr>
+<td>Invent stupid project</td>
+<td>Skill</td>
+<td>This should probably be generalized to other stupid stuff</td>
+</tr>
+<tr>
+<td>Misunderstand</td>
+<td>Skill</td>
+<td>A good skill for manager is misunderstanding</td>
+</tr>
+<tr>
+<td>Paranoia</td>
+<td>Skill</td>
+<td>Ability to imagine that someone is plotting agains you</td>
+</tr>
+<tr>
+<td>Plot</td>
+<td>Skill</td>
+<td>A useful skill in enterprise</td>
+</tr>
+<tr>
+<td>Detect Plot</td>
+<td>Skill</td>
+<td>Same</td>
+</tr>
+<tr>
+<td>Bad faith</td>
+<td>Skill</td>
+<td>Same</td>
+</tr>
+</tbody>
+</table>
+<p>A lot of skills should find their places in "combat rules".</p>
+<p><strong>First Ideas About Combat Rules</strong></p>
+<p>Combat rules could have several flavours:</p>
+<ul>
+<li>Confrontation: face to face</li>
+<li>Group combat: influence in a meeting, groupe versus group, etc.</li>
+<li>Plot</li>
+</ul>
+<p><em>August 26</em></p>
+<hr />
+<p><a name="003"></a></p>
+<h2 id="characteristics">Characteristics</h2>
+<p><strong>First inspiration: Jung</strong></p>
+<p>Each character will have a set of characteristics and skills. I like the skills being specialization of characteristics.</p>
+<p>I wanted to start with the Jungiang traits. Roughly, Jung defines 3 kinds of attributes. If we adopt the perspective of <a href="https://en.wikipedia.org/wiki/Myers–Briggs_Type_Indicator">Myers-Briggs</a> (without adding the 4th trait), we can have:</p>
+<ul>
+<li>Introversion/Extraversion, which is the place from where people are taking their energy;</li>
+<li>Intuitive/Sensing, which is the perception of time, intuitive living in the future and being able to anticipate, and sensing living in the present;</li>
+<li>Thinkful/Feeling, which is the approach of conflict, or based on intellectual facts or based on feeling for people.</li>
+</ul>
+<p>In all cases, as the "context" (understand "the enterprise the PC are into") requires certain details on the "mind characteristics", we have to find a way to have balanced characteristics.</p>
+<p><strong>First rules</strong></p>
+<p>Let's take an example to enable to reflection. Sandra is a woman and she has an argument with Vincent, a man. Vincent is "Feel" oriented whereas Sandra is more "Think". Let us suppose that we have just one scale: Feel + Think should be a fixed number and Sandra would have much more chances to succeed in an analysis based on Think than an analysis based on Feel (and the reverse for Vincent).</p>
+<p>However:</p>
+<ul>
+<li>Those characteristics should both exist in both profiles and be linked together in some way;</li>
+<li>There is no reason for which those characteristics may be limited.</li>
+</ul>
+<p>So we can imagine the following rules:</p>
+<ul>
+<li>For your PC, at PC creation, you have one roll for Think/Feel: <strong>roll 3D6</strong> to get X;</li>
+<li>Choose if X goes to Feel or to Think;</li>
+<li>Put 18-X in the other characteristic.</li>
+</ul>
+<p>The result would be for Sandra 3+6+4=13:</p>
+<table>
+<thead>
+<tr>
+<th>Characteristic</th>
+<th>Feel</th>
+<th>Think</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Value</strong></td>
+<td>5</td>
+<td>13</td>
+</tr>
+</tbody>
+</table>
+<p>And for Vincent, 1+4+5=10:</p>
+<table>
+<thead>
+<tr>
+<th>Characteristic</th>
+<th>Feel</th>
+<th>Think</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Value</strong></td>
+<td>10</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<p>This can enable the standard D20 roll against some threshold to succeed to not in a certain challenge.</p>
+<p><em>August 25</em></p>
+<hr />
+<p><a name="002"></a></p>
+<h2 id="what-kind-of-dice">What kind of dice?</h2>
+<p>The first point will be to decide what kind of dice use. I admit having a preference for standard RPG dices, and not D6, even if most of the quick tabletop RPG seem to be using D6.</p>
+<p>For now, I will adopt a game system inspired by D&amp;D but the blog is here to enable the reflection on the topic.</p>
+<p><em>August 25</em></p>
+<hr />
+<p><a name="001"></a></p>
+<h2 id="what-is-the-enterprise-rpg-you-are-talking-about">What is the enterprise RPG you are talking about?</h2>
+<p>The enterprise is an hostile environment in which various set of skills are employed : technical ones, but also political ones. For decades, the enterprise landscape has changed, not really for the best, especially in big structures:</p>
+<ul>
+<li>Political skills are, more than ever, on the frontline;</li>
+<li>Technical skills seem to stay in the background;</li>
+<li>Nowadays, who is concerned about change management, or exact reporting?</li>
+</ul>
+<p>This blogs starts a reflection around a <strong>simulation system that would be adapted to simulate what's going on in modern enterprises</strong> in which nothing can be called a failure anymore and everything is always a success, where intentions are too often sufficient.</p>
+<p>This in-progress game aims to turn catastrophic situations in funny situations. If the exercise is successfull, you will be able :</p>
+<ul>
+<li>To create the PC (Player Characters) that correspond to your collegues;</li>
+<li>To predict the output of meetings and to create various kinds of "encounters";</li>
+<li>To determine who is the best PC or NPC (Non Player Character) to win a challenge or a contest;</li>
+<li>In one word, to play the roles of your colleagues.</li>
+</ul>
+<p>In a certain way, this system <em>could be</em> a RPG but would more be a way to have fun in the office with the RPG concepts adapted to the enterprise.</p>
+<p>More to come.</p>
+<p><em>August 25</em></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../.." title="Home" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../manuals/players/" title="Players Handbook" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Players Handbook
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyleft Olivier Rey 2017-2020 - Site licensed under the GNU FDL V3
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.df0def68.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
