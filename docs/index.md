@@ -1,4 +1,4 @@
-![Logo](images/logobig.png "logo")
+![Logo](images/logo-big.png "logo")
 
 ## What's that?
 
