@@ -10,9 +10,8 @@ theme:
         scheme: slate
         primary: teal
         accent: light blue
-    icon:
-        logo: 'images/logo.png'
-    favicon: 'images/favicon.ico'
+    logo: assets/logo.png
+    favicon: images/favicon.ico
 site_dir: site
 nav:
 - Home: index.md
