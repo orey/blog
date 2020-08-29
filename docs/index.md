@@ -1,6 +1,6 @@
-# Enterprise RPG
+![Logo](images/logobig.png "logo")
 
-## What's That?
+## What's that?
 
 This blog is an attempt to define an **ironic enterprise RPG**, enabling you, amongst other things, to:
 
