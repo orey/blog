@@ -3,9 +3,9 @@
 ## French RPG
 
 * [Le Grumph](http://legrumph.org/Terrier/)
-* [Harry Potter le JDR](http://www.geek-it.org/harry-potter-jdr/
-* [Empire Galactique](https://sites.google.com/site/empiregalact/
-* [Scénariothèque](https://www.scenariotheque.org/
+* [Harry Potter le JDR](http://www.geek-it.org/harry-potter-jdr/)
+* [Empire Galactique](https://sites.google.com/site/empiregalact/)
+* [Scénariothèque](https://www.scenariotheque.org/)
 
 ## Mini-RPG
 
