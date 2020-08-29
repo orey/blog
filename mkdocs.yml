@@ -11,7 +11,7 @@ theme:
         primary: teal
         accent: light blue
     icon:
-        logo: images
+        logo: images/logo.png
     favicon: images/favicon.ico
 site_dir: site
 nav:
