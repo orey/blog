@@ -12,7 +12,7 @@ theme:
         accent: light blue
     logo: images/logo.png
     favicon: images/favicon.ico
-    edit_uri: ""
+edit_uri: ""
 site_dir: site
 nav:
 - Home: index.md
