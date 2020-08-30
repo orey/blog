@@ -9,8 +9,13 @@ then
   exit 0
 fi
 
+echo "======================= git add *"
 git add *
+echo "======================= git commit -a -m " $1
 git commit -a -m $1
+echo "======================= git push origin master"
 git push origin master
+echo "======================= mkdocs gh-deploy"
 mkdocs gh-deploy
+echo "Done"
 
