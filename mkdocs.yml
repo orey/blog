@@ -10,7 +10,7 @@ theme:
         scheme: slate
         primary: teal
         accent: light blue
-    logo: assets/logo.png
+    logo: images/logo.png
     favicon: images/favicon.ico
 site_dir: site
 nav:
