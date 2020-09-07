@@ -14,6 +14,13 @@ This game is a work-in-progress and will probably require a set of RPG D&D compa
 
 ## The Entries
 
+### October 2020
+
+* [The winning couple for a RPG starting now with no preparation?](2020/202009.md#002)
+* [A very creative period](2020/202009.md#001)
+
+### September 2020
+
 * [Dodge and parrying](2020/202008.md#007)
 * [Spells, classes and armor class](2020/202008.md#006)
 * [Create funny rolls](2020/202008.md#005)
