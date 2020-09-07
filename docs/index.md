@@ -16,6 +16,8 @@ This game is a work-in-progress and will probably require a set of RPG D&D compa
 
 ### October 2020
 
+* [The big director's roll](2020/202009.md#004)
+* [Getting Public?](2020/202009.md#003)
 * [The winning couple for a RPG starting now with no preparation?](2020/202009.md#002)
 * [A very creative period](2020/202009.md#001)
 

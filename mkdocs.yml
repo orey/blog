@@ -17,6 +17,7 @@ site_dir: site
 nav:
 - Home: index.md
 - 2020:
+    - 'September 2020': '2020/202009.md'
     - 'August 2020': '2020/202008.md'
 - 'The Game':
     - 'Players Handbook': 'manuals/players.md'
