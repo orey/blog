@@ -1,7 +1,7 @@
 @echo off
 
 if [%1]==[] goto usage
-   exec ..\setenv-python-3.8.3.bat
+   call ..\setenv-python-3.8.3.bat
    @echo "======================= git add *"
    git add *
    @echo "======================= git commit -a -m " $1
