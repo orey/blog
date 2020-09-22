@@ -16,6 +16,7 @@ This game is a work-in-progress and will probably require a set of RPG D&D compa
 
 ### September 2020
 
+* [Materials for Mythic GME in French](2020/202009.md#009)
 * [D&D and Gustav Mahler](2020/202009.md#008)
 * [D&D and the American appetite for wilderness](2020/202009.md#007)
 * [Software help for RPG?](2020/202009.md#006)
