@@ -1,29 +1,44 @@
-site_name: Enterprise-RPG
-site_description: RPG for simulating your enterprise
+site_name: Cthulhu Fhtagn A Lot
+site_description: A Grognard Blog
 site_author: Olivier Rey
-copyright: Copyleft Olivier Rey 2017-2020 - Site licensed under the GNU FDL V3
-google_analytics: ['UA-110156293-1', 'orey.github.io']
-#repo_url: https://github.com/orey/enterprise-rpg/
+copyright: Copyleft Olivier Rey 2017-2022 (GNU FDL)
 theme:
     name: material
     palette:
-        scheme: slate
-        primary: teal
+        scheme: default
+        primary: blue grey
         accent: light blue
-    logo: images/logo.png
+    logo: images/Monstre1.png
     favicon: images/favicon.ico
+    features:
+        - navigation.tabs
+#        - navigation.tabs.sticky
+        - navigation.sections
+        - navigation.indexes
+markdown_extensions:
+    - toc:
+        permalink: "#"
+        baselevel: 2
+plugins:
+    - search:
+        lang: 
+            - en
+            - fr
 edit_uri: ""
 site_dir: site
+site_url: https://orey.github.io/blog
 nav:
 - Home: index.md
-- 2020:
+- Blog:
+    - 'May 2022': 'blog/202205.md'
+    - 'November 2021': 'blog/202111.md'
     - 'September 2020': '2020/202009.md'
     - 'August 2020': '2020/202008.md'
-- 'The Game':
+- Pages:
+    - 'Many Links': links.md
     - 'Players Handbook': 'manuals/players.md'
     - 'Game Masters Guide': 'manuals/gms.md'
 - About:
     - Author: about.md
     - License: LICENSE.md
-    - Links: links.md
 

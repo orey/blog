@@ -1,55 +1,126 @@
-![Logo](images/logo-wb-transp.png "logo")
+## Cthulhu Fhtagn A Lot
 
-## What's that?
+<table>
+<tr>
+<th> Français </th>
+<th> English </th>
+</tr>
+<tr>
+<td> Profitons-en pendant que Cthulhu Fhtagn ! Ce site vous propose diverses choses en français ou en anglais sur les jeux de rôles (JDR). </td>
+<td> Enjoy while Cthulhu Fhtagn! This site proposes various stuff in English and French about tabletop roleplaying games (TTRPG). </td>
+</tr>
+</table>
 
-This blog is an attempt to define an **ironic enterprise RPG**, enabling you, amongst other things, to:
 
-* Simulate your colleagues;
-* Anticipate the results of confrontations and meetings;
-* Forecast who will be promoted next.
+![Logo](images/logo-minotaure.png "logo")
 
-This game is a work-in-progress and will probably require a set of RPG D&D compatible dices like the following ones.
+## The Blog - Le Blog
 
-![dices](images/dice.png)
+<table>
+<tr>
+<td>
+<img src="./images/lutrin.png" width="400px">
+</td>
+<td>
+Parfois en français, parfois en anglais, diverses notes, études et commentaires sur les JDR
+<br><br>
+<a href="./blog/202205/">Le Blog</a>
+</td>
+<td>
+Sometimes in English, sometimes in French, various notes, studies and comments about TTRPG
+<br><br>
+<a href="./blog/202205/">The Blog</a>
+</td>
+</tr>
+</table>
 
-## The Entries
+## Téléchargements JDR gratuits
 
-### September 2020
+### Cthulhu Dark
 
-* [Materials for Mythic GME in French](2020/202009.md#009)
-* [D&D and Gustav Mahler](2020/202009.md#008)
-* [D&D and the American appetite for wilderness](2020/202009.md#007)
-* [Software help for RPG?](2020/202009.md#006)
-* [Autumn's coming](2020/202009.md#005)
-* [The big director's roll](2020/202009.md#004)
-* [Getting Public?](2020/202009.md#003)
-* [The winning couple for a RPG starting now with no preparation?](2020/202009.md#002)
-* [A very creative period](2020/202009.md#001)
+<table>
+<tr><td><a href="https://rouboudou.itch.io/cthulhu-dark-jdr"><img src="./images/cthulhu-dark/proj.png" width="180px"></a></td>
+<td><b>Cthulhu Dark JDR en français</b><br>
+by <a href="https://rouboudou.itch.io">rouboudou</a><br>
+Cthulhu Dark, le jeu de rôles en français<br>
+<a href="https://rouboudou.itch.io/cthulhu-dark-jdr"><img src="./images/download.png"></a><br>
+<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+</table>
 
-### August 2020
+### La Grande Liste des intrigues de JDR
 
-* [Dodge and parrying](2020/202008.md#007)
-* [Spells, classes and armor class](2020/202008.md#006)
-* [Create funny rolls](2020/202008.md#005)
-* [More characteristics and skills](2020/202008.md#004)
-* [Characteristics 1](2020/202008.md#003)
-* [What kind of dice?](2020/202008.md#002)
-* [What is the enterprise RPG you are talking about?](2020/202008.md#001)
-  
-## The Game
+<table>
+<tr><td><a href="https://rouboudou.itch.io/la-grande-liste-des-intrigues-de-jdr"><img src="./images/grande-liste/proj2.png" width="180px"></a></td>
+<td><b>La Grande Liste des intrigues de JDR</b><br>
+by <a href="https://rouboudou.itch.io">rouboudou</a><br>
+La Grande Liste des intrigues de JDR<br>
+<a href="https://rouboudou.itch.io/la-grande-liste-des-intrigues-de-jdr"><img src="./images/download.png"></a><br>
+<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+</table>
 
-This section gathers the main rules following the everlasting RPG structure:
+### Risus, l'écran-jeu
 
-* [Players Handbook](manuals/players.md)
-* [Game Masters Guide](manuals/gms.md)
+<table>
+<tr><td><a href="https://rouboudou.itch.io/risus"><img src="./images/risus/proj.png" width="180px"></a></td>
+<td><b>Risus, l'écran-jeu</b><br>
+by <a href="https://rouboudou.itch.io">rouboudou</a><br>
+Risus, l'écran-jeu<br>
+<a href="https://rouboudou.itch.io/risus"><img src="./images/download.png"></a><br>
+<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+</table>
 
-Warning: those pages are a work-in-progress and will evolve progressively with time.
+### Jouer à Méga avec Risus
+
+<table>
+<tr><td><a href="https://rouboudou.itch.io/mega"><img src="./images/mega/proj.png" width="180px"></a></td>
+<td><b>Méga motorisé par Risus</b><br>
+by <a href="https://rouboudou.itch.io">rouboudou</a><br>
+Jouer à Méga avec Risus<br>
+<a href="https://rouboudou.itch.io/mega"><img src="./images/download.png"></a><br>
+<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+</table>
+
+### Fudge en une page
+
+<table>
+<tr><td><a href="https://rouboudou.itch.io/fudge"><img src="./images/fudge/proj.png" width="180px"></a></td>
+<td><b>Fudge en une page</b><br>
+by <a href="https://rouboudou.itch.io">rouboudou</a><br>
+Fudge en une page<br>
+<a href="https://rouboudou.itch.io/fudge"><img src="./images/download.png"></a><br>
+<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+</table>
+
+## JDR pour enfants
+
+### DungeonSquad, le JDR pour enfants
+
+<table>
+<tr><td><a href="https://rouboudou.itch.io/dungeonsquad-fr"><img src="./images/dungeonsquad/proj.png" width="180px"></a></td>
+<td><b>DungeonSquad! le JDR</b><br>
+by <a href="https://rouboudou.itch.io">rouboudou</a><br>
+DungeonSquad! le JDR<br>
+<a href="https://rouboudou.itch.io/dungeonsquad-fr"><img src="./images/download.png"></a><br>
+<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+</table>
+
+### Première Fable, le JDR pour enfants
+
+<table>
+<tr><td><a href="https://orey.github.io/premierefable"><img src="./images/premierefable/proj.png" width="180px"></a></td>
+<td><b>Première Fable, le JDR</b><br>
+by rouboudou<br>
+Première Fable le JDR<br>
+<a href="https://orey.github.io/premierefable"><button type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='https://orey.github.io/premierefable';">Site dédié</button></a><br>
+</table>
+
+
+## Links
+
+* [Links](links.md)
 
 ## About
 
 * [About me](about.md)
 
-## Links
-
-* [Links](links.md)
 
