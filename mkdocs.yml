@@ -32,12 +32,12 @@ nav:
 - Blog:
     - 'May 2022': 'blog/202205.md'
     - 'November 2021': 'blog/202111.md'
-    - 'September 2020': '2020/202009.md'
-    - 'August 2020': '2020/202008.md'
+    - 'September 2020': 'blog/202009.md'
+    - 'August 2020': 'blog/202008.md'
 - Pages:
     - 'Many Links': links.md
-    - 'Players Handbook': 'manuals/players.md'
-    - 'Game Masters Guide': 'manuals/gms.md'
+    - 'Players Handbook': 'pages/players.md'
+    - 'Game Masters Guide': 'pages/gms.md'
 - About:
     - Author: about.md
     - License: LICENSE.md

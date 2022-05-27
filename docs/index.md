@@ -114,6 +114,32 @@ Première Fable le JDR<br>
 <a href="https://orey.github.io/premierefable"><button type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='https://orey.github.io/premierefable';">Site dédié</button></a><br>
 </table>
 
+## Mini-sites
+
+| Mini-sites                               | Contenu               |
+|------------------------------------------|-----------------------|
+| <https://orey.github.io/cthulhu-dark-fr> | Cthulhu Dark en ligne |
+| <https://orey.github.io/premierefable>   | Première Fable        |
+
+## Mes repos git de JDR
+
+| Repo généralistes               | Contenu                           |
+|---------------------------------|-----------------------------------|
+| <https://github.com/orey/jdr>   | Repo principal en français        |
+| <https://github.com/orey/ttrpg> | Main English repo                 |
+| <https://github.com/orey/DandD> | D&D 0e and AD&D 1e rare resources |
+
+
+| Repo dédiés                                    | Contenu                              |
+|------------------------------------------------|--------------------------------------|
+| <https://github.com/orey/cthulhu-dark-fr>      | Cthulhu Dark                         |
+| <https://github.com/orey/jdr-biglist-fr>       | La Grande liste des intrigues de JDR |
+| <https://github.com/orey/jdr-dungeon-squad-fr> | DungeonSquad!                        |
+| <https://github.com/orey/jdr-risus>            | Risus                                |
+| <https://github.com/orey/jdr-fudge>            | Fudge                                |
+| <https://github.com/orey/mytroika>             | My Troika                            |
+| <https://github.com/orey/premierefable>        | Première Fable                                     |
+
 
 ## Links
 
