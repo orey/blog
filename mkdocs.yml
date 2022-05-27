@@ -25,6 +25,8 @@ plugins:
             - en
             - fr
 #    - tags
+extra_css:
+    - css/extra.css
 edit_uri: ""
 site_dir: site
 site_url: https://orey.github.io/blog
