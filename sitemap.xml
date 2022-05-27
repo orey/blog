@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://orey.github.io/blog/tags/</loc>
+         <lastmod>2022-05-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://orey.github.io/blog/blog/202008/</loc>
          <lastmod>2022-05-27</lastmod>
          <changefreq>daily</changefreq>
