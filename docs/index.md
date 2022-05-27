@@ -6,8 +6,8 @@
 <th> English </th>
 </tr>
 <tr>
-<td> Profitons-en pendant que Cthulhu Fhtagn ! Ce site vous propose diverses choses en français ou en anglais sur les jeux de rôles (JDR). </td>
-<td> Enjoy while Cthulhu Fhtagn! This site proposes various stuff in English and French about tabletop roleplaying games (TTRPG). </td>
+<td style="font-size:16px;">Profitons-en pendant que Cthulhu Fhtagn ! Ce site vous propose diverses choses en français ou en anglais sur les jeux de rôles (JDR). </td>
+<td style="font-size:16px;">Enjoy while Cthulhu Fhtagn! This site proposes various stuff in English and French about tabletop roleplaying games (TTRPG). </td>
 </tr>
 </table>
 
@@ -21,15 +21,15 @@
 <td>
 <img src="./images/lutrin.png" width="400px">
 </td>
-<td>
-Parfois en français, parfois en anglais, diverses notes, études et commentaires sur les JDR
-<br><br>
+<td style="font-size:14px;">
 <a href="./blog/202205/">Le Blog</a>
+<br>
+Parfois en français, parfois en anglais, diverses notes, études et commentaires sur les JDR
 </td>
-<td>
-Sometimes in English, sometimes in French, various notes, studies and comments about TTRPG
-<br><br>
+<td style="font-size:14px;">
 <a href="./blog/202205/">The Blog</a>
+<br>
+Sometimes in English, sometimes in French, various notes, studies and comments about TTRPG
 </td>
 </tr>
 </table>
@@ -120,25 +120,6 @@ Première Fable le JDR<br>
 |------------------------------------------|-----------------------|
 | <https://orey.github.io/cthulhu-dark-fr> | Cthulhu Dark en ligne |
 | <https://orey.github.io/premierefable>   | Première Fable        |
-
-## Mes repos git de JDR
-
-| Repo généralistes               | Contenu                           |
-|---------------------------------|-----------------------------------|
-| <https://github.com/orey/jdr>   | Repo principal en français        |
-| <https://github.com/orey/ttrpg> | Main English repo                 |
-| <https://github.com/orey/DandD> | D&D 0e and AD&D 1e rare resources |
-
-
-| Repo dédiés                                    | Contenu                              |
-|------------------------------------------------|--------------------------------------|
-| <https://github.com/orey/cthulhu-dark-fr>      | Cthulhu Dark                         |
-| <https://github.com/orey/jdr-biglist-fr>       | La Grande liste des intrigues de JDR |
-| <https://github.com/orey/jdr-dungeon-squad-fr> | DungeonSquad!                        |
-| <https://github.com/orey/jdr-risus>            | Risus                                |
-| <https://github.com/orey/jdr-fudge>            | Fudge                                |
-| <https://github.com/orey/mytroika>             | My Troika                            |
-| <https://github.com/orey/premierefable>        | Première Fable                                     |
 
 
 ## Links

@@ -24,6 +24,7 @@ plugins:
         lang: 
             - en
             - fr
+#    - tags
 edit_uri: ""
 site_dir: site
 site_url: https://orey.github.io/blog
@@ -34,10 +35,12 @@ nav:
     - 'November 2021': 'blog/202111.md'
     - 'September 2020': 'blog/202009.md'
     - 'August 2020': 'blog/202008.md'
+- 'Liens/Links':
+    - 'Liens': links.md
 - Pages:
-    - 'Many Links': links.md
     - 'Players Handbook': 'pages/players.md'
     - 'Game Masters Guide': 'pages/gms.md'
+#- Tags: tags.md
 - About:
     - Author: about.md
     - License: LICENSE.md

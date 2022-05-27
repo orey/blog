@@ -1,73 +1,55 @@
-# Useful RPG Links
+# Quelques liens français
 
-## French RPG
+J'avoue que je débute dans le web JDR français. Voici une première liste.
 
-* [Le Grumph](http://legrumph.org/Terrier/)
-* [Harry Potter le JDR](http://www.geek-it.org/harry-potter-jdr/)
-* [Empire Galactique](https://sites.google.com/site/empiregalact/)
-* [Scénariothèque](https://www.scenariotheque.org/)
+| Type                                                 | Site                                                                     |
+|------------------------------------------------------|--------------------------------------------------------------------------|
+| **C**                                                |                                                                          |
+| Le cénotaphe                                         | <http://casquenoir.free.fr/index.php>                                    |
+| Créatures légendaires                                | <https://fr.wikipedia.org/wiki/Liste_de_cr%C3%A9atures_l%C3%A9gendaires> |
+| **D**                                                |                                                                          |
+| Blog de Jérôme Darmont                               | <http://darmont.free.fr/>                                                |
+| Discussions de Rôlistes Ouvertes et Libres           | <https://www.facebook.com/groups/254213402190606>                        |
+| **E**                                                |                                                                          |
+| Echecs: Check & Strategy, site en français           | <https://www.chess-and-strategy.com>                                     |
+| Empire Galactique JDR, un classique                  | <https://sites.google.com/site/empiregalact>                             |
+| Une Encyclopédie des JDR                             | <http://loukoum.online.fr/jdr/>                                          |
+| Egrégore, un JDR fantastique                         | <https://business.facebook.com/EgregoreJdR/?business_id=456290144533916> |
+| Epées et Sorcellerie JDR                             | <https://sites.google.com/site/wizardinabottle/epeesetsorcellerie>       |
+| **F**                                                |                                                                          |
+| Une traduction française du RPG "FU"                 | <https://brunobord.gitbooks.io/fu-rpg-libre-et-universel/>               |
+| Faenix                                               | <https://chezfaenyx.blogspot.com/>                                       |
+| Traduction française de Fudge                        | <http://fudge.ouvaton.org/>                                              |
+| **G**                                                |                                                                          |
+| Giannirateur de scénarios                            | <http://loukoum.online.fr/jdr/adj/gianni1.htm>                           |
+|                                                      | <http://loukoum.online.fr/jdr/scenars/defi2012.htm#47>                   |
+| Le Grog, répertoire de JDR et news                   | <http://www.legrog.org/>                                                 |
+| **H**                                                |                                                                          |
+| Harry Potter JDR, un très beau travail               | <https://www.geek-it.org/harry-potter-jdr>                               |
+| Heroquest, un site de fan                            | <https://www.heroquest-revival.com>                                      |
+| **I**                                                |                                                                          |
+| Imaginos                                             | <https://blogs.bl0rg.net/imaginos/>                                      |
+| L'insoutenable légèreté du joueur                    | <http://linsoutenablelegeretedujoueur.over-blog.com>                     |
+| **K**                                                |                                                                          |
+| Koma JDR et autres jeux de Xavier Raoult             | <http://komajdr.free.fr/?page_id=96>                                     |
+| **L**                                                |                                                                          |
+| Les jeux d'Olivier Legrand                           | <http://storygame.free.fr/>                                              |
+| **M**                                                |                                                                          |
+| Maléfices vieux suppléments                          | <https://www.scribd.com/user/381722775/Jean-Charles-BLANGENOIS>          |
+| Méga 1, le jeu complet                               | <https://archive.org/details/jeux-et-strategie-hs-1>                     |
+| Méga 2, le jeu complet                               | <https://archive.org/details/jeux-et-strategie-hs-2>                     |
+| Méga 4, un site avec des suppléments exceptionnels ! | <https://www.messagers-galactiques.com>                                  |
+| Catalogue de mini-JDR par Bruno Bord                 | <https://github.com/brunobord/micro-rpg-catalog>                         |
+| **O**                                                |                                                                          |
+| Osric JDR                                            | <https://osric.fr>                                                       |
+| **P**                                                |                                                                          |
+| Les meilleurs articles TTRPG traduits                | <https://ptgptb.fr>                                                      |
+| **S**                                                |                                                                          |
+| La Scénariothèque                                    | <https://www.scenariotheque.org/>                                        |
+| **V**                                                |                                                                          |
+| La voix d'Héort, ressources pour Glorantha           | <https://heort.wordpress.com/>                                           |
+|                                                      |                                                                          |
 
-## Mini-RPG
-
-* [Links of Bruno Bord](https://github.com/brunobord/micro-rpg-catalog)
-
-## Open D6
-* [OGC](https://ogc.rpglibrary.org/index.php?title=OpenD6)
-* [openD6](http://opend6.wikidot.com/)
-
-## Ressources (in French)
-
-* [Cééatures légendaires](https://fr.wikipedia.org/wiki/Liste_de_cr%C3%A9atures_l%C3%A9gendaires)
-
-## SRD 3.5
-
-* [SRD 3.5](http://www.wizards.com/default.asp?x=d20/article/srd35)
-* [OSRIC](http://www.knights-n-knaves.com/osric/)
-* [OSRIC FR](https://osric.fr/)
-* [Basic Fantasy RPG](https://www.basicfantasy.org/index.html), one of my favorites
-
-## Forums
-
-* [Dragon's Foot](https://www.dragonsfoot.org/forums) and the [site](https://www.dragonsfoot.org)
-* [Tome of treasures](http://www.tomeoftreasures.com/forum/index.php)
-* [RPG.net](https://www.rpg.net/)
-* [Basic Fantasy RPG](https://www.basicfantasy.org/forums/)
-
-## Blogs
-
-* [Grognardia](https://grognardia.blogspot.com/)
-* [Lamentation of the Flame Princess](http://lotfp.blogspot.com/?m=1)
-* [Ars Ludi](http://arsludi.lamemage.com)
-* [JRients](http://jrients.blogspot.com)
-
-## Old blogs and old pages
-
-* [Plagmada](http://www.plagmada.org/Home.html)
-* [Sword and Wizardyy](http://www.swordsandwizardry.com/blog/)
-* [Philotomy](https://web.archive.org/web/20120830003535/http://www.philotomy.com/)
-* [Retro Roleplaying](https://blog.retroroleplaying.com)
-* [Shamsgrog](http://shamsgrog.blogspot.com/?m=1)
-* [Five elemenst](https://web.archive.org/web/20100410140815/http://www.io.com/~sjohn/five-elements.htm)
-* [Mule abides](https://muleabides.wordpress.com/)
-
-## Magazines
-
-* [Fight on](https://www.fightonmagazine.com/)
-* Jeux et stratégie : [Les numéros](https://abandonware-magazines.org/affiche_mag.php?mag=185) and [Download](https://abandonware-magazines.org/downloadrapide.php)
-
-
-## Sales websites
-
-**France**
-
-* [BB Editions & Casus](http://www.black-book-editions.fr/)
-* [Oeuf Cube](https://www.oeufcube.com/)
-* [Jeux Descartes](https://www.jeux-descartes.fr/)
-
-**US**
-
-* [DriveThruRPG](https://www.drivethrurpg.com/)
-* [Lulu](https://www.lulu.com/)
 
 
 
