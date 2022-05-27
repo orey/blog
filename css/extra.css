@@ -1,0 +1,31 @@
+body {
+    background-image: url("../images/bataille.png");
+}
+
+h1 {
+    background-color: white;
+}
+
+h2 {
+    background-color: white;
+}
+
+h3 {
+    background-color: white;
+}
+
+div.md-content {
+    background-color: white;
+}
+
+div.md-sidebar {
+    background-color: #e6e8d8;
+//    background-color: #546d78;
+//    background-color: white;
+}
+
+div.md-sidebar__scrollwrap {
+    background-color: #e6e8d8;
+// background-color: #546d99;
+//    background-color: #ffffdd;
+}
