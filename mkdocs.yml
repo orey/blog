@@ -42,7 +42,8 @@ nav:
     - 'Liens': links.md
 - Etudes/Studies:
     - 'Comparaison des systèmes D6': 'pages/D6-systems.md'
-    - 'Morphologie du Conte': 'pages/propp.md'
+    - 'Target Number dans le système D6': 'pages/D6-TargetNumber.md'
+    - 'Morphologie du Conte, de Vladimir Propp': 'pages/propp.md'
 #    - 'Players Handbook': 'pages/players.md'
 #    - 'Game Masters Guide': 'pages/gms.md'
 - Tags: tags.md
