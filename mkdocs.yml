@@ -40,6 +40,7 @@ nav:
 - 'Liens/Links':
     - 'Liens': links.md
 - Pages:
+    - 'D6 systems': 'pages/D6-systems.md'
     - 'Players Handbook': 'pages/players.md'
     - 'Game Masters Guide': 'pages/gms.md'
 #- Tags: tags.md
