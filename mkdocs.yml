@@ -40,10 +40,11 @@ nav:
     - 'August 2020': 'blog/202008.md'
 - 'Liens/Links':
     - 'Liens': links.md
-- Pages:
-    - 'D6 systems': 'pages/D6-systems.md'
-    - 'Players Handbook': 'pages/players.md'
-    - 'Game Masters Guide': 'pages/gms.md'
+- Etudes/Studies:
+    - 'Comparaison des systèmes D6': 'pages/D6-systems.md'
+    - 'Morphologie du Conte': 'pages/propp.md'
+#    - 'Players Handbook': 'pages/players.md'
+#    - 'Game Masters Guide': 'pages/gms.md'
 - Tags: tags.md
 - About:
     - Author: about.md

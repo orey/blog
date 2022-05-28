@@ -61,6 +61,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://orey.github.io/blog/pages/propp/</loc>
+         <lastmod>2022-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://orey.github.io/blog/tags/</loc>
          <lastmod>2022-05-28</lastmod>
          <changefreq>daily</changefreq>
