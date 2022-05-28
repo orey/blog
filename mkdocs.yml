@@ -20,11 +20,12 @@ markdown_extensions:
         permalink: "#"
         baselevel: 2
 plugins:
+    - tags:
+        tags_file: tags.md
     - search:
         lang: 
             - en
             - fr
-#    - tags
 extra_css:
     - css/extra.css
 edit_uri: ""
@@ -43,7 +44,7 @@ nav:
     - 'D6 systems': 'pages/D6-systems.md'
     - 'Players Handbook': 'pages/players.md'
     - 'Game Masters Guide': 'pages/gms.md'
-#- Tags: tags.md
+- Tags: tags.md
 - About:
     - Author: about.md
     - License: LICENSE.md
