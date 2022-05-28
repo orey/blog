@@ -1,0 +1,1230 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A Grognard Blog">
+      
+      
+        <meta name="author" content="Olivier Rey">
+      
+      
+        <link rel="canonical" href="https://orey.github.io/blog/pages/pbta/">
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.15">
+    
+    
+      
+        <title>Analyse des jeux PbtA - Cthulhu Fhtagn A Lot</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.c382b1dc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#546d78">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#historique" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Cthulhu Fhtagn A Lot" class="md-header__button md-logo" aria-label="Cthulhu Fhtagn A Lot" data-md-component="logo">
+      
+  <img src="../../images/Monstre1.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cthulhu Fhtagn A Lot
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Analyse des jeux PbtA
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../blog/202205/" class="md-tabs__link">
+        Blog
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../links/" class="md-tabs__link">
+        Liens/Links
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../D6-systems/" class="md-tabs__link md-tabs__link--active">
+        Etudes/Studies
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../tags/" class="md-tabs__link">
+      Tags
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Cthulhu Fhtagn A Lot" class="md-nav__button md-logo" aria-label="Cthulhu Fhtagn A Lot" data-md-component="logo">
+      
+  <img src="../../images/Monstre1.png" alt="logo">
+
+    </a>
+    Cthulhu Fhtagn A Lot
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Blog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Blog" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Blog
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/202205/" class="md-nav__link">
+        May 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/202111/" class="md-nav__link">
+        November 2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/202009/" class="md-nav__link">
+        September 2020
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/202008/" class="md-nav__link">
+        August 2020
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Liens/Links
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Liens/Links" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Liens/Links
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/" class="md-nav__link">
+        Liens
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Etudes/Studies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Etudes/Studies" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Etudes/Studies
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-systems/" class="md-nav__link">
+        Comparaison des systèmes D6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-TargetNumber/" class="md-nav__link">
+        Target Number dans le système D6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-Combat/" class="md-nav__link">
+        Combat dans le système D6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Analyse des jeux PbtA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Analyse des jeux PbtA
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historique" class="md-nav__link">
+    Historique
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caracteristiques-critiquees-sur-les-jdr-anciens" class="md-nav__link">
+    Caractéristiques critiquées sur les JDR "anciens"
+  </a>
+  
+    <nav class="md-nav" aria-label="Caractéristiques critiquées sur les JDR "anciens"">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#complexite-des-regles" class="md-nav__link">
+    Complexité des règles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#directivite-du-mj" class="md-nav__link">
+    Directivité du MJ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparation-du-jeu" class="md-nav__link">
+    Préparation du jeu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-integraion-des-dernieres-techniques-de-jeu" class="md-nav__link">
+    Non intégraion des dernières techniques de jeu
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#des-arguments-anciens" class="md-nav__link">
+    Des arguments anciens
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#un-nouveau-type-de-jeu" class="md-nav__link">
+    Un nouveau type de jeu
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#une-modification-profonde-de-la-vision-des-pjs" class="md-nav__link">
+    Une modification profonde de la vision des PJs
+  </a>
+  
+    <nav class="md-nav" aria-label="Une modification profonde de la vision des PJs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lavant-des-pjs-a-base-de-chiffres" class="md-nav__link">
+    L'avant : des PJs à base de chiffres
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#des-pjs-plus-ou-moins-structures-avec-des-mots-ou-des-expressions" class="md-nav__link">
+    Des PJs plus ou moins structurés avec des mots ou des expressions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#des-pjs-non-structures-dans-des-jeux-pour-veterans" class="md-nav__link">
+    Des PJs non structurés dans des jeux pour vétérans ?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incertitude-autour-des-pj-et-des-pnj" class="md-nav__link">
+    Incertitude autour des PJ et des PNJ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#favoriser-les-extravertis" class="md-nav__link">
+    Favoriser les extravertis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deux-types-de-mj" class="md-nav__link">
+    Deux types de MJ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-structuration-du-backgound-des-personnages" class="md-nav__link">
+    La structuration du "backgound" des personnages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-playbooks-des-caricatures-de-classes-de-pj" class="md-nav__link">
+    Les playbooks : des caricatures de classes de PJ ?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#des-caricatures-de-pj-pour-un-petit-univers" class="md-nav__link">
+    Des caricatures de PJ pour un petit univers ?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-move" class="md-nav__link">
+    Les "move"
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#theatre-et-jeu-de-plateau" class="md-nav__link">
+    Théâtre et jeu de plateau
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retour-au-jeu-de-plateau" class="md-nav__link">
+    Retour au jeu de plateau
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leternel-retour" class="md-nav__link">
+    L'éternel retour
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../propp/" class="md-nav__link">
+        Morphologie du Conte, de Vladimir Propp
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        Tags
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        Author
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LICENSE/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historique" class="md-nav__link">
+    Historique
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caracteristiques-critiquees-sur-les-jdr-anciens" class="md-nav__link">
+    Caractéristiques critiquées sur les JDR "anciens"
+  </a>
+  
+    <nav class="md-nav" aria-label="Caractéristiques critiquées sur les JDR "anciens"">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#complexite-des-regles" class="md-nav__link">
+    Complexité des règles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#directivite-du-mj" class="md-nav__link">
+    Directivité du MJ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparation-du-jeu" class="md-nav__link">
+    Préparation du jeu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-integraion-des-dernieres-techniques-de-jeu" class="md-nav__link">
+    Non intégraion des dernières techniques de jeu
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#des-arguments-anciens" class="md-nav__link">
+    Des arguments anciens
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#un-nouveau-type-de-jeu" class="md-nav__link">
+    Un nouveau type de jeu
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#une-modification-profonde-de-la-vision-des-pjs" class="md-nav__link">
+    Une modification profonde de la vision des PJs
+  </a>
+  
+    <nav class="md-nav" aria-label="Une modification profonde de la vision des PJs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lavant-des-pjs-a-base-de-chiffres" class="md-nav__link">
+    L'avant : des PJs à base de chiffres
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#des-pjs-plus-ou-moins-structures-avec-des-mots-ou-des-expressions" class="md-nav__link">
+    Des PJs plus ou moins structurés avec des mots ou des expressions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#des-pjs-non-structures-dans-des-jeux-pour-veterans" class="md-nav__link">
+    Des PJs non structurés dans des jeux pour vétérans ?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incertitude-autour-des-pj-et-des-pnj" class="md-nav__link">
+    Incertitude autour des PJ et des PNJ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#favoriser-les-extravertis" class="md-nav__link">
+    Favoriser les extravertis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deux-types-de-mj" class="md-nav__link">
+    Deux types de MJ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-structuration-du-backgound-des-personnages" class="md-nav__link">
+    La structuration du "backgound" des personnages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-playbooks-des-caricatures-de-classes-de-pj" class="md-nav__link">
+    Les playbooks : des caricatures de classes de PJ ?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#des-caricatures-de-pj-pour-un-petit-univers" class="md-nav__link">
+    Des caricatures de PJ pour un petit univers ?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-move" class="md-nav__link">
+    Les "move"
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#theatre-et-jeu-de-plateau" class="md-nav__link">
+    Théâtre et jeu de plateau
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retour-au-jeu-de-plateau" class="md-nav__link">
+    Retour au jeu de plateau
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leternel-retour" class="md-nav__link">
+    L'éternel retour
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+  
+
+
+
+  <h1>Analyse des jeux PbtA</h1>
+
+<p>Certains jeux récents, notamment la vague PbtA (<a href="https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse">Powered by the Apocalypse</a>), reprennent à leur compte des questions vieilles comme le JDR (du roleplay ou des règles, disait-on dans le temps) pour leur apporter des "solutions" pour le moins particulières. Ces solutions méritent un examen détaillé.</p>
+<h2 id="historique">Historique<a class="headerlink" href="#historique" title="Permanent link">#</a></h2>
+<p>La vague PbtA a commencé par des discussions sur le forum <a href="https://github.com/orey/ttrpg#the-forge">The Forge</a>. En quelque sorte, PbtA est la troisième itération d'un <em>modèle théorique du jeu de rôles</em>, les deux premières étant :</p>
+<ul>
+<li>En 1997, le <a href="https://en.wikipedia.org/wiki/Threefold_model">Threefold model</a> (Dramatist, Gamist, Simulationist), apparu sur un forum de discussions,</li>
+<li>Entre 1999 et 2005, la <a href="https://en.wikipedia.org/wiki/GNS_theory">GNS Theory</a> (Gamism, Narrativism, Simulationism), portée par un gourou, <a href="https://en.wikipedia.org/wiki/Ron_Edwards_(game_designer)">Ron Edwards</a>.</li>
+</ul>
+<p>Ces modèles conceptuels du jeu de rôle, relativement étroits car tri-dimensionnels, ont nourri une réflexion permettant la construction d'autres types de jeux. La vague PbtA est, aujourd'hui, la grande vainqueur de cette histoire.</p>
+<h2 id="caracteristiques-critiquees-sur-les-jdr-anciens">Caractéristiques critiquées sur les JDR "anciens"<a class="headerlink" href="#caracteristiques-critiquees-sur-les-jdr-anciens" title="Permanent link">#</a></h2>
+<p>Voici quelques uns des arguments que l'on trouve sur les forums concernant le pourquoi de la vague PbtA et les limitations des jeux anciens.</p>
+<h3 id="complexite-des-regles">Complexité des règles<a class="headerlink" href="#complexite-des-regles" title="Permanent link">#</a></h3>
+<p>Les règles sont trop complexes, trop simulationnistes, trop spécifiques (une règle différente par cas sans unité globale), trop incohérentes (pas de ligne directrice globale), trop "crunchy" comme disent les américains. Les règles des anciens jeux font trop appel à des lancers de dés incessants, et à des modificateurs qui s'empilent de manière complexe, à des centaines de pages de règles.</p>
+<h3 id="directivite-du-mj">Directivité du MJ<a class="headerlink" href="#directivite-du-mj" title="Permanent link">#</a></h3>
+<p>Le MJ est trop directif et il ne met pas en place un univers collaboratif où les joueurs peuvent co-construire l'univers avec lui au travers de l'utilisation de la discussion.</p>
+<h3 id="preparation-du-jeu">Préparation du jeu<a class="headerlink" href="#preparation-du-jeu" title="Permanent link">#</a></h3>
+<p>Le temps de préparation est trop long, trop important, pour les anciens jeux. L'investissement du MJ est trop important. L'investissement demandé n'est plus adapté à notre monde moderne, que ce soit pour le MJ ou pour les joueurs.</p>
+<p>Derrière cette préoccupation matérielle, on retrouve la co-construction de l'histoire et une volonté de créer une /dynamique organique/ du jeu. Le jeu se développerait "de lui-même" et n'aurait donc pas besoin de guidelines voire de scénarios menés par un MJ ayant tout péparé seul.</p>
+<h3 id="non-integraion-des-dernieres-techniques-de-jeu">Non intégraion des dernières techniques de jeu<a class="headerlink" href="#non-integraion-des-dernieres-techniques-de-jeu" title="Permanent link">#</a></h3>
+<p>Certaines variantes de jeu ont permis de voir les choses différemment (JDR solo avec "gamemaster emulator", JDR sans MJ, etc.) et de pousser les jeux "narratifs" et co-construits sur le devant de la scène. Les anciens jeux n'ont pas inclus ces nouvelles tendances.</p>
+<h2 id="des-arguments-anciens">Des arguments anciens<a class="headerlink" href="#des-arguments-anciens" title="Permanent link">#</a></h2>
+<p>Les arguments critiques envers les jeux très lourds en règles (à commencer par D&amp;D) étaient à peu près les mêmes, durant les années 80/90. La recherche du Graal du jeu basé sur le <em>roleplay</em> et avec très peu de règles a longtemps occupé les colonnes des magazines de JDR. de nombreuses tentatives ont été faites, sans être vraiment couronnées de succès.</p>
+<h2 id="un-nouveau-type-de-jeu">Un nouveau type de jeu<a class="headerlink" href="#un-nouveau-type-de-jeu" title="Permanent link">#</a></h2>
+<p>Apocalypse World, le premier jeu de la vague PbtA sort de 2010, soit plus de 20 ans après ces débats. La famille Baker, qui a designé ce jeu, est une famille de quadras à l'époque. Nourris par The Forge et la GNS, ils proposent un nouveau type de jeu.</p>
+<h2 id="une-modification-profonde-de-la-vision-des-pjs">Une modification profonde de la vision des PJs<a class="headerlink" href="#une-modification-profonde-de-la-vision-des-pjs" title="Permanent link">#</a></h2>
+<h3 id="lavant-des-pjs-a-base-de-chiffres">L'avant : des PJs à base de chiffres<a class="headerlink" href="#lavant-des-pjs-a-base-de-chiffres" title="Permanent link">#</a></h3>
+<p>La première composante du JDR traditionnel est la composante PJ. Selon comment ces derniers sont structurés, les joueurs auront plus ou moins de possibilités. Les règles du jeu organisent les interactions entre les PJ et le monde, ainsi qu'avec les PNJs.</p>
+<p>Les jeux de rôles de la première génération (D&amp;D, Cthulhu, GURPS, Rolemaster, etc.) sont basés sur une possibilité de <em>comparaison objective</em> entre les PJs, et sur un calibrage des PJs par rapport à la réalité du monde. Ainsi, dans la plupart des jeux, on trouve, décrit en termes de jeu, les principaux animaux. Etablir une échelle objective permet aussi de construire et de dimensionner des adversaires PNJ. Certains jeux comme D&amp;D utiliseront la notion de niveau (voir quelques <a href="https://github.com/orey/DandD">commentaires sur D&amp;D</a>).</p>
+<h3 id="des-pjs-plus-ou-moins-structures-avec-des-mots-ou-des-expressions">Des PJs plus ou moins structurés avec des mots ou des expressions<a class="headerlink" href="#des-pjs-plus-ou-moins-structures-avec-des-mots-ou-des-expressions" title="Permanent link">#</a></h3>
+<p>Avec l'apparition de jeux comme <a href="https://rouboudou.itch.io/fudge">Fudge</a> (1992), un "pont" est dressé entre des valeurs sous forme de nombre (de -3 à +3) et des <em>descriptifs qualificatifs</em> portant cette "valeur". Même si la mécanique sous-jacente est encore à base de nombres et de modificateurs, les mots vont prendre progressivement une importance énorme dans le monde des JDR, jusqu'à prendre la place d'attributs, de compétences, de dons, de défauts ou même de pouvoirs.</p>
+<p>Les mots s'imposent dans les créations des PJs au travers des "aspects", des "clichés", des "archétypes", des "avatars", des "concepts de personnages", etc. Ces mots peuvent être invoqués durant le jeu pour appeler une mécanique particulière, le plus souvent un bonus ou une compétence impliquée par ou "sous-entendue" dans l'expression elle-même.</p>
+<p>Or, au travers de cette irruption des mots dans les mécaniques des JDR, les problèmes relatifs à l'ambiguïté des mots et des expressions entrent dans le monde du JDR.</p>
+<h3 id="des-pjs-non-structures-dans-des-jeux-pour-veterans">Des PJs non structurés dans des jeux pour vétérans ?<a class="headerlink" href="#des-pjs-non-structures-dans-des-jeux-pour-veterans" title="Permanent link">#</a></h3>
+<p>Il faut une certaine expérience du JDR pour pouvoir définir des /mots et expressions utiles/ au jeu. En un sens, le JDR s'adresse implicitement à des vétérans, voire à des vétérans dans un mode jeu ironique (voire cynique). Ces derniers ont les codes du JDR : ils sauront quelle expression leur permet de "joueur comme à AD&amp;D".</p>
+<p>Le discours est que les jeux utilisant des mots rendent le JDR plus accessible aux débutants. Etant donné que la logique du jeu est plus complexe à comprendre, car souvent implicite, cette assertion n'est pas facilement défendable.</p>
+<h3 id="incertitude-autour-des-pj-et-des-pnj">Incertitude autour des PJ et des PNJ<a class="headerlink" href="#incertitude-autour-des-pj-et-des-pnj" title="Permanent link">#</a></h3>
+<p>Les mots ou phrases introduisent une <em>incertitude autour des personnages</em>, incertitude à laquelle le MJ doit s'adapter.</p>
+<p>En effet, les mots sont vagues, soumis à des interprétations et parfois en recouvrement sémantique partiel, ce qui rend compliqué leur usage. Cette ambiguïté est vue comme positive par les tenants de cette mécanique. Elle bénéficie clairement aux joueurs en dépossédant le MJ d'une partie de ses responsabilités.</p>
+<p>Les mots et les phrases descriptives des PJ et PNJ  introduisent aussi une <em>incertitude dans l'équilibre des PJ entre eux et avec les PNJ</em>, et donc une possibilité d'arbitraire pour les MJ. Il devient, en effet, complexe de quantifier les expressions pour équilibrer les personnages et les aventures.</p>
+<h3 id="favoriser-les-extravertis">Favoriser les extravertis<a class="headerlink" href="#favoriser-les-extravertis" title="Permanent link">#</a></h3>
+<p>Les mots et les phrases <em>favorisent les joueurs extravertis</em> qui pourront interpréter de manière libre un "cliché" alors que les introvertis seront desservis par des règles basées sur des mots et sur le besoin d'improviser oralement pour les interpréter. Dans les jeux classiques, les joueurs utilisent des échelles objectives, ce qui permet à tous d'avoir une échelle commune pour s'exprimer.</p>
+<h3 id="deux-types-de-mj">Deux types de MJ<a class="headerlink" href="#deux-types-de-mj" title="Permanent link">#</a></h3>
+<p>Les jeux à base de mots sont des jeux très spécifiques dans lesquels le MJ doit investir pour comprendre comment utiliser ces mots ou expressions plus ou moins libres et plus ou moins contraintes par le game designer. Cet investissement est souvent lié à la recherche d'un mécanisme ressemblant à une échelle objective.</p>
+<p>D'autres MJ, en revanche, se satisferont du côté plus "libre" d'un jeu basé sur les mots et sur les interprétations des joueurs et du MJ. Le fait de moins structurer les personnages, qu'ils soient joueurs ou non, permet de laisser place à la négociation et à la co-création du jeu. Les PJ ne sont pas dans un monde de règles objectives qui les contraint, ils sont "racontés" par le MJ et les joueurs.</p>
+<p>Peut-être est-on face à deux types de MJ : des MJ scientifiques aimant les échelles absolues et les MJ littéraires aimant l'ambiguïté des mots.</p>
+<h3 id="la-structuration-du-backgound-des-personnages">La structuration du "backgound" des personnages<a class="headerlink" href="#la-structuration-du-backgound-des-personnages" title="Permanent link">#</a></h3>
+<p>Le JDR narratif apporte une obsession étrange : celle de la <em>structuration</em> du background. Dans la plupart des jeux anciens, même s'il était recommandé de créer un background à son personnage, cela était plus ou moins fait, et disons que le background s'enrichissait au fur et à mesure des parties. D'une certaine façon, même dans les jeux modernes, les aventures passées des PJ devenaient rapidement leur backgound principal.</p>
+<p>Beaucoup de jeux plus récents établissent une vraie <em>dictature du background</em> en exigeant de le structurer de manière schématique voire caricaturale, en termes de jeu. Ainsi, on voit apparaître, en plus de la notion de "cliché" ou d'"archétype"  :</p>
+<ul>
+<li>Une certaine obsession pour les <em>défauts des PJ</em>, souvent utiles pour gagner des points dans le processus de création, parfois obligatoires dans le processus, souvent en contrepartie des dons ;</li>
+<li>Des contacts sociaux obligatoires,</li>
+<li>Un ennemi juré obligatoire,</li>
+<li>Etc.</li>
+</ul>
+<p>Cette schématisation à outrance du background des personnages concourt à en faire des caricatures, semblant être issues du même moule, et à rendre suffocant l'univers des personnages. Dans une conception ancienne, le PJ doit être libre avant tout et n'a pas à être "backgroundisé" arbitrairement au travers de dimensions caricaturales.</p>
+<p>Ce sujet est délicat, car il s'agit d'un problème de curseur. La structuration du background des personnages a toujours été un sujet dans le JDR, mais dans des jeux comme PbtA, il semble que le bouchon soit poussé plus loin.</p>
+<h3 id="les-playbooks-des-caricatures-de-classes-de-pj">Les playbooks : des caricatures de classes de PJ ?<a class="headerlink" href="#les-playbooks-des-caricatures-de-classes-de-pj" title="Permanent link">#</a></h3>
+<p>La notion de classe ne disparaît pas dans les jeux de type PbtA, on pourrait même dire qu'elle s'hyper-spécialise. Au travers des "playbooks", il est difficile de savoir si l'on joue un personnage prétiré ou un personnage d'une classe de personnage très "étroite". D'autant qu'au sein d'une partie, un seul personnage d'un certain type ne peut être joué dans le groupe.</p>
+<p>Le besoin de customiser le playbook est donc limité à sa plus simple expression, car le personnage est déjà si spécifique, qu'il ne mérite qu'un "acteur" pour l'incarner. D'une certaine façon, la logique des playbooks équivaut, pour les jeux plus anciens, à une logique de personnages prétirés. Garantir la bonne répartition des rôles implique, tout comme dans D&amp;D, équilibrer un groupe pour une aventure.</p>
+<h3 id="des-caricatures-de-pj-pour-un-petit-univers">Des caricatures de PJ pour un petit univers ?<a class="headerlink" href="#des-caricatures-de-pj-pour-un-petit-univers" title="Permanent link">#</a></h3>
+<p>Si l'on mèle description textuelle et playbooks, nous voyons un JDR où les personnages ont tendance à être des caricatures.</p>
+<p>La volonté de jouer des caricatures semble clairement influencée par :</p>
+<ul>
+<li>Les films et séries,</li>
+<li>Les jeux vidéos,</li>
+<li>Les comics et les mangas.</li>
+</ul>
+<p>Or, jouer des caricatures ou des archétypes de personnages de films ou de BD offre, pour certains joueurs et MJ, des possibilités très limitées. Ou disons que cette approche permet de jouer des aventures ressemblant à des films ou des séries, mais sur des styles souvent très étroits, voire vraiment très étroits.</p>
+<p>Cette <em>réduction de l'univers de jeu</em> semble une caractéristique des jeux PbtA. Les PJ archétypaux évoluent dans un monde restreint, archétypal, dans une niche ou une sous-niche. Notons que cette caractéristique implique la multiplication des jeux, nous y reviendrons.</p>
+<p>Dans des jeux plus traditionnels, les règles permettent de gérer l'univers de jeu qui, par nature, est vaste, voire - on aime à le penser - infini. La partie "liberté des personnages à interagir avec le reste du monde" est une dimension importante du jeu de rôles, d'où les cartes des mondes avec des détails à différentes échelles. Le MJ est garant de ce monde qui, en aucun cas, ne serait se limité aux quelques archétypes du genre. Le fait même qu'il soit vaste laisse le champ pour la surprise et pour l'intérêt des campagnes.</p>
+<p>Le style même des aventures peut changer d'une aventure à l'autre. Si une aventure est axée sur l'exploration et les combats, une seconde peut être une enquête et une troisième peut avoir un scénario de film d'horreur.</p>
+<p>En fait, c'est comme si les jeux de super-héros avaient gagné en esprit sur certains JDR : il semble qu'il faille jouer des caricatures standardisées dans les jeux modernes, des personnages de série télé, qui ont été volontairement fabriqués pour évoluer dans un certain genre de séries très étroit (sous-genre ou sous-sous-genre).</p>
+<h2 id="les-move">Les "move"<a class="headerlink" href="#les-move" title="Permanent link">#</a></h2>
+<p>Si les PJs ont changé dans des jeux PbtA, les mécaniques de jeu aussi.</p>
+<p>Dans certains jeux relativement récents, les mots sont utilisés pour les "move", des genres d'actions génériques que les PJ peuvent faire, ces actions étant adaptées au sous-genre proposé par le jeu.</p>
+<p>Le game designer impose, en plus de tout ce que nous avons vu, une certaine manière de jouer les personnages en déterminant les "move" par type de personnage, pour tous les types, ainsi que pour le MJ. Généralement, ces moves sont spécifiques au jeu, peu faciles à comprendre et à utiliser, et en recouvrement sémantique les uns avec les autres (ce qui est souvent volontaire).</p>
+<p>Si l'on examine finement des jeux comme <em>Apocalypse World</em>, on se rend compte que les moves des PJ et du MC (Master of Ceremony, un genre de "MJ light et collaboratif") semblent se répondre et avoir fait l'objet de simulations par ordinateur. En contraignant les actions possibles des PJ, et en catégorisant les différentes actions possibles du MC, le jeu donne l'impression de mettre en place une <em>chorégraphie</em> bien adaptée à certains jeux ou univers, mais au final très mécaniste, et dont les résultats ont été "optimisés" dans des simulateurs inaccessibles aux joueurs et au MJ.</p>
+<p>Certes, le jeu possède une certaine <em>dynamique organique</em> dont nous parlions auparavant, et donc fournit les effets promis. Mais cela est rendu possible au travers des enchaînements de moves entre PJ et MC, ces dernières ayant fait l'objet de simulations informatisées ayant été utilisées dans le game design.</p>
+<p>Les moves ne sont donc pas des vraies compétences, mais plus, comme leur nom l'indique, des actions appelant d'autres moves. Le glissement sémantique est subtil, mais réel : dans une situation, l'utilisation d'un move appelle un autre move "compatible" en face, et donc restreint mécaniquement les possibilités de jeu, en favorisant des "modèles d'action" (<em>action patterns</em>) archétypaux au genre ou sous-genre considéré.</p>
+<h2 id="theatre-et-jeu-de-plateau">Théâtre et jeu de plateau<a class="headerlink" href="#theatre-et-jeu-de-plateau" title="Permanent link">#</a></h2>
+<p>Nous sommes donc devant une nouvelle catégorie de jeux ayant les caractéristiques suivantes :</p>
+<p><em>Les personnages sont des archétypes (playbook) aux actions archétypales (move).</em></p>
+<p>Pour les anciens rôlistes, ce sont des "personnages prétirés". Les playbooks vont au delà des classes de personnages de D&amp;D pour qui la classe est un moyen de progresser dans une certaine voie.</p>
+<p>Les aventures sont étudiées et optimisées pour ces archétypes ayant ces actions archétypales. Le joueur doit endosser l'archétype, jouer le personnage prétiré et utiliser ses actions (move) prédéfinis. S'il ne le joue pas, l'histoire et sa dynamique peuvent être perturbées.</p>
+<p>Nous sommes donc dans une perspective plus <em>théâtrale</em> que libre, un théâtre aux dimensions contraintes par le game designer. Le canevas imposé aux joueurs semble plus dur que le canevas imposé par les anciens jeux.</p>
+<h2 id="retour-au-jeu-de-plateau">Retour au jeu de plateau<a class="headerlink" href="#retour-au-jeu-de-plateau" title="Permanent link">#</a></h2>
+<p>Si les moves devenaient des cartes physiques et les playbooks des fiches cartonnées, nous pourrions être dans un jeu de plateau, type jeu de stratégie. Une scène devient alors une série de cartes à action que chaque jouer abat à son tour (PJ et MC ou PJ et PJ).</p>
+<p>Chaque joueur aurait une série de moves sous forme de cartes, ainsi que le MC. Chacun abat ses cartes en réaction aux actions de l'autre. Certaines réactions sont faisables et d'autres inadaptées.</p>
+<p>Les jeux de type PbtA ne sont donc pas des JDR classiques mais ressemblent plus à des jeux hybrides entre jeu de rôle, jeu de cartes (genre Magic the Gathering) et jeu de plateau.</p>
+<h2 id="leternel-retour">L'éternel retour<a class="headerlink" href="#leternel-retour" title="Permanent link">#</a></h2>
+<p>Au travers des jeux PbtA, le JDR vit donc, au sens strict du terme, une "régression" : là où Gary Gygax avait sorti le jeu de rôles du monde du jeu de plateau de stratégie, PbtA nous ramène vers le jeu de plateau avec les mêmes buts :</p>
+<ul>
+<li>Créer un jeu optimisé pour un sous-genre, voire un sous-sous-genre ;</li>
+<li>Créer des archétypes de personnages taillés pour le sous-genre et aux actions limitées pour obéir aux règles du sous-genre (dans l'esprit d'une "série") ;</li>
+<li>Contraindre les joueurs et le MJ à évoluer dans un narratif qui contraint les PJ dans une sandbox, dans un univers de possibles limités, où les moves ont été optimisés pour créer mécaniquement une dynamique de jeu organique.</li>
+</ul>
+<p>Une des conséquences est le côté parfois extrêmement brutal ou expéditif du jeu, cela de manière très surprenante pour les pratiquants des anciens JDR. Là où les anciens JDR proposaient des approches plus progressives (difficultés pour les joueurs à mesurer les risques d'une action, mécanique d'aggravation des situations suite à échec, etc.), tout peut basculer très vite dans le monde PbtA.</p>
+<p>En fait, ce genre de jeux est tout à fait pertinent et il est normal qu'il séduise un certain public. Mais il est aussi normal que d'autres joueurs ne l'apprécient pas, car c'est un autre type de jeu.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../D6-Combat/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Combat dans le système D6" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Combat dans le système D6
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../propp/" class="md-footer__link md-footer__link--next" aria-label="Next: Morphologie du Conte, de Vladimir Propp" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Morphologie du Conte, de Vladimir Propp
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyleft Olivier Rey 2017-2022 (GNU FDL)
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a6c66575.min.js"></script>
+      
+    
+  </body>
+</html>
