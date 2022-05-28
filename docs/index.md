@@ -111,7 +111,7 @@ DungeonSquad! le JDR<br>
 <td><b>Première Fable, le JDR</b><br>
 by rouboudou<br>
 Première Fable le JDR<br>
-<a href="https://orey.github.io/premierefable"><button type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='https://orey.github.io/premierefable';">Site dédié</button></a><br>
+<a href="https://orey.github.io/premierefable"><button type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='https://orey.github.io/premierefable';">Site dédié</button></a><br></td></tr>
 </table>
 
 ## Mini-sites

@@ -48,6 +48,8 @@ nav:
     - 'Morphologie du Conte, de Vladimir Propp': 'pages/propp.md'
 #    - 'Players Handbook': 'pages/players.md'
 #    - 'Game Masters Guide': 'pages/gms.md'
+- Downloads:
+    - Risus: 'downloads/risus.md'
 - Tags: tags.md
 - About:
     - Author: about.md
