@@ -1,4 +1,4 @@
-## Cthulhu Fhtagn A Lot
+# Cthulhu Fhtagn A Lot
 
 <table>
 <tr>
@@ -14,7 +14,7 @@
 
 ![Logo](images/logo-minotaure.png "logo")
 
-## The Blog - Le Blog
+# The Blog - Le Blog
 
 <table>
 <tr>
@@ -34,99 +34,90 @@ Sometimes in English, sometimes in French, various notes, studies and comments a
 </tr>
 </table>
 
-## Téléchargements JDR gratuits
+# Téléchargements JDR gratuits
 
-### Cthulhu Dark
+## Cthulhu Dark
 
 <table>
-<tr><td><a href="https://rouboudou.itch.io/cthulhu-dark-jdr"><img src="./images/cthulhu-dark/proj.png" width="180px"></a></td>
+<tr><td><img src="./images/cthulhu-dark/proj.png" width="180px"></td>
 <td><b>Cthulhu Dark JDR en français</b><br>
-by <a href="https://rouboudou.itch.io">rouboudou</a><br>
-Cthulhu Dark, le jeu de rôles en français<br>
-<a href="https://rouboudou.itch.io/cthulhu-dark-jdr"><img src="./images/download.png"></a><br>
-<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+par <a href="./about">rouboudou</a><br>
+<button type="button" onclick="window.location.href='./downloads/cthulhu-dark'">Page dédiée</button><br>
+<br>
+<button type="button" onclick="window.location.href='https://orey.github.io/cthulhu-dark-fr'">Mini-site</button><br>
+</td></tr>
 </table>
 
 ### La Grande Liste des intrigues de JDR
 
 <table>
-<tr><td><a href="https://rouboudou.itch.io/la-grande-liste-des-intrigues-de-jdr"><img src="./images/grande-liste/proj2.png" width="180px"></a></td>
+<tr><td><img src="./images/grande-liste/proj2.png" width="180px"></td>
 <td><b>La Grande Liste des intrigues de JDR</b><br>
-by <a href="https://rouboudou.itch.io">rouboudou</a><br>
-La Grande Liste des intrigues de JDR<br>
-<a href="https://rouboudou.itch.io/la-grande-liste-des-intrigues-de-jdr"><img src="./images/download.png"></a><br>
-<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+par <a href="./about">rouboudou</a><br>
+<button type="button" onclick="window.location.href='./downloads/grande-liste'">Page dédiée</button>
+</td></tr>
 </table>
 
-### Risus, l'écran-jeu
+## Risus, l'écran-jeu
 
 <table>
-<tr><td><a href="https://rouboudou.itch.io/risus"><img src="./images/risus/proj.png" width="180px"></a></td>
+<tr><td><img src="./images/risus/proj.png" width="180px"></td>
 <td><b>Risus, l'écran-jeu</b><br>
-by <a href="https://rouboudou.itch.io">rouboudou</a><br>
-Risus, l'écran-jeu<br>
-<a href="https://rouboudou.itch.io/risus"><img src="./images/download.png"></a><br>
-<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+par <a href="./about">rouboudou</a><br>
+<button type="button" onclick="window.location.href='./downloads/risus'">Page dédiée</button>
+</td></tr>
 </table>
 
-### Jouer à Méga avec Risus
+## Jouer à Méga avec Risus
 
 <table>
-<tr><td><a href="https://rouboudou.itch.io/mega"><img src="./images/mega/proj.png" width="180px"></a></td>
+<tr><td><img src="./images/mega/proj.png" width="180px"></td>
 <td><b>Méga motorisé par Risus</b><br>
-by <a href="https://rouboudou.itch.io">rouboudou</a><br>
-Jouer à Méga avec Risus<br>
-<a href="https://rouboudou.itch.io/mega"><img src="./images/download.png"></a><br>
-<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+par <a href="./about">rouboudou</a><br>
+<button type="button" onclick="window.location.href='./downloads/mega'">Page dédiée</button>
+</td></tr>
 </table>
 
-### Fudge en une page
+## Fudge en une page
 
 <table>
-<tr><td><a href="https://rouboudou.itch.io/fudge"><img src="./images/fudge/proj.png" width="180px"></a></td>
+<tr><td><img src="./images/fudge/proj.png" width="180px"></td>
 <td><b>Fudge en une page</b><br>
-by <a href="https://rouboudou.itch.io">rouboudou</a><br>
-Fudge en une page<br>
-<a href="https://rouboudou.itch.io/fudge"><img src="./images/download.png"></a><br>
-<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+par <a href="./about">rouboudou</a><br>
+<button type="button" onclick="window.location.href='./downloads/fudge'">Page dédiée</button>
+</td></tr>
 </table>
 
-## JDR pour enfants
+# JDR pour enfants
 
-### DungeonSquad, le JDR pour enfants
+## DungeonSquad, le JDR pour enfants
 
 <table>
-<tr><td><a href="https://rouboudou.itch.io/dungeonsquad-fr"><img src="./images/dungeonsquad/proj.png" width="180px"></a></td>
+<tr><td><img src="./images/dungeonsquad/proj.png" width="180px"></td>
 <td><b>DungeonSquad! le JDR</b><br>
-by <a href="https://rouboudou.itch.io">rouboudou</a><br>
-DungeonSquad! le JDR<br>
-<a href="https://rouboudou.itch.io/dungeonsquad-fr"><img src="./images/download.png"></a><br>
-<a href="https://itch.io"><img src="./images/itch.png"></a></td></tr>
+par <a href="./about">rouboudou</a><br>
+<button type="button" onclick="window.location.href='./downloads/dungeonsquad'">Page dédiée</button>
+</td></tr>
 </table>
 
-### Première Fable, le JDR pour enfants
+## Première Fable, le JDR pour enfants
 
 <table>
-<tr><td><a href="https://orey.github.io/premierefable"><img src="./images/premierefable/proj.png" width="180px"></a></td>
+<tr><td><img src="./images/premierefable/proj.png" width="180px"></td>
 <td><b>Première Fable, le JDR</b><br>
-by rouboudou<br>
+par <a href="./about">rouboudou</a><br>
 Première Fable le JDR<br>
-<a href="https://orey.github.io/premierefable"><button type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='https://orey.github.io/premierefable';">Site dédié</button></a><br></td></tr>
+<a href="https://orey.github.io/premierefable"><button type="button"  onclick="window.location.href='https://orey.github.io/premierefable';">Site dédié</button></a><br>
+</td></tr>
 </table>
 
-## Mini-sites
 
-| Mini-sites                               | Contenu               |
-|------------------------------------------|-----------------------|
-| <https://orey.github.io/cthulhu-dark-fr> | Cthulhu Dark en ligne |
-| <https://orey.github.io/premierefable>   | Première Fable        |
-
-
-## Links
+# Links
 
 * [Links](links.md)
 
-## About
+
+# About
 
 * [About me](about.md)
 

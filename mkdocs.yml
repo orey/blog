@@ -52,6 +52,11 @@ nav:
 #    - 'Game Masters Guide': 'pages/gms.md'
 - Downloads:
     - Risus: 'downloads/risus.md'
+    - 'La grande Liste des intrigues de JDR': 'downloads/grande-liste.md'
+    - 'Cthulhu Dark': 'downloads/cthulhu-dark.md'
+    - 'Risus pour Méga': 'downloads/mega.md'
+    - 'Fudge en une page': 'downloads/fudge.md'
+    - 'DungeonSquad!': 'downloads/dungeonsquad.md'
 - Tags: tags.md
 - About:
     - Author: about.md

@@ -5,11 +5,16 @@ tags:
     - Fudge
 ---
 
+![CoC Wendigo](../images/CoC-Wendigo.png)
+
 # Petit rappel sur les GME
 
 Dans l'histoire du jeu de rôles, le jeu de rôles en solo a toujours fait l'objet de suppléments. On peut se souvenir des suppléments pour Call of Cthulhu, pour Conan et bien sûr toute la série des [Fighting Fantasy](https://www.fightingfantasy.com/).
 
+![GURPS-Conan](../images/GURPS-Conan.png)
+
 Au début des années 2000, des "Game Master Emulator" (GME) sont nés adressant trois types de publics :
+
 * Les joueurs en solo,
 * Les joueuers voulant jouer sans MJ,
 * Les MJs voulant jouer sans préparation.
@@ -23,12 +28,14 @@ Les GME du marché sont plus ou moins élaborés, parfois payants et parfois gra
 Mythic GME, issu du JDR éponyme, est l'un des plus élaborés à ma connaissance. Son auteur Tom/Tana Pigeon maintient une [collection de produits intéressants](https://www.drivethrurpg.com/browse/pub/480/Word-Mill) intéressants sur [DriveThruRPG](https://www.drivethrurpg.com/). Tous les suppléments tournent autour d'une utilisation des tables aléatoires dans la construction de l'aventure elle-même.
 
 D'une certaine façon, on pourrait rapprocher cela des analyses structurelles des histoires dont nous avons déjà parlé :
-* [La Grande Liste des intrigues de JDR](../pages/grande-liste.md),
+
+* [La Grande Liste des intrigues de JDR](../downloads/grande-liste.md),
 * [La morphologie du conte](../pages/propp.md) de Vladimir Propp.
 
 ## La table du destin
 
 Dans la première version du GME, Mythic propose une table du destin ("Fate Chart") basée sur deux paramètres :
+
 * Une auto-évaluation macroscopique des chances de réussite, allant de "impossible" à "certain" ;
 * Une notation du "chaos" lié à la scène.
 
@@ -39,6 +46,7 @@ J'ai traduit, il y a quelques temps, cette table en même temps que l'[écran de
 Par exemple, si l'on pose une question à la table du destin dans un contexte de niveau de chaos de 7 et que l'on considère comme peu probable que la réponse soit oui, nous obtenons les nombres suivants : `11 55 92`.
 
 L'idée est de jeter 1d100 :
+
 * Inférieur ou égal à 11 : Réussite critique, ou "oui exceptionnel",
 * Entre 12 et 55 : la réponse est oui,
 * Entre 56 et 91 : la réponse est non,
@@ -110,6 +118,7 @@ Chaque ligne de cette table représente 10 000 tirs sur toutes les combinaisons.
 _Table 2 : Statistiques de la table du destin ("fate check") de Mythic GME Variation II_
 
 Légende :
+
 * Non Crit EA : Non critique avec événement aléatoire,
 * Non EA : Non avec événement aléatoire,
 * Non Crit : Non critique,
