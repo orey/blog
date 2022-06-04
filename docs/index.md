@@ -42,7 +42,7 @@ Sometimes in English, sometimes in French, various notes, studies and comments a
 <tr><td><img src="./images/cthulhu-dark/proj.png" width="180px"></td>
 <td><b>Cthulhu Dark JDR en français</b><br>
 par <a href="./about">rouboudou</a><br>
-<button type="button" onclick="window.location.href='./downloads/cthulhu-dark'">Page dédiée</button><br>
+<button onclick="window.location.href='./downloads/cthulhu-dark'">Page dédiée</button><br>
 <br>
 <button type="button" onclick="window.location.href='https://orey.github.io/cthulhu-dark-fr'">Mini-site</button><br>
 </td></tr>
@@ -54,7 +54,7 @@ par <a href="./about">rouboudou</a><br>
 <tr><td><img src="./images/grande-liste/proj2.png" width="180px"></td>
 <td><b>La Grande Liste des intrigues de JDR</b><br>
 par <a href="./about">rouboudou</a><br>
-<button type="button" onclick="window.location.href='./downloads/grande-liste'">Page dédiée</button>
+<button onclick="window.location.href='./downloads/grande-liste'">Page dédiée</button>
 </td></tr>
 </table>
 
@@ -64,7 +64,7 @@ par <a href="./about">rouboudou</a><br>
 <tr><td><img src="./images/risus/proj.png" width="180px"></td>
 <td><b>Risus, l'écran-jeu</b><br>
 par <a href="./about">rouboudou</a><br>
-<button type="button" onclick="window.location.href='./downloads/risus'">Page dédiée</button>
+<button onclick="window.location.href='./downloads/risus'">Page dédiée</button>
 </td></tr>
 </table>
 
@@ -74,7 +74,7 @@ par <a href="./about">rouboudou</a><br>
 <tr><td><img src="./images/mega/proj.png" width="180px"></td>
 <td><b>Méga motorisé par Risus</b><br>
 par <a href="./about">rouboudou</a><br>
-<button type="button" onclick="window.location.href='./downloads/mega'">Page dédiée</button>
+<button onclick="window.location.href='./downloads/mega'">Page dédiée</button>
 </td></tr>
 </table>
 
@@ -84,7 +84,7 @@ par <a href="./about">rouboudou</a><br>
 <tr><td><img src="./images/fudge/proj.png" width="180px"></td>
 <td><b>Fudge en une page</b><br>
 par <a href="./about">rouboudou</a><br>
-<button type="button" onclick="window.location.href='./downloads/fudge'">Page dédiée</button>
+<button onclick="window.location.href='./downloads/fudge'">Page dédiée</button>
 </td></tr>
 </table>
 
@@ -96,7 +96,7 @@ par <a href="./about">rouboudou</a><br>
 <tr><td><img src="./images/dungeonsquad/proj.png" width="180px"></td>
 <td><b>DungeonSquad! le JDR</b><br>
 par <a href="./about">rouboudou</a><br>
-<button type="button" onclick="window.location.href='./downloads/dungeonsquad'">Page dédiée</button>
+<button onclick="window.location.href='./downloads/dungeonsquad'">Page dédiée</button>
 </td></tr>
 </table>
 
@@ -107,7 +107,7 @@ par <a href="./about">rouboudou</a><br>
 <td><b>Première Fable, le JDR</b><br>
 par <a href="./about">rouboudou</a><br>
 Première Fable le JDR<br>
-<a href="https://orey.github.io/premierefable"><button type="button"  onclick="window.location.href='https://orey.github.io/premierefable';">Site dédié</button></a><br>
+<a href="https://orey.github.io/premierefable"><button  onclick="window.location.href='https://orey.github.io/premierefable';">Site dédié</button></a><br>
 </td></tr>
 </table>
 

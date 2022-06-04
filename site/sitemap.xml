@@ -51,7 +51,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://orey.github.io/blog/downloads/cthulhu-dark/</loc>
+         <lastmod>2022-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://orey.github.io/blog/downloads/dungeonsquad/</loc>
+         <lastmod>2022-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://orey.github.io/blog/downloads/fudge/</loc>
+         <lastmod>2022-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://orey.github.io/blog/downloads/grande-liste/</loc>
+         <lastmod>2022-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://orey.github.io/blog/downloads/mega/</loc>
          <lastmod>2022-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
