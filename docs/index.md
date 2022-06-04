@@ -48,7 +48,7 @@ par <a href="./about">rouboudou</a><br>
 </td></tr>
 </table>
 
-### La Grande Liste des intrigues de JDR
+## La Grande Liste des intrigues de JDR
 
 <table>
 <tr><td><img src="./images/grande-liste/proj2.png" width="180px"></td>

@@ -134,4 +134,18 @@ Dans la première table du destin (Mythic GME), plus le niveau de chaos était �
 
 Dans le mécanisme proposé par la variation 2, l'influence du chaos n'est plus aussi visible étant donnée que cette dernière est tissée dans les jets des dés de destin. Au final, on retrouve un éventail plus large de possibilités de jeu.
 
+En synthèse, nous pourrions voir cette variation de la façon suivante, en remettant le oui d'abord et en faisant une échelle de progression avec des pourcentages.
+
+|           | Oui       | Oui       | Oui       | Oui       | Non       | Non       | Non       | Non       |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| %         | 2%        | 6%        | 4%        | 42%       | 36%       | 5%        | 3%        | 2%        |
+| **1d100** | **01-02** | **03-08** | **09-12** | **13-54** | **55-90** | **91-95** | **96-98** | **99-00** |
+| Critique  | Oui       | -         | Oui       | -         | -         | Oui       | -         | Oui       |
+| EA        | Oui       | Oui       | -         | -         | -         | -         | Oui       | Oui       |
+
+_Table 3 : Synthèse de l'analyse_
+
+Nous sommes au final assez voisins de la logique 50/50, avec des plages d'apparitions de phénomènes incontrôlés.
+
+
 _Juin 2022_
