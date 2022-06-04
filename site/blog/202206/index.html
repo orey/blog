@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#jouer-a-mytic-en-command-line" class="md-skip">
+        <a href="#analyse-de-la-table-du-destin-de-mythic-gme-2" class="md-skip">
           Skip to content
         </a>
       
@@ -390,8 +390,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#jouer-a-mytic-en-command-line" class="md-nav__link">
-    Jouer à Mytic en command line
+  <a href="#analyse-de-la-table-du-destin-de-mythic-gme-2" class="md-nav__link">
+    Analyse de la table du destin de Mythic GME (2)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analyse-de-la-table-du-destin-de-mythic-gme-1" class="md-nav__link">
+    Analyse de la table du destin de Mythic GME (1)
   </a>
   
 </li>
@@ -795,8 +802,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#jouer-a-mytic-en-command-line" class="md-nav__link">
-    Jouer à Mytic en command line
+  <a href="#analyse-de-la-table-du-destin-de-mythic-gme-2" class="md-nav__link">
+    Analyse de la table du destin de Mythic GME (2)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analyse-de-la-table-du-destin-de-mythic-gme-1" class="md-nav__link">
+    Analyse de la table du destin de Mythic GME (1)
   </a>
   
 </li>
@@ -824,24 +838,218 @@
         </a>
       
     
+      
+        <a href="../../tags/#gme" class="md-tag">
+          GME
+        </a>
+      
+    
   </nav>
 
 
 
   <h1>June 2022</h1>
 
-<h2 id="jouer-a-mytic-en-command-line">Jouer à Mytic en command line<a class="headerlink" href="#jouer-a-mytic-en-command-line" title="Permanent link">#</a></h2>
-<p><img alt="Mytic" src="../../images/mytic.png" /></p>
-<p><em>Une autre version du GME !</em></p>
-<p>Je m'amuse en ce moment à écrire un <a href="https://github.com/orey/gme">petit ensemble de programmes</a> très inspiré de Mythic GME. Le but est de couvir tout le manuel de base et sans doute une partie du manuel <em>Variations II</em>. Ce manuel est bien mieux que le premier <em>Variations I</em> qui n'apporte pas grand chose.</p>
-<p>Dans le folder <code>oracles</code>, j'ai codé deux moteurs de destin, de ceux qui répondent comme montré dans la table ci-dessous.</p>
+<h2 id="analyse-de-la-table-du-destin-de-mythic-gme-2">Analyse de la table du destin de Mythic GME (2)<a class="headerlink" href="#analyse-de-la-table-du-destin-de-mythic-gme-2" title="Permanent link">#</a></h2>
+<p>Le tableau ci-dessous analyse la table du destin décrite dans le supplément <em>Mythic Variations II</em>. La table du destin décrite dans ce supplément ajoute un jet de chaos qui se corrèle aux résultats des dés de destin (2d10 au lieu de 1d100).</p>
+<p>Avec la même approche que dans l'exemple précédent, sur 10 000 tirs exploitant les combinaisons complètes niveau d'auto-évaluation x niveaux de chaos. Contrairement à la table du destin de Mythic GME, nous n'avons plus que 28 possibilités (7 pour les auto-évaluations et 4 pour le niveau de chaos qui, au lieu d'être compris entre 1 et 9, est compris entre 3 et 6, d'où 7 x 4 = 28).</p>
+<p>Chaque ligne de cette table représente 10 000 tirs sur toutes les combinaisons. On pourra noter sa régularité complète.</p>
 <table>
 <thead>
 <tr>
-<th>Non exceptionnel</th>
+<th>Non Crit EA</th>
+<th>Non EA</th>
+<th>Non Crit</th>
 <th>Non</th>
 <th>Oui</th>
-<th>Oui exceptionnel</th>
+<th>Oui Crit</th>
+<th>Oui EA</th>
+<th>Oui Crit EA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.18%</td>
+<td>3.27%</td>
+<td>4.88%</td>
+<td>36.04%</td>
+<td>41.53%</td>
+<td>4.09%</td>
+<td>5.75%</td>
+<td>2.25%</td>
+</tr>
+<tr>
+<td>2.16%</td>
+<td>3.32%</td>
+<td>4.91%</td>
+<td>35.87%</td>
+<td>41.62%</td>
+<td>4.11%</td>
+<td>5.71%</td>
+<td>2.30%</td>
+</tr>
+<tr>
+<td>2.19%</td>
+<td>3.32%</td>
+<td>4.90%</td>
+<td>36.03%</td>
+<td>41.42%</td>
+<td>4.08%</td>
+<td>5.73%</td>
+<td>2.33%</td>
+</tr>
+<tr>
+<td>2.18%</td>
+<td>3.33%</td>
+<td>4.92%</td>
+<td>35.99%</td>
+<td>41.54%</td>
+<td>4.04%</td>
+<td>5.68%</td>
+<td>2.33%</td>
+</tr>
+<tr>
+<td>2.22%</td>
+<td>3.30%</td>
+<td>4.90%</td>
+<td>36.05%</td>
+<td>41.31%</td>
+<td>4.09%</td>
+<td>5.77%</td>
+<td>2.36%</td>
+</tr>
+<tr>
+<td>2.22%</td>
+<td>3.35%</td>
+<td>4.92%</td>
+<td>35.94%</td>
+<td>41.36%</td>
+<td>4.13%</td>
+<td>5.73%</td>
+<td>2.35%</td>
+</tr>
+<tr>
+<td>2.21%</td>
+<td>3.26%</td>
+<td>4.87%</td>
+<td>35.98%</td>
+<td>41.59%</td>
+<td>4.01%</td>
+<td>5.73%</td>
+<td>2.34%</td>
+</tr>
+<tr>
+<td>2.21%</td>
+<td>3.32%</td>
+<td>4.88%</td>
+<td>36.10%</td>
+<td>41.52%</td>
+<td>4.02%</td>
+<td>5.63%</td>
+<td>2.32%</td>
+</tr>
+<tr>
+<td>2.14%</td>
+<td>3.32%</td>
+<td>4.94%</td>
+<td>35.96%</td>
+<td>41.41%</td>
+<td>4.15%</td>
+<td>5.74%</td>
+<td>2.34%</td>
+</tr>
+<tr>
+<td>2.20%</td>
+<td>3.26%</td>
+<td>4.99%</td>
+<td>36.02%</td>
+<td>41.50%</td>
+<td>4.04%</td>
+<td>5.68%</td>
+<td>2.30%</td>
+</tr>
+<tr>
+<td>2.17%</td>
+<td>3.37%</td>
+<td>4.98%</td>
+<td>36.15%</td>
+<td>41.22%</td>
+<td>4.05%</td>
+<td>5.77%</td>
+<td>2.29%</td>
+</tr>
+<tr>
+<td>2.17%</td>
+<td>3.27%</td>
+<td>4.98%</td>
+<td>35.95%</td>
+<td>41.46%</td>
+<td>4.09%</td>
+<td>5.75%</td>
+<td>2.33%</td>
+</tr>
+<tr>
+<td>2.17%</td>
+<td>3.30%</td>
+<td>4.93%</td>
+<td>36.00%</td>
+<td>41.39%</td>
+<td>4.10%</td>
+<td>5.77%</td>
+<td>2.33%</td>
+</tr>
+<tr>
+<td>2.15%</td>
+<td>3.33%</td>
+<td>4.94%</td>
+<td>36.00%</td>
+<td>41.46%</td>
+<td>4.11%</td>
+<td>5.70%</td>
+<td>2.32%</td>
+</tr>
+</tbody>
+</table>
+<p>Légende :
+* Non Crit EA : Non critique avec événement aléatoire,
+* Non EA : Non avec événement aléatoire,
+* Non Crit : Non critique,
+* Non : Non,
+* Oui : Oui,
+* Oui Crit : Oui critique,
+* Oui EA : Oui avec événement aléatoire,
+* Oui Crit EA : Oui critique avec événement aléatoire,</p>
+<p>L'avantage de cette variation est clairement de mélanger intimement la réponse à une question avec l'apparition d'événements aléatoires.</p>
+<p><em>04 juin 2022</em></p>
+<hr />
+<h2 id="analyse-de-la-table-du-destin-de-mythic-gme-1">Analyse de la table du destin de Mythic GME (1)<a class="headerlink" href="#analyse-de-la-table-du-destin-de-mythic-gme-1" title="Permanent link">#</a></h2>
+<p><img alt="Mytic" src="../../images/mytic.png" /></p>
+<p><em>Une autre version du GME !</em></p>
+<p>Dans l'histoire du jeu de rôles, le jeu de rôles en solo a toujours fait l'objet de suppléments. On peut se souvenir des suppléments pour Call of Cthulhu, pour Conan et bien sûr toute la série des <a href="https://www.fightingfantasy.com/">Fighting Fantasy</a>.</p>
+<p>Au début des années 2000, des "Game Master Emulator" (GME) sont nés adressant trois types de publics :
+* Les joueurs en solo,
+* Les joueuers voulant jouer sans MJ,
+* Les MJs voulant jouer sans préparation.</p>
+<p>Les GME du marché sont plus ou moins élaborés. Mythic GME, issu du JDR du même nom est l'un des plus élaborés à ma connaissance.</p>
+<p>Dans sa première version, il propose une table du destin basée sur deux paramètres :
+* Une auto-évaluation macroscopique des chances de réussite ;
+* Une notation du "chaos" lié à la scène.</p>
+<p>Une fois que les deux paramètres ont été définis, le premier est défini pendant la scène par le/les protagonistes et le second (le facteur de chaos) dépend d'une mécanique plus globale, la table propose trois nombres.</p>
+<p>J'ai traduit, il y a quelques temps, cette table en même temps que l'<a href="https://github.com/orey/jdr/blob/master/Mythic-fr/MythicGME-EcranMJ-VersionFrancaise-OreyJdr05.pdf">écran de Mythic</a>, en donnant une version française complète.</p>
+<p>Par exemple, si je pose une question à la table du destin dans un contexte de niveau de chaos de 7 et que je considère comme peu probable que la réponse soit oui, j'obtiens les nombres suivants : <code>11 55 92</code>. L'idée est de jeter 1d100 :
+* Inférieur ou égal à 11 : Réussite critique, ou "oui exceptionnel",
+* Entre 12 et 55 : la réponse est oui,
+* Entre 56 et 91 : la réponse est non,
+* Plus de 92 : la réponse est "non exceptionnel" ou "non critique" ou échec critique.</p>
+<p>Je m'amuse en ce moment à écrire un <a href="https://github.com/orey/gme">petit ensemble de programmes</a> très inspirés de Mythic GME.</p>
+<p>Dans le folder <code>oracles</code>, la table du destin codée dans <code>oracles2.js</code> donne les résultats ci-dessous.</p>
+<table>
+<thead>
+<tr>
+<th>Non critique</th>
+<th>Non</th>
+<th>Oui</th>
+<th>Oui critique</th>
 </tr>
 </thead>
 <tbody>
@@ -973,7 +1181,7 @@
 </tr>
 </tbody>
 </table>
-<p>Comme j'aime bien les nombres, jai testé toutes les combinaisons d'estimation et de chaos et j'ai fait des tirs de 1d100 à chaque fois. Toutes les combinaisons de la table ont été testées 10 000 fois. On converge vers les chiffres en bas.</p>
+<p>Toutes les combinaisons de la table ont été testées (auto-évaluations x niveaux de chaos = 99 possibilités, car 11 niveaux d'auto-évaluations et 9 niveaux de chaos) 10 000 fois. On converge vers les chiffres en bas.</p>
 <p>Cela veut dire que si l'on est assez varié dans ses estimations de difficulté et dans les facteurs de chaos, on a globalement les chances en gras d'obtenir les tirages.</p>
 <p><em>04 juin 2022</em></p>
 

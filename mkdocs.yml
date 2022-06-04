@@ -42,6 +42,7 @@ nav:
 - 'Liens/Links':
     - 'Liens': links.md
 - Etudes/Studies:
+    - 'Brève étude des Game Master Emulator': 'pages/gme.md'
     - 'Comparaison des systèmes D6': 'pages/D6-systems.md'
     - 'Target Number dans le système D6': 'pages/D6-TargetNumber.md'
     - 'Combat dans le système D6': 'pages/D6-Combat.md'
