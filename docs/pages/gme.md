@@ -16,7 +16,7 @@ Dans l'histoire du jeu de rôles, le jeu de rôles en solo a toujours fait l'obj
 Au début des années 2000, des "Game Master Emulator" (GME) sont nés adressant trois types de publics :
 
 * Les joueurs en solo,
-* Les joueuers voulant jouer sans MJ,
+* Les joueurs voulant jouer sans MJ,
 * Les MJs voulant jouer sans préparation.
 
 Les GME du marché sont plus ou moins élaborés, parfois payants et parfois gratuits. Voir sur [DriveThru](https://www.drivethrurpg.com/browse.php?keywords=emulator).
