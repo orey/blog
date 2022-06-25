@@ -41,7 +41,6 @@ nav:
     - 'August 2020': 'blog/202008.md'
 - 'Liens/Links':
     - 'Liens': links.md
-    - 'GME (beta): 'gme-version1-0.html'
 - Etudes/Studies:
     - 'Brève étude des Game Master Emulator': 'pages/gme.md'
     - 'Comparaison des systèmes D6': 'pages/D6-systems.md'
