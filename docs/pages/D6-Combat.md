@@ -1,3 +1,10 @@
+---
+tags:
+    - Risus
+    - D6 System
+    - StarWarsRPG
+---
+
 # Contexte
 
 En jouant avec [Risus](https://rouboudou.itch.io/risus), JDR dans lequel les PJs ont un certain nombre de D6 dans un Cliché et font des combats en jetant les dés de leur Clichés en tentant de faire plus que leur adversaire, on peut se poser la question de la probabilité de succès d'un des joueurs ayant un ou plusieurs dés de moins que son adversaire.

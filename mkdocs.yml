@@ -9,7 +9,7 @@ theme:
         primary: blue grey
         accent: light blue
     logo: images/Monstre1.png
-    favicon: images/favicon.ico
+    favicon: images/favicon.png
     features:
         - navigation.tabs
 #        - navigation.tabs.sticky

@@ -1,4 +1,11 @@
 ---
+tags:
+    - FightingFantasy
+    - Ghostbusters
+    - StarWarsRPG
+    - Risus
+    - D6 System
+---
 
 # 1984 : Fighting Fantasy
 

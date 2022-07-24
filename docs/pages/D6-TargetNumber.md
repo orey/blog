@@ -1,3 +1,8 @@
+---
+tags:
+    - D6 System
+---
+
 # La courbe de Gauss des probabilités d'un jet de 3D6
 
 Après analyse, le système D6 semble un système fondamentalement défectueux.
