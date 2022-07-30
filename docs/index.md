@@ -36,6 +36,16 @@ Sometimes in English, sometimes in French, various notes, studies and comments a
 
 # Téléchargements JDR gratuits
 
+## Fighting Fantasy (1984)
+
+<table>
+    <tr><td><img src="./images/fighting-fantasy/proj.png" width="180px"></td>
+    <td><b>Fighting Fantasy (1984) en français</b><br>
+    par <a href="./about">rouboudou</a><br>
+    <button onclick="window.location.href='./downloads/fighting-fantasy'">Page dédiée</button><br>
+    </td></tr>
+</table>
+
 ## Cthulhu Dark
 
 <table>
