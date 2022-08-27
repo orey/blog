@@ -3,16 +3,14 @@ tags :
     - links
 ---
 
-# The very big list of RPG websites
-
-## Generalist RPG forums
+# Generalist RPG forums
 
 | Games    | Site                            | Comment                                        |
 |----------|---------------------------------|------------------------------------------------|
 | Multiple | <https://www.reddit.com/r/rpg/> | Tabletop RPG forum, many forums on reddit      |
 | Multiple | <https://www.rpg.net>           | RPG.net, one of the biggest online TTRPG forum |
 
-## Specialized RPG forums
+# Specialized RPG forums
 
 | Games         | Site                                             | Comment                          |
 |---------------|--------------------------------------------------|----------------------------------|
@@ -26,7 +24,7 @@ tags :
 | OD&D          | <https://odd74.proboards.com>                    | OD&D discussion                  |
 | PbtA          | <http://www.indie-rpgs.com/forge/index.php>      | The Forge                        |
 
-## Wikis, fan sites and resources websites
+# Wikis, fan sites and resources websites
 
 | Games         | Site                                                                   | Title                                            |
 |---------------|------------------------------------------------------------------------|--------------------------------------------------|
@@ -45,7 +43,7 @@ tags :
 | Runequest     | <https://rqwiki.chaosium.com/>                                         | Runequest Wiki                                   |
 |               |                                                                        |                                                  |
 
-## Major RPG websites
+# Major RPG websites
 
 | Games                | Site                                            | Editor             | Type                |
 |----------------------|-------------------------------------------------|--------------------|---------------------|
@@ -61,7 +59,7 @@ tags :
 | Blades in the Dark   | <https://bladesinthedark.com/>                  | Blades in the Dark | Dark Fantasy        |
 |                      |                                                 |                    |                     |
 
-## Major RPG editor's blog
+# Major RPG editor's blog
 
 | Editor   | Site                             |
 |----------|----------------------------------|
@@ -84,7 +82,7 @@ tags :
 | Fighting Fantasy fanzine                    | <http://www.fightingfantazine.co.uk/page/>                                                                                  | With lots of solo adventures |
 | Frontier Explorer                           | <https://frontierexplorer.org/>                                                                                             | Traveler fanzine             |
 
-## Indie RPG websites
+# Indie RPG websites
 
 | Games                           | Site                                                                  | Editor              | Type                |
 |---------------------------------|-----------------------------------------------------------------------|---------------------|---------------------|
@@ -119,7 +117,7 @@ tags :
 | Triumphant!                     | <https://beyondbeliefgames.webs.com/triumphant-super-heroic-rpg>      | Beyond Belief Games | Super Heroes        |
 | Woodland Warriors               | <https://beyondbeliefgames.webs.com/woodland-warriors-rpg>            | Beyond Belief Games | Animals             |
 
-##  SRD - System Reference Documents
+#  SRD - System Reference Documents
 
 | Game                      | Site                                                                              |
 |---------------------------|-----------------------------------------------------------------------------------|
@@ -131,7 +129,7 @@ tags :
 | Dungeon World             | <https://www.dungeonworldsrd.com/>                                                |
 | Gumshoe                   | <https://site.pelgranepress.com/index.php/the-gumshoe-system-reference-document/> |
 
-## Huge collection of gaming blogs in English
+# Huge collection of gaming blogs in English
 
 | Site                                                                                                                                              | Comment                                                                                         | Last |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------|
@@ -393,7 +391,7 @@ tags :
 | <https://zigguratofunknowing.blogspot.com>                                                                                                        | Ziggurat of Unknowing                                                                           | 2018 |
 | [http://zzarchov.blogspot.com/](https://web.archive.org/web/20190210082831/http://zzarchov.blogspot.com/)                                         | Author of Neoclassical Geek Revival and Scenic Dunnsmouth.                                      | 2019 |
 
-## Solo RPG links
+# Solo RPG links
 
 | Site                                           | Comment                                            |
 |------------------------------------------------|----------------------------------------------------|
@@ -406,7 +404,7 @@ tags :
 | *S*                                            |                                                    |
 | <http://solorpggamer.blogspot.com/>            | Solo RPG Gamer                                     |
 
-## Tools
+# Tools
 
 | Tool                                         | Site                                                                       |
 |----------------------------------------------|----------------------------------------------------------------------------|
@@ -430,7 +428,7 @@ tags :
 | **W**                                        |                                                                            |
 | Worldographer                                | <https://worldographer.com>                                                 |
 
-## Podcasts and videos
+# Podcasts and videos
 
 | Site                                                   | Comment                                              |
 |--------------------------------------------------------|------------------------------------------------------|
@@ -442,61 +440,62 @@ tags :
 | **W**                                                  |                                                      |
 | <https://wanderingdms.com>                              | Wandering DMs                                        |
 
-## Stores
+# Stores
 
 * <https://www.drivethrurpg.com>
 
-## Interesting RPG pages and essays
+# Interesting RPG pages and essays
 
 | Year | Topic                                             | URL                                                                          |
 |------|---------------------------------------------------|------------------------------------------------------------------------------|
 | 2008 | The 3-clue rule to design investigative scenarios | <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-Clue-Rule> |
 | 2008 | A quick primer for old school gaming              | <https://www.lulu.com/content/3019374?page=1&pageSize=4>                      |
 
-## The Forge
+# The Forge
 
 Links :
-* 1997: <https://en.wikipedia.org/wiki/Threefold_model>  Threefold model
-* 1999-2005: <https://en.wikipedia.org/wiki/GNS_theory>  GNS Theory
-  * Ron Edwards about the GNS theory
-    * 2001: <http://www.indie-rpgs.com/articles/1/>  GNS and other matters of GNS theory
-    * 2001: <http://www.indie-rpgs.com/articles/2/>  Chapter 1: Exploration
-    * 2001: <http://www.indie-rpgs.com/articles/3/>  Chapter 2: GNS
-    * 2001: <http://www.indie-rpgs.com/articles/4/>  Chapter 3: Stance
-    * 2001: <http://www.indie-rpgs.com/articles/5/>  Chapter 4: The basics of roleplaying design
-    * 2001: <http://www.indie-rpgs.com/articles/6/>  Chapter 5: Roleplaying design and coherence
-    * 2001: <http://www.indie-rpgs.com/articles/7/>  Chapter 6: Actually playing
-    * 2001: <http://www.indie-rpgs.com/articles/8/>  Acknowledgements
-    * 2003: <http://www.indie-rpgs.com/articles/15/>  Simulation, the right to dream
-    * 2003: <http://www.indie-rpgs.com/articles/21/>  Gamism: Step On Up
-    * <http://www.indie-rpgs.com/articles/>  All articles
-    * 2004: <http://www.indie-rpgs.com/_articles/system_does_matter.html>  System does matter
-* Criticism by Brian Gleichman (2006)
-  * <http://whitehall-paraindustries.com/Theory/Threefold/GNS.htm>
-* Criticism by Brian Gleichman (2009)
-  * <http://whitehall-paraindustries.blogspot.com/2009/01/elements-layers-of-design.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/01/why-rpg-theory-has-bad-rep-part-i.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/01/why-rpg-theory-has-bad-rep-part-ii-gns.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/02/why-rpg-theory-has-bad-rep-part-iii.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/02/why-rpg-theory-has-bad-rep-part-iv.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/02/why-rpg-theory-has-bad-rep-part-v.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-i-appeal.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-ii-devil-in-details.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-iii-plan-meets-need.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-iv-conflict-with.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-v-big-model.html>
-  * <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-vi-conclusion.html>
-* <https://refereeingandreflection.wordpress.com/2014/12/22/remembering-the-forge/>
-* <http://big-model.info/>  The big model of the Forge
-* <http://www.indie-rpgs.com/forge/index.php>  The Forge forum
-* 2007: <https://github.com/orey/ttrpg/blob/master/_Articles/2007-RSDanceyOnTheWeb-GamerSegmentation.org>  Gamer segmentation seen by WotC
-* 2018: <https://cannibalhalflinggaming.com/2018/05/16/level-one-wonk-does-rpg-theory-gns/>
-* 2020: <https://twitter.com/lackingceremony/status/1280323910022488064?lang=en>
-* 2020: <https://cannibalhalflinggaming.com/2020/11/25/the-trouble-with-discourse/>
-* 2021: <https://www.reddit.com/r/HobbyDrama/comments/ppmt00/tabletop_rpgs_the_fall_of_the_forge_how_a/>
+- 1997: <https://en.wikipedia.org/wiki/Threefold_model>  Threefold model
+- 1999-2005: <https://en.wikipedia.org/wiki/GNS_theory>  GNS Theory
+  - Ron Edwards about the GNS theory
+    - 2001: <http://www.indie-rpgs.com/articles/1/>  GNS and other matters of GNS theory
+    - 2001: <http://www.indie-rpgs.com/articles/2/>  Chapter 1: Exploration
+    - 2001: <http://www.indie-rpgs.com/articles/3/>  Chapter 2: GNS
+    - 2001: <http://www.indie-rpgs.com/articles/4/>  Chapter 3: Stance
+    - 2001: <http://www.indie-rpgs.com/articles/5/>  Chapter 4: The basics of roleplaying design
+    - 2001: <http://www.indie-rpgs.com/articles/6/>  Chapter 5: Roleplaying design and coherence
+    - 2001: <http://www.indie-rpgs.com/articles/7/>  Chapter 6: Actually playing
+    - 2001: <http://www.indie-rpgs.com/articles/8/>  Acknowledgements
+    - 2003: <http://www.indie-rpgs.com/articles/15/>  Simulation, the right to dream
+    - 2003: <http://www.indie-rpgs.com/articles/21/>  Gamism: Step On Up
+    - <http://www.indie-rpgs.com/articles/>  All articles
+    - 2004: <http://www.indie-rpgs.com/_articles/system_does_matter.html>  System does matter
+- Criticism by Brian Gleichman (2006)
+  - <http://whitehall-paraindustries.com/Theory/Threefold/GNS.htm>
+- Criticism by Brian Gleichman (2009)
+  - <http://whitehall-paraindustries.blogspot.com/2009/01/elements-layers-of-design.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/01/why-rpg-theory-has-bad-rep-part-i.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/01/why-rpg-theory-has-bad-rep-part-ii-gns.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/02/why-rpg-theory-has-bad-rep-part-iii.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/02/why-rpg-theory-has-bad-rep-part-iv.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/02/why-rpg-theory-has-bad-rep-part-v.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-i-appeal.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-ii-devil-in-details.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-iii-plan-meets-need.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-iv-conflict-with.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-v-big-model.html>
+  - <http://whitehall-paraindustries.blogspot.com/2009/09/flaws-of-gns-part-vi-conclusion.html>
+- <https://refereeingandreflection.wordpress.com/2014/12/22/remembering-the-forge/>
+- <http://big-model.info/>  The big model of the Forge
+- <http://www.indie-rpgs.com/forge/index.php>  The Forge forum
+- 2007: <https://github.com/orey/ttrpg/blob/master/_Articles/2007-RSDanceyOnTheWeb-GamerSegmentation.org>  Gamer segmentation seen by WotC
+- 2018: <https://cannibalhalflinggaming.com/2018/05/16/level-one-wonk-does-rpg-theory-gns/>
+- 2020: <https://twitter.com/lackingceremony/status/1280323910022488064?lang=en>
+- 2020: <https://cannibalhalflinggaming.com/2020/11/25/the-trouble-with-discourse/>
+- 2021: <https://www.reddit.com/r/HobbyDrama/comments/ppmt00/tabletop_rpgs_the_fall_of_the_forge_how_a/>
 
  
- Various game resources
+# Some of my collected game resources
+
 - <https://github.com/orey/ttrpg/tree/master/Alternity>  Alternity 98
 - <https://github.com/orey/ttrpg/tree/master/BladesInTheDark-SRD>  Blades in the Dark SRD
 - <https://github.com/orey/ttrpg/tree/master/CallOfCthulhu>  Call of Cthulhu
