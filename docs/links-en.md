@@ -454,6 +454,7 @@ tags :
 # The Forge
 
 Links :
+
 - 1997: <https://en.wikipedia.org/wiki/Threefold_model>  Threefold model
 - 1999-2005: <https://en.wikipedia.org/wiki/GNS_theory>  GNS Theory
   - Ron Edwards about the GNS theory
