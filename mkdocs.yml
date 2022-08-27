@@ -34,6 +34,7 @@ site_url: https://orey.github.io/blog
 nav:
 - Home: index.md
 - Blog:
+    - 'August/September 2022': 'blog/202209.md'
     - 'June/July 2022': 'blog/202206.md'
     - 'May 2022': 'blog/202205.md'
     - 'November 2021': 'blog/202111.md'
@@ -52,7 +53,8 @@ nav:
 #    - 'Players Handbook': 'pages/players.md'
 #    - 'Game Masters Guide': 'pages/gms.md'
 - Downloads:
-    - Risus: 'downloads/risus.md'
+    - 'Fighting Fantasy': 'downloads/fighting-fantasy.md'
+    - 'Risus': 'downloads/risus.md'
     - 'La grande Liste des intrigues de JDR': 'downloads/grande-liste.md'
     - 'Cthulhu Dark': 'downloads/cthulhu-dark.md'
     - 'Risus pour Méga': 'downloads/mega.md'
