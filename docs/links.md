@@ -1,3 +1,8 @@
+---
+tags :
+    - links
+---
+
 # Quelques liens français
 
 J'avoue que je débute dans le web JDR français. Voici une première liste.

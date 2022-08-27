@@ -39,8 +39,9 @@ nav:
     - 'November 2021': 'blog/202111.md'
     - 'September 2020': 'blog/202009.md'
     - 'August 2020': 'blog/202008.md'
-- 'Liens/Links':
-    - 'Liens': links.md
+- 'Links/Liens':
+    - 'TTRPG websites': links-en.md
+    - 'Sites JDR': links.md
 - Etudes/Studies:
     - 'Brève étude des Game Master Emulator': 'pages/gme.md'
     - 'Comparaison des systèmes D6': 'pages/D6-systems.md'
