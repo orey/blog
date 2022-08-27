@@ -1,6 +1,6 @@
 ---
 tags :
-    - links
+    - Links
 ---
 
 # Quelques liens français

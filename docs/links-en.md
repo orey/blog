@@ -1,6 +1,6 @@
 ---
 tags :
-    - links
+    - Links
 ---
 
 # Generalist RPG forums
