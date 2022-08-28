@@ -29,6 +29,7 @@ tags :
 | Games         | Site                                                                   | Title                                            |
 |---------------|------------------------------------------------------------------------|--------------------------------------------------|
 | AD&D 1e       | <https://www.dragonsfoot.org>                                          | The home of AD&D 1e                              |
+| Alternity     | <https://www.alternityrpg.net/>                                        | Fansite on Alternity                             |
 | Ars Magica    | <https://www.redcap.org/page/Main_Page>                                | Project:Redcap                                   |
 | D&D           | <https://www.acaeum.com>                                               | D&D Knowledge Compendium (collectible prices)    |
 | D&D           | <http://www.tomeoftreasures.com/tot_adnd/adnd_history.htm>             | History of D&D                                   |
@@ -41,7 +42,6 @@ tags :
 | Multiple      | <http://www.thealexandrian.net/creations/creations.html>               | The Alexandrian (see creations page)             |
 | Random tables | <https://dicegeeks.com>                                                | Great podcast and great random tables            |
 | Runequest     | <https://rqwiki.chaosium.com/>                                         | Runequest Wiki                                   |
-|               |                                                                        |                                                  |
 
 # Major RPG websites
 
@@ -57,7 +57,6 @@ tags :
 | Fate                 | <https://evilhat.com/fate-everything/>          | Evil Hat           | Multiple            |
 | PbtA                 | <https://evilhat.com/roleplaying-games/>        | Evil Hat           | Multiple            |
 | Blades in the Dark   | <https://bladesinthedark.com/>                  | Blades in the Dark | Dark Fantasy        |
-|                      |                                                 |                    |                     |
 
 # Major RPG editor's blog
 
@@ -84,38 +83,41 @@ tags :
 
 # Indie RPG websites
 
-| Games                           | Site                                                                  | Editor              | Type                |
-|---------------------------------|-----------------------------------------------------------------------|---------------------|---------------------|
-| ACKS                            | <https://www3.autarch.co/>                                            | Autarch             | Heroic Fantasy      |
-| Ascendant                       | <https://www3.autarch.co/>                                            | Autarch             | Super Heroes        |
-| Barbarians of Lemuria           | <https://barbariansoflemuria.webs.com>                                | Beyond Belief Games | Heroic Fantasy      |
-| Basic Fantasy                   | <https://www.basicfantasy.org>                                        | Basic Fantasy       | Heroic Fantasy      |
-| Black Books                     | <https://beyondbeliefgames.webs.com/black-books-rpg>                  | Beyond Belief Games | Lovecraftian Horror |
-| Business Wizzards               | <https://www.9thlevel.com/games>                                      | 9th Level           | Corporate Horror    |
-| Crimson Blades                  | <https://beyondbeliefgames.webs.com/crimson-blades-dark-fantasy>      | Beyond Belief Games | Dark Fantasy        |
-| Dungeon Crawl Classics          | <https://goodman-games.com/dungeon-crawl-classics-rpg/>               | Goodman Games       | Heroic Fantasy      |
-| Fighting Fantasy                | <https://www.fightingfantasy.com>                                     | Fighting Fantasy    | Heroic Fantasy      |
-| Fudge                           | <https://fudgerpg.com/goodies/fudge-files.html>                       | Fudge               | Multiple            |
-| Gateway                         | <https://gatewayrpg.wordpress.com>                                    | Gateway RPG         | Heroic Fantasy      |
-| Gumshoe                         | <https://site.pelgranepress.com/index.php/gumshoe/>                   | Gumshoe             | Investigation       |
-| Horseshoe Academy               | <https://www.9thlevel.com/games>                                      | 9th Level           | Magical Horses      |
-| Kobolds Ate My Baby             | <https://www.9thlevel.com/games>                                      | 9th Level           | Fun Fantasy         |
-| Labyrinth Lord                  | <https://goblinoidgames.com/index.php/downloads/>                     | Labyrinth Lord RPG  | Heroic Fantasy      |
-| Mazes                           | <https://www.9thlevel.com/games>                                      | 9th Level           | Heroic Fantasy      |
-| Microlite                       | <https://microlite20.org/community/viewforum.php?f=15>                | Microlite20 rules   | Heroic Fantasy      |
-| Mini Six                        | <http://www.antipaladingames.com/>                                    | Mini Six            | Multiple            |
-| Nancy Druid                     | <https://www.9thlevel.com/games>                                      | 9th Level           | Children            |
-| Open D6                         | <http://opend6.wikidot.com/>                                          | Open D6             | Multiple            |
-| Osric                           | <https://www.knights-n-knaves.com>                                    | Osric RPG           | Heroic Fantasy      |
-| Rebel Scum                      | <https://www.9thlevel.com/games>                                      | 9th Level           | Space Opera         |
-| Return To Dark Tower            | <https://www.9thlevel.com/games>                                      | 9th Level           | Heroic Fantasy      |
-| Savage Sisters                  | <https://www.9thlevel.com/games>                                      | 9th Level           | Apocalyptic         |
-| Sentinel Comics RPG             | <https://critical-hits.com/studios/sentinel-comics-roleplaying-game/> | Critical Hits       | Super Heroes        |
-| The Excellents                  | <https://www.9thlevel.com/games>                                      | 9th Level           | Princess            |
-| The Tragedies of Middle-School  | <https://www.9thlevel.com/games>                                      | 9th Level           | Fun                 |
-| The Very Good Dogs Of Chernobyl | <https://www.9thlevel.com/games>                                      | 9th Level           | Modern Horror       |
-| Triumphant!                     | <https://beyondbeliefgames.webs.com/triumphant-super-heroic-rpg>      | Beyond Belief Games | Super Heroes        |
-| Woodland Warriors               | <https://beyondbeliefgames.webs.com/woodland-warriors-rpg>            | Beyond Belief Games | Animals             |
+| Games                           | Site                                                                                                                       | Editor               | Type                |
+|---------------------------------|----------------------------------------------------------------------------------------------------------------------------|----------------------|---------------------|
+| ACKS                            | <https://www3.autarch.co/>                                                                                                 | Autarch              | Heroic Fantasy      |
+| Ascendant                       | <https://www3.autarch.co/>                                                                                                 | Autarch              | Super Heroes        |
+| Barbarians of Lemuria           | <https://barbariansoflemuria.webs.com>                                                                                     | Beyond Belief Games  | Heroic Fantasy      |
+| Basic Fantasy                   | <https://www.basicfantasy.org>                                                                                             | Basic Fantasy        | Heroic Fantasy      |
+| Black Books                     | <https://beyondbeliefgames.webs.com/black-books-rpg>                                                                       | Beyond Belief Games  | Lovecraftian Horror |
+| Business Wizzards               | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Corporate Horror    |
+| Crimson Blades                  | <https://beyondbeliefgames.webs.com/crimson-blades-dark-fantasy>                                                           | Beyond Belief Games  | Dark Fantasy        |
+| Dungeon Crawl Classics          | <https://goodman-games.com/dungeon-crawl-classics-rpg/>                                                                    | Goodman Games        | Heroic Fantasy      |
+| Fighting Fantasy                | <https://www.fightingfantasy.com>                                                                                          | Fighting Fantasy     | Heroic Fantasy      |
+| Fudge                           | <https://fudgerpg.com/goodies/fudge-files.html>                                                                            | Fudge                | Multiple            |
+| Gateway                         | <https://gatewayrpg.wordpress.com>                                                                                         | Gateway RPG          | Heroic Fantasy      |
+| Gumshoe                         | <https://site.pelgranepress.com/index.php/gumshoe/>                                                                        | Gumshoe              | Investigation       |
+| Horseshoe Academy               | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Magical Horses      |
+| Kobolds Ate My Baby             | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Fun Fantasy         |
+| Labyrinth Lord                  | <https://goblinoidgames.com/index.php/downloads/>                                                                          | Labyrinth Lord RPG   | Heroic Fantasy      |
+| Mazes                           | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Heroic Fantasy      |
+| Microlite                       | <https://microlite20.org/community/viewforum.php?f=15>                                                                     | Microlite20 rules    | Heroic Fantasy      |
+| Mini Six                        | <http://www.antipaladingames.com/>                                                                                         | Mini Six             | Multiple            |
+| Nancy Druid                     | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Children            |
+| Open D6                         | <http://opend6.wikidot.com/>                                                                                               | Open D6              | Multiple            |
+| Osric                           | <https://www.knights-n-knaves.com>                                                                                         | Osric RPG            | Heroic Fantasy      |
+| Pokéthulhu (original)           | [http://www222.pair.com/sjohn](https://web.archive.org/web/20071206064701/http://www222.pair.com/sjohn/downloads.htm#Toys) | Cumberland G&D (old) | Fun Horror          |
+| Rebel Scum                      | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Space Opera         |
+| Return To Dark Tower            | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Heroic Fantasy      |
+| Risus (original)                | [http://www222.pair.com/sjohn](https://web.archive.org/web/20071206064701/http://www222.pair.com/sjohn/downloads.htm#Toys) | Cumberland G&D (old) | Multiple            |
+| Savage Sisters                  | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Apocalyptic         |
+| Sentinel Comics RPG             | <https://critical-hits.com/studios/sentinel-comics-roleplaying-game/>                                                      | Critical Hits        | Super Heroes        |
+| The Excellents                  | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Princess            |
+| The Tragedies of Middle-School  | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Fun                 |
+| The Very Good Dogs Of Chernobyl | <https://www.9thlevel.com/games>                                                                                           | 9th Level            | Modern Horror       |
+| Triumphant!                     | <https://beyondbeliefgames.webs.com/triumphant-super-heroic-rpg>                                                           | Beyond Belief Games  | Super Heroes        |
+| Uresia (original)               | [http://www222.pair.com/sjohn](https://web.archive.org/web/20071206064701/http://www222.pair.com/sjohn/downloads.htm#Toys) | Cumberland G&D (old) | Universe            |
+| Woodland Warriors               | <https://beyondbeliefgames.webs.com/woodland-warriors-rpg>                                                                 | Beyond Belief Games  | Animals             |
 
 #  SRD - System Reference Documents
 
@@ -125,9 +127,11 @@ tags :
 | Basic Role Playing System | <https://www.chaosium.com/brp-system-reference-document/>                         |
 | Blades in the dark        | <https://github.com/amazingrando/blades-in-the-dark-srd-content>                  |
 | D20 Modern                | <https://archive.org/details/d20modernsrd>                                        |
+| D20 SRD Hypertext         | <https://www.d20srd.org/index.htm>                                                |
 | D&D SRD 3.5 WoC           | <http://www.wizards.com/default.asp?x=d20/article/srd35>                          |
 | Dungeon World             | <https://www.dungeonworldsrd.com/>                                                |
 | Gumshoe                   | <https://site.pelgranepress.com/index.php/the-gumshoe-system-reference-document/> |
+| Microlite20               | <https://microlite20.org/microlite20-srd>                                         |
 
 # Huge collection of gaming blogs in English
 
@@ -215,6 +219,7 @@ tags :
 | <https://engineoforacles.wordpress.com>                                                                                                           | 18th Century, Gothic Romance, author of Ghastly Affair.                                         | **2022** |
 | **F**                                                                                                                                             |                                                                                                 |      |
 | <https://falsemachine.blogspot.com>                                                                                                               | Dungeon maker, fluff, reviews.                                                                  | **2022** |
+| [https://farooqsgaming.blogspot.com](https://web.archive.org/web/20210224103636/https://farooqsgaming.blogspot.com/)                              | Farooq's Gaming Blog                                                                            | 2021 | 
 | <https://fistsofcinderandstone.blogspot.com>                                                                                                      | Writing for tabletop RPGs                                                                       | 2021 |
 | <https://followmeanddie.com>                                                                                                                      | If you're not having fun, you're doing it wrong                                                 | **2022** |
 | **G**                                                                                                                                             |                                                                                                 |      |
@@ -222,6 +227,7 @@ tags :
 | <https://gibletblizzard.blogspot.com>                                                                                                             | Gibblet Blizzard                                                                                | 2020 |
 | <https://gloomtrain.blogspot.com>                                                                                                                 | New rules and fluff for old-school d&d. Seems to like making mage classes.                      | 2019 |
 | <http://www.goatmansgoblet.com>                                                                                                                   | Randomizers/generators. Content for Dolemwood. Some Greek stuff.                                | 2021 |
+| <http://goblinoidgames.blogspot.com/>                                                                                                             | Blog about Labyrith Lord                                                                        | 2018 |
 | <https://goblinpunch.blogspot.com>                                                                                                                | Modular Rules, settings, great springboard. Creator of the GLOG rule set.                       | **2022** |
 | <https://goodberrymonthly.blogspot.com>                                                                                                           | Island content, monsters, etc.                                                                  | **2022** |
 | [https://gorgonmilk.blogspot.com/](https://web.archive.org/web/20170705164045/https://gorgonmilk.blogspot.com/)                                   | Wormskin zine                                                                                   | 2017 |
@@ -430,14 +436,14 @@ tags :
 
 # Podcasts and videos
 
-| Site                                                   | Comment                                              |
-|--------------------------------------------------------|------------------------------------------------------|
-| **A**                                                  |                                                      |
+| Site                                                   | Comment                                               |
+|--------------------------------------------------------|-------------------------------------------------------|
+| **A**                                                  |                                                       |
 | <https://www.aintslayednobody.com/>                     | A good CoC podcast                                   |
-| **D**                                                  |                                                      |
+| **D**                                                  |                                                       |
 | <https://www.dicegeeks.com/category/dicegeeks-podcast/> | DiceGeeks.com very good interviews                   |
 | <https://drinkspinrun.blogspot.com/?m=1>                | Drink, spin, run, the site & podcasts (DCC oriented) |
-| **W**                                                  |                                                      |
+| **W**                                                  |                                                       |
 | <https://wanderingdms.com>                              | Wandering DMs                                        |
 
 # Stores
@@ -446,10 +452,13 @@ tags :
 
 # Interesting RPG pages and essays
 
-| Year | Topic                                             | URL                                                                          |
-|------|---------------------------------------------------|------------------------------------------------------------------------------|
+| Year | Topic                                             | URL                                                                           |
+|------|---------------------------------------------------|-------------------------------------------------------------------------------|
 | 2008 | The 3-clue rule to design investigative scenarios | <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-Clue-Rule> |
 | 2008 | A quick primer for old school gaming              | <https://www.lulu.com/content/3019374?page=1&pageSize=4>                      |
+| 2008 | The why of it all, an article about D&D           | <http://shamsgrog.blogspot.com/2008/05/why-of-it-all.html>                    |
+|      | D&D history                                       | <http://www.tomeoftreasures.com/tot_adnd/adnd_history.htm>                    |
+
 
 # The Forge
 
