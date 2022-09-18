@@ -64,6 +64,13 @@ tags :
 |----------|----------------------------------|
 | Chaosium | <https://www.chaosium.com/blog/> |
 
+# Solo
+
+| Name                 | Site                                                     |
+|----------------------|----------------------------------------------------------|
+| One page solo engine | <https://inflatablestudios.itch.io/one-page-solo-engine> |
+
+
 # Online Magazines
 
 | Magazine                                    | Site                                                                                                                        | Comment                      |
