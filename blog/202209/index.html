@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr" class="md-skip">
+        <a href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr-2" class="md-skip">
           Skip to content
         </a>
       
@@ -392,11 +392,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr" class="md-nav__link">
-    A la recherche du meilleur système (simple) de JDR
+  <a href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr-2" class="md-nav__link">
+    A la recherche du meilleur système (simple) de JDR (2)
   </a>
   
-    <nav class="md-nav" aria-label="A la recherche du meilleur système (simple) de JDR">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr-1" class="md-nav__link">
+    A la recherche du meilleur système (simple) de JDR (1)
+  </a>
+  
+    <nav class="md-nav" aria-label="A la recherche du meilleur système (simple) de JDR (1)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1015,11 +1022,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr" class="md-nav__link">
-    A la recherche du meilleur système (simple) de JDR
+  <a href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr-2" class="md-nav__link">
+    A la recherche du meilleur système (simple) de JDR (2)
   </a>
   
-    <nav class="md-nav" aria-label="A la recherche du meilleur système (simple) de JDR">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr-1" class="md-nav__link">
+    A la recherche du meilleur système (simple) de JDR (1)
+  </a>
+  
+    <nav class="md-nav" aria-label="A la recherche du meilleur système (simple) de JDR (1)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1115,6 +1129,12 @@
   <nav class="md-tags" >
     
       
+        <a href="../../tags/#advancedfightingfantasy" class="md-tag">
+          AdvancedFightingFantasy
+        </a>
+      
+    
+      
         <a href="../../tags/#arsmagica" class="md-tag">
           ArsMagica
         </a>
@@ -1204,7 +1224,66 @@
 
   <h1>August/September 2022</h1>
 
-<h2 id="a-la-recherche-du-meilleur-systeme-simple-de-jdr">A la recherche du meilleur système (simple) de JDR<a class="headerlink" href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr" title="Permanent link">#</a></h2>
+<h2 id="a-la-recherche-du-meilleur-systeme-simple-de-jdr-2">A la recherche du meilleur système (simple) de JDR (2)<a class="headerlink" href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr-2" title="Permanent link">#</a></h2>
+<p>J'ai un peu modifié <a href="https://github.com/orey/jdr/blob/master/D6-System-Combat/proba-versus2.js">mon programme de stats de combats</a> pour qu'il prenne en compte les modificateurs de type <code>2d6+2</code> ou <code>1d10-1</code>. Mon but était de vérifier que le système <code>d6</code> est bien moins avantageux pour celui qui qui a un modificateur plus faible qu'un système linéaire <code>d12</code>. Vous me direz, c'est évident. En fait oui.</p>
+<p>Prenons le cas d'un combat avec AFF et donc un combat avec <code>COMP+2d6+Talent</code> contre un monstre ayant <code>COMP+2d6</code>. Il s'agit donc de comparer les courbes de deux entités ayant <code>2d6+A</code> et <code>2d6+B</code> et de les comparer avec le cas où l'on utiliserait un <code>d12</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Joueur 1</th>
+<th>Joueur 2</th>
+<th>Proba Jet 1 &gt; Jet 2</th>
+<th>Proba Jet 1 &le; Jet 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>2d6</code></td>
+<td><code>2d6+4</code></td>
+<td><code>10%</code></td>
+<td><code>90%</code></td>
+</tr>
+<tr>
+<td><code>1d12</code></td>
+<td><code>1d12+4</code></td>
+<td><code>19%</code></td>
+<td><code>81%</code></td>
+</tr>
+</tbody>
+</table>
+<p>Soit près de deux fois plus de chances de réussir dans le cas du <code>d12</code>.</p>
+<p>Dans le cas d'une victoire ou égalité :</p>
+<table>
+<thead>
+<tr>
+<th>Joueur 1</th>
+<th>Joueur 2</th>
+<th>Proba Jet 1 &ge; Jet 2</th>
+<th>Proba Jet 1 &lt; Jet 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>2d6</code></td>
+<td><code>2d6+4</code></td>
+<td><code>16%</code></td>
+<td><code>84%</code></td>
+</tr>
+<tr>
+<td><code>1d12</code></td>
+<td><code>1d12+4</code></td>
+<td><code>25%</code></td>
+<td><code>75%</code></td>
+</tr>
+</tbody>
+</table>
+<p>C'est complètement différent.</p>
+<p>Je ne vais pas me paraphraser quand à l'<a href="../../pages/D6-Combat/">analyse des jeux D6</a> mais on comprend pourquoi les systèmes <code>d20</code> ou <code>d100</code> se sont imposés : parce qu'ils sont plus <em>fair play</em> et n'offre pas les phénomènes de déformation des coubes à <code>nd6</code>.</p>
+<p>Notons que même pour les jets sous la <code>COMP+Talent</code> ou la <code>COMP+Magie</code>, et même si le score total est de <code>11</code> ou plus, <code>12</code> étant toujours un échec, il reste une chance sur douze (<code>8%</code>) d'échouer. Alors que le pourcentage de chances de faire un double <code>6</code> sur <code>2d6</code> est de <code>1/36</code> soit à peine <code>3%</code>.</p>
+<p>Froika! risque donc d'être un système <code>d12</code> qui sera donc compatible avec Troika! et AFF mais en plus linéaire. Il reste juste à limiter la <code>COMP</code> à la création du perso. Je trouve <code>6+1d6</code> trop permissif, <code>3+1d3</code> trop punitif, il reste <code>6+1d4</code> ou <code>6+1d3</code>. A voir.</p>
+<p><em>19 septembre 2022</em></p>
+<hr />
+<h2 id="a-la-recherche-du-meilleur-systeme-simple-de-jdr-1">A la recherche du meilleur système (simple) de JDR (1)<a class="headerlink" href="#a-la-recherche-du-meilleur-systeme-simple-de-jdr-1" title="Permanent link">#</a></h2>
 <h3 id="gestion-des-tests-simples">Gestion des tests simples<a class="headerlink" href="#gestion-des-tests-simples" title="Permanent link">#</a></h3>
 <p>Les tests simples sont utilisés pour les tests de compétences. Il faut tester le PJ pour savoir s'il réussit ou pas.</p>
 <p>Selon les jeux, la compétence testée (parfois appelée caractéristique, talent, ou autre) est soit une constante (par exemple <code>45%</code> ou <code>12</code>), soit quelque chose de variable (par exemple <code>4d6</code> ou <code>1d8</code>).</p>
@@ -1247,7 +1326,6 @@
 <li>Le nombre de points restant pour les autres talents est de <code>COMP-Magie= 10-4=6</code> ce qui équilibre la magie avec les autres compétences.</li>
 </ul>
 <p>Évidemment, dans ce système, on peut se poser la question si faire un jet de <code>2d6</code> sous la <code>COMP+Compétence avancée</code> n'est pas un peu facile. Il est précisé dans le jeu qu'un <code>12</code> est toujours un échec, mais effectivement, on retrouve l'aspect un peu "facile" de Fighting Fantasy original.</p>
-<p>Notamment, si je suis un guerrier non magicien et que <code>COMP=10</code>, alors j'ai <code>10</code> points à répartir dans ma compétence. Comme <code>12</code> est toujours un échec, je peux décider de n'investir que <code>1</code> en <code>Combat à l'épée</code>, à moins que je ne décide d'investir <code>4</code> en prévision de potentiels malus. Mais si le MJ est comme moi et qu'il limite les malus/bonus au strict minimum, au final, le jeu est prévisible, pour les joueurs.</p>
 <h3 id="la-facon-troika">La façon Troika!<a class="headerlink" href="#la-facon-troika" title="Permanent link">#</a></h3>
 <p>Troika! prend une approche encore plus simple sur deux dimensions :</p>
 <ul>
