@@ -96,25 +96,26 @@ a:link {
     color:teal;
 }
 
-
-/* unvisited link */
+/*
+// unvisited link 
 a:link {
     //color:steelblue;
     color:teal;
 }
 
-/* visited link */
+// visited link 
 a:visited {
     //color:steelblue;
     color:darkgreen;
 }
 
-/* mouse over link */
+// mouse over link 
 a:hover {
   color: darkblue;
 }
 
-/* selected link */
+// selected link 
 a:active {
   color: darkblue;
 }
+*/
