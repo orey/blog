@@ -53,6 +53,21 @@ tags :
 | La voix d'Héort, ressources pour Glorantha           | <https://heort.wordpress.com/>                                           |
 |                                                      |                                                                          |
 
+# Magazines en français
+
+| Type                                     | Site                                                                          |
+|------------------------------------------|-------------------------------------------------------------------------------|
+| **B**                                    |                                                                               |
+| Les anciens "Backstab"                   | <https://www.abandonware-magazines.org/affiche_mag.php?mag=199>               |
+| **C**                                    |                                                                               |
+| Les anciens "Casus Belli"                | <https://www.abandonware-magazines.org/affiche_mag.php?mag=188>               |
+| **G**                                    |                                                                               |
+| Quelques vieux "Graal"                   | <https://www.abandonware-magazines.org/affiche_mag.php?mag=402>               |
+| **J**                                    |                                                                               |
+| Les anciens "Jeux et Stratégie", un must | <https://archive.org/search.php?query=creator%3A%22Excelsior+Publications%22> |
+|                                          | <https://www.abandonware-magazines.org/affiche_mag.php?mag=185>               |
+| **T**                                    |                                                                               |
+| Les vieux "Tangente"                     | <https://www.abandonware-magazines.org/affiche_mag.php?mag=326>               |
 
 
 
