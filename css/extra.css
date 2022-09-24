@@ -50,3 +50,71 @@ div.md-typeset__table thead {
     color: white;
 }
 
+div.mytable {
+    font-family: "fantasy";
+    font-style: italic;
+    text-align: left;
+    color: darkblue;
+}
+
+div.myimage {
+    font-style: italic;
+    font-family: "fantasy";
+    font-size: 15px;
+    text-align: left;
+    color: darkgreen;
+}
+
+myimage {
+    font-style: italic;
+    font-family: "fantasy";
+    font-size: 15px;
+    text-align: left;
+    color: darkgreen;
+}
+
+
+div.mydate {
+    font-style: italic;
+    text-align: right;
+    font-size: 15px;
+    color: darkgrey;
+}
+
+mygame {
+    font-style: italic;
+    //font-weight: bold;
+    font-family: "fantasy";
+    font-size: 18px;
+    text-align: left;
+    //color: darkgreen;
+    color: #546d78;
+}
+
+a:link {
+    //color:steelblue;
+    color:teal;
+}
+
+
+/* unvisited link */
+a:link {
+    //color:steelblue;
+    color:teal;
+}
+
+/* visited link */
+a:visited {
+    //color:steelblue;
+    color:darkgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkblue;
+}
+
+/* selected link */
+a:active {
+  color: darkblue;
+}
