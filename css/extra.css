@@ -81,6 +81,13 @@ div.mydate {
     color: darkgrey;
 }
 
+mydate {
+    font-style: italic;
+    text-align: right;
+    font-size: 15px;
+    color: darkgrey;
+}
+
 mygame {
     font-style: italic;
     //font-weight: bold;
