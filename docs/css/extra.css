@@ -50,6 +50,7 @@ div.md-typeset__table thead {
     color: white;
 }
 
+/* Le div crée une vraie section alors que le tag spécifique décore juste la ligne, comme un span*/
 div.mytable {
     font-family: "fantasy";
     font-style: italic;
@@ -73,7 +74,7 @@ myimage {
     color: darkgreen;
 }
 
-
+/* Comme on aligne à droite, il faut un div*/
 div.mydate {
     font-style: italic;
     text-align: right;
@@ -81,21 +82,21 @@ div.mydate {
     color: darkgrey;
 }
 
-mydate {
-    font-style: italic;
-    text-align: right;
-    font-size: 15px;
-    color: darkgrey;
-}
-
+/* Là on est vraiment dans la mise en forme inline donc pas de div*/
 mygame {
     font-style: italic;
-    //font-weight: bold;
+    /*font-weight: bold;*/
     font-family: "fantasy";
     font-size: 18px;
     text-align: left;
-    //color: darkgreen;
+    /*color: darkgreen;*/
     color: #546d78;
+}
+
+/* underline*/
+myu {
+    text-decoration: underline;
+    /*text-decoration-color: red;*/
 }
 
 /*
