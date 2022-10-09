@@ -52,12 +52,16 @@ J'ai redécouvert de JDR après plus de 20 ans de pause.
 
 ## En cours
 
-| Date      | Game                      | Type               | Commentaire                                | Note    |
-|-----------|---------------------------|--------------------|--------------------------------------------|---------|
-| 2021-2022 | Advanced Fighting Fantasy | Heroic Fantasy     | Parfait pour l'initiation ou le jeu rapide | **5/5** |
-| 2022      | GURPS 3e Psionics         | Generic system     | Une vraie bible                            | **5/5** |
-| 2022      | Ars Magica                | Middle-Age Fantasy | Un système de jeu et de magie fascinant    | **5/5** |
-| 2022      | Troika!                   | Generic system     | Un jeu psychédélique sur base de AFF       | **5/5** |
+| Date      | Game                          | Type               | Commentaire                                      | Note    |
+|-----------|-------------------------------|--------------------|--------------------------------------------------|---------|
+| 2021-2022 | Advanced Fighting Fantasy     | Heroic Fantasy     | Parfait pour l'initiation ou le jeu rapide       | **5/5** |
+| 2022      | GURPS 3e Psionics             | Generic system     | Une vraie bible                                  | **5/5** |
+| 2022      | Ars Magica                    | Middle-Age Fantasy | Un système de jeu et de magie fascinant          | **5/5** |
+| 2022      | Troika!                       | Generic system     | Un jeu psychédélique sur base de AFF             | **5/5** |
+| 2022      | Basic Roleplaying System      | Generic system     | On est ou BRPS ou GURPS...                       | 4/5     |
+| 2022      | Légendes de la Valée des Rois | Historique         | Bon livret univers, règles injouables            | 2/5     |
+| 2022      | EW System                     | Generic system     | Simple au début, et puis ça devient compliqué... | 3/5     |
+| 2022      | Savage World                  | Generic System     | Je ne suis pas emballé                           | 3/5     |
 
 ## Palmarès des investigations récentes
 

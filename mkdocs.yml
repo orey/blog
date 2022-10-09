@@ -34,9 +34,10 @@ site_url: https://orey.github.io/blog
 nav:
 - Home: index.md
 - Blog:
-    - 'August/September 2022': 'blog/202209.md'
-    - 'June/July 2022': 'blog/202206.md'
-    - 'May 2022': 'blog/202205.md'
+    - 'Octobre 2022': 'blog/202210.md'
+    - 'Août/septembre 2022': 'blog/202209.md'
+    - 'Juin/juillet 2022': 'blog/202206.md'
+    - 'Mai 2022': 'blog/202205.md'
     - 'November 2021': 'blog/202111.md'
     - 'September 2020': 'blog/202009.md'
     - 'August 2020': 'blog/202008.md'
