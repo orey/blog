@@ -1,6 +1,6 @@
 ---
 tags:
-    - FightingFantasy
+    - Fighting Fantasy
     - Download
 ---
 

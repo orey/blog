@@ -34,7 +34,7 @@ site_url: https://orey.github.io/blog
 nav:
 - Home: index.md
 - Blog:
-    - 'Octobre 2022': 'blog/202210.md'
+    - 'Octobre/novembre 2022': 'blog/202210.md'
     - 'Août/septembre 2022': 'blog/202209.md'
     - 'Juin/juillet 2022': 'blog/202206.md'
     - 'Mai 2022': 'blog/202205.md'
@@ -54,6 +54,7 @@ nav:
 #    - 'Players Handbook': 'pages/players.md'
 #    - 'Game Masters Guide': 'pages/gms.md'
 - Downloads:
+    - 'Ghostbusters': 'downloads/ghostbusters.md'
     - 'Fighting Fantasy': 'downloads/fighting-fantasy.md'
     - 'Risus': 'downloads/risus.md'
     - 'La grande Liste des intrigues de JDR': 'downloads/grande-liste.md'

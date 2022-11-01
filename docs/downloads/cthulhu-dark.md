@@ -1,6 +1,6 @@
 ---
 tags:
-    - Cthulhu-Dark
+    - Cthulhu Dark
     - Download
 ---
 

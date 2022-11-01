@@ -3,6 +3,7 @@ tags:
     - Mega
     - Troika
     - Froika
+    - Pages
 ---
 
 # Intro

@@ -1,6 +1,6 @@
 ---
 tags:
-    - DungeonSquad
+    - Dungeon Squad
     - Download
 ---
 

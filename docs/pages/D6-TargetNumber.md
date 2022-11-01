@@ -1,6 +1,7 @@
 ---
 tags:
     - D6 System
+    - Pages
 ---
 
 # La courbe de Gauss des probabilités d'un jet de 3D6

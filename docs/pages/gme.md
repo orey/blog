@@ -3,6 +3,7 @@ tags:
     - Mythic
     - GME
     - Fudge
+    - Pages
 ---
 
 ![CoC Wendigo](../images/CoC-Wendigo.png)

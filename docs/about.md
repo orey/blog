@@ -19,6 +19,7 @@ Sur itch, je suis [là](https://rouboudou.itch.io/).
 
 | Repo dédiés                                    | Contenu                                                                                         | Statut   |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------|----------|
+| <https://github.com/orey/jdr-ghostbusters>     | Ghostbusters                                                                                    | Stable   |
 | <https://github.com/orey/cthulhu-dark-fr>      | Cthulhu Dark                                                                                    | Stable   |
 | <https://github.com/orey/jdr-biglist-fr>       | La Grande liste des intrigues de JDR                                                            | Stable   |
 | <https://github.com/orey/jdr-dungeon-squad-fr> | DungeonSquad!                                                                                   | A revoir |
@@ -33,18 +34,19 @@ Sur itch, je suis [là](https://rouboudou.itch.io/).
 
 # Dernières livraisons
 
-| Date | JDR                 | Type              | Livrable                                                                                                     | Format | Ref | Itch | Commentaire                                                 |
-|------|---------------------|-------------------|--------------------------------------------------------------------------------------------------------------|--------|-----|------|-------------------------------------------------------------|
-| 2022 | Fighting Fantasy    | JDR               | <https://orey.github.io/blog/downloads/fighting-fantasy>                                                     | PDF    | 13  | Y    | Le jeu complet en deux pages                                |
-| 2022 | Risus               | JDR + aide de jeu | <https://rouboudou.itch.io/risus>                                                                            | PDF    | 12  | Y    | Un travail de meilleur qualité                              |
-| 2022 | Cthulhu Dark        | JDR               | <https://rouboudou.itch.io>                                                                                  | PDF    | 11  | Y    | Le jeux complet en deux versions                            |
-| 2022 | Tous                | Aide de jeu       | <https://rouboudou.itch.io/la-grande-liste-des-intrigues-de-jdr>                                             | PDF    | 06  | Y    | La Grande Liste des intrigues de JDR, traduction originales |
-| 2022 | Mythic              | GM Emulator       | <https://github.com/orey/jdr/blob/master/Mythic-fr/MythicGME-EcranMJ-VersionFrancaise-OreyJdr05.pdf>         | PDF    | 05  | N    | Les tables de Mythic en français                            |
-| 2021 | Fudge               | JDR               | <https://rouboudou.itch.io/fudge>                                                                            | PDF    | 04  | Y    | Fudge en une page                                           |
-| 2021 | Fighting Fantasy VF | JDR               | <https://github.com/orey/jdr/blob/master/FightingFantasys-fr/FightingFantasy-VersionFrancaise-OreyJdr03.pdf> | PDF    | 03  | N    | Traduction et adaptation originale                          |
-| 2021 | Tous                | Aide de jeu       | <https://rouboudou.itch.io/dungeonsquad-fr>                                                                  | PDF    | 02  | Y    | Générateur de labyrinthe pour JDR                           |
-| 2021 | DungeonSquad! VF    | JDR pour enfants  | <https://rouboudou.itch.io/dungeonsquad-fr>                                                                  | PDF    | 01  | Y    | Traduction et adaptation originale                          |
-| 2021 | D&D 5e Basic        | Couverture        | <https://github.com/orey/DandD/blob/master/DandD_5e_BasicEditionLuluCover/Cover.pdf>                         | PDF    |     | N    | Pour Lulu.com                                               |
+| Date | JDR                 | Type              | Livrable                                                                                                     | Format | Ref | Itch | Commentaire                                                |
+|------|---------------------|-------------------|--------------------------------------------------------------------------------------------------------------|--------|-----|------|------------------------------------------------------------|
+| 2022 | Ghostbusters        | JDR               | <https://orey.github.io/blog/downloads/ghostbusters>                                                         | PDF    | 14  | Y    | Les règles complètes en français                           |
+| 2022 | Fighting Fantasy    | JDR               | <https://orey.github.io/blog/downloads/fighting-fantasy>                                                     | PDF    | 13  | Y    | Le jeu complet en deux pages                               |
+| 2022 | Risus               | JDR + aide de jeu | <https://rouboudou.itch.io/risus>                                                                            | PDF    | 12  | Y    | Un travail de meilleur qualité                             |
+| 2022 | Cthulhu Dark        | JDR               | <https://rouboudou.itch.io>                                                                                  | PDF    | 11  | Y    | Le jeux complet en deux versions                           |
+| 2022 | Tous                | Aide de jeu       | <https://rouboudou.itch.io/la-grande-liste-des-intrigues-de-jdr>                                             | PDF    | 06  | Y    | La Grande Liste des intrigues de JDR, traduction originale |
+| 2022 | Mythic              | GM Emulator       | <https://github.com/orey/jdr/blob/master/Mythic-fr/MythicGME-EcranMJ-VersionFrancaise-OreyJdr05.pdf>         | PDF    | 05  | N    | Les tables de Mythic en français                           |
+| 2021 | Fudge               | JDR               | <https://rouboudou.itch.io/fudge>                                                                            | PDF    | 04  | Y    | Fudge en une page                                          |
+| 2021 | Fighting Fantasy VF | JDR               | <https://github.com/orey/jdr/blob/master/FightingFantasys-fr/FightingFantasy-VersionFrancaise-OreyJdr03.pdf> | PDF    | 03  | N    | Traduction et adaptation originale                         |
+| 2021 | Tous                | Aide de jeu       | <https://rouboudou.itch.io/dungeonsquad-fr>                                                                  | PDF    | 02  | Y    | Générateur de labyrinthe pour JDR                          |
+| 2021 | DungeonSquad! VF    | JDR pour enfants  | <https://rouboudou.itch.io/dungeonsquad-fr>                                                                  | PDF    | 01  | Y    | Traduction et adaptation originale                         |
+| 2021 | D&D 5e Basic        | Couverture        | <https://github.com/orey/DandD/blob/master/DandD_5e_BasicEditionLuluCover/Cover.pdf>                         | PDF    |     | N    | Pour Lulu.com                                              |
 
 # Investigations récentes
 

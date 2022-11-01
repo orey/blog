@@ -1,3 +1,9 @@
+---
+tags:
+    - Enterprise RPG
+    - Pages
+---
+
 # The Enterprise RPG
 
 # Traits

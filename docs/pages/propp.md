@@ -1,3 +1,9 @@
+---
+tags:
+    - Vladimir Propp
+    - Pages
+---
+
 ![Morphology](../images/propp/morphology-book.png)
 
 Vladimir Propp est un sociologue qui, travaillant sur le recueil de contes russes d'Affanasiev, se rend compte que ces derniers ont une structure abstraite très précise, et que cette structure forme un genre d'équation générale. Il publie ses travaux dans un livre *Morphologie du conte populaire*.

@@ -1,3 +1,9 @@
+---
+tags:
+    - PBTA
+    - Pages
+---
+
 Certains jeux récents, notamment la vague PbtA ([Powered by the Apocalypse](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse)), reprennent à leur compte des questions vieilles comme le JDR (du roleplay ou des règles, disait-on dans le temps) pour leur apporter des "solutions" pour le moins particulières. Ces solutions méritent un examen détaillé.
 
 # Historique

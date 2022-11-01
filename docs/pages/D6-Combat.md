@@ -2,7 +2,7 @@
 tags:
     - Risus
     - D6 System
-    - StarWarsRPG
+    - Star Wars
 ---
 
 # Contexte

@@ -1,8 +1,8 @@
 ---
 tags:
-    - FightingFantasy
+    - Fighting Fantasy
     - Ghostbusters
-    - StarWarsRPG
+    - Star Wars
     - Risus
     - D6 System
 ---
