@@ -39,7 +39,7 @@ Sometimes in English, sometimes in French, various notes, studies and comments a
 ## Ghostbusters (1986)
 
 <table>
-    <tr><td><img src="./images/fighting-fantasy/proj.png" width="180px"></td>
+    <tr><td><img src="./images/ghostbusters/image-game.png" width="180px"></td>
     <td><b>Ghostbusters (1986), les règles en français</b><br>
     par <a href="./about">rouboudou</a><br>
     <button onclick="window.location.href='./downloads/ghostbusters'">Page dédiée</button><br>
