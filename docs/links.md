@@ -3,6 +3,13 @@ tags :
     - Links
 ---
 
+# Quelques super liens
+
+* <http://la-forge-de-papier.over-blog.com> : des restaurations hallucinantes des règles et modules de D&D et AD&D en français. A consulter de suite.
+* <https://dungeonslayers.wordpress.com/> : un site de fans sur DungeonsSplayer, le JDR, disponible en V4 et en français.
+* <http://retro-donj.fr> : un fanzine sur D&D old-school très intéressant (j'ai appris plein de choses).
+
+
 # Quelques liens français
 
 | Type                                                 | Site                                                                     |
