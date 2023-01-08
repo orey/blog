@@ -1,7 +1,7 @@
 site_name: Cthulhu Fhtagn A Lot
 site_description: A Grognard Blog
 site_author: Olivier Rey
-copyright: Copyleft Olivier Rey 2017-2022 (GNU FDL)
+copyright: Copyleft Olivier Rey 2017-2023 (GNU FDL)
 theme:
     name: material
     palette:
@@ -34,6 +34,7 @@ site_url: https://orey.github.io/blog
 nav:
 - Home: index.md
 - Blog:
+    - 'Janvier 2023': 'blog/202301.md'
     - 'Octobre/novembre 2022': 'blog/202210.md'
     - 'Août/septembre 2022': 'blog/202209.md'
     - 'Juin/juillet 2022': 'blog/202206.md'
