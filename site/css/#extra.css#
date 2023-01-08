@@ -39,13 +39,6 @@ div.md-sidebar__scrollwrap {
     background-color: #546d78;
 }
 
-.md-nav__link {
-    color: #546d78;
-    font-weight: bold;
-    background-color: #546d78;
-}*/
-
-
 button {
     font-size:16px;
     border-radius: 4px;
