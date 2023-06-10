@@ -34,6 +34,7 @@ site_url: https://orey.github.io/blog
 nav:
 - Home: index.md
 - Blog:
+    - 'Juin 2023': 'blog/202306.md'
     - 'Mai 2023': 'blog/202305.md'
     - 'Janvier 2023': 'blog/202301.md'
     - 'Octobre/novembre 2022': 'blog/202210.md'
@@ -47,6 +48,7 @@ nav:
     - 'TTRPG websites': links-en.md
     - 'Sites JDR': links.md
 - Etudes/Studies:
+    - 'Les pouvoirs psychiques dans le JDR': 'pages/psionics.md'
     - 'Brève étude des Game Master Emulator': 'pages/gme.md'
     - 'Comparaison des systèmes D6': 'pages/D6-systems.md'
     - 'Target Number dans le système D6': 'pages/D6-TargetNumber.md'

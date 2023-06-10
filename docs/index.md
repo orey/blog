@@ -22,12 +22,12 @@
 <img src="./images/lutrin.png" width="400px">
 </td>
 <td style="font-size:14px;">
-<a href="./blog/202305/">Le Blog</a>
+<a href="./blog/202306/">Le Blog</a>
 <br>
 Parfois en français, parfois en anglais, diverses notes, études et commentaires sur les JDR
 </td>
 <td style="font-size:14px;">
-<a href="./blog/202305/">The Blog</a>
+<a href="./blog/202306/">The Blog</a>
 <br>
 Sometimes in English, sometimes in French, various notes, studies and comments about TTRPG
 </td>
