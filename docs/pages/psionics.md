@@ -29,85 +29,85 @@ Pour autant, en lisant entre les lignes, l'introduction des démons dans le jeu 
 
 Comme souvent dans OD&D, les règles sont confuses, incomplètes, éclatées dans le tout le livret, entrecoupées de choses qui n'ont rien à voir (le Druide, un système de combat alternatif basé sur la **Dextérité Ajustée**, etc.). Au niveau édition, *Eldritch Wizardry* est un des pires exemples de l'époque.
 
-## Mécanique
+## Obtention des Pouvoirs Psychiques (PoP)
 
 A la création du PJ, un score de 15 ou plus dans INTelligence, WISdom ou CHArisma donne la possibilité de tester si le personnage dispose d'un pouvoir psy (si le personnage est humain). Il est nécessaire de faire 91 ou plus sur 1d100 pour que ce soit le cas. Les moines et les druides ne peuvent pas avoir de pouvoirs psychiques.
 
-Si le personnage est éligible, il faut faire un nouveau jet de 1d100 pour déterminer le **potentiel psychique** (PP, purement aléatoire). Suivant le PP, le PJ obtient un malus ou un bonus pour avoir des **compétences psychiques** (CP, de -6% à +3%).
+Si le personnage est éligible, il faut faire un nouveau jet de 1d100 pour déterminer le **potentiel psychique** (PP, purement aléatoire). Suivant le PP, le PJ obtient un malus ou un bonus pour avoir des **pouvoirs psychiques** (PoP, de -6% à +3%).
 
-| PP (1d100) | Bonus/Malus au jet de CP (BMCP) |
-|------------|---------------------------------|
-| 01–10      | -6% par niveau (cumulatif)      |
-| 11–25      | -5% par niveau (cumulatif)      |
-| 26–50      | -4% par niveau (cumulatif)      |
-| 51–75      | Aucun                           |
-| 76–90      | +1% par niveau (cumulatif)      |
-| 91–99      | +2% par niveau (cumulatif)      |
-| 00         | +3% par niveau (cumulatif)      |
+| PP (1d100) | Bonus/Malus au jet d'obtention de PoP (BMPoP) |
+|------------|-----------------------------------------------|
+| 01–10      | -6% par niveau (cumulatif)                    |
+| 11–25      | -5% par niveau (cumulatif)                    |
+| 26–50      | -4% par niveau (cumulatif)                    |
+| 51–75      | Aucun                                         |
+| 76–90      | +1% par niveau (cumulatif)                    |
+| 91–99      | +2% par niveau (cumulatif)                    |
+| 00         | +3% par niveau (cumulatif)                    |
 
-*Table 1 : PP et BMCP*
+La chance de base pour avoir un PoP est de 10% + BMPoP par niveau. Ainsi, un perso du 4ème niveau avec un PP de 90 aura une base de 10 + 1 = 11 soit 11 x 4 = 44% de chances d'avoir un PoP. Cela veut dire aussi qu'un personnage de niveau 10 aura 100% d'avoir un PoP.
 
-La chance de base pour avoir une CP est de 10% + BMCP par niveau. Ainsi, un perso du 4ème niveau avec un PP de 90 aura une base de 10 + 1 = 11 soit 11 x 4 = 44% de chances d'avoir une CP. Cela veut dire aussi qu'un personnage de niveau 10 aura 100% d'avoir une CP.
+Notons enfin que donc, ce jet se produit à chaque changement de niveau.
 
-Cerise sur le gâteau : si le PJ obtient une CP, alors s'il réussit un jet de 1d100 sous son PP, il en a automatiquement une seconde !
+Cerise sur le gâteau : si le PJ obtient un PoP, alors s'il réussit un jet de 1d100 sous son PP, il en a automatiquement un second !
 
 Nous sommes en plein dans le monde Gygaxien des **règles gigognes** :
 
 * R1 : INT ou WIS ou CHA > 15,
-* R2 : Si R1 OK, jet de 1d100 pour PP et BMCP,
-* R3 : Quand R2 OK, jet de BMCP pour obtenir une CP,
-* R4 : Si R3 OK, si succès, alors jet de PP pour obtenir une seconde CP.
+* R2 : Si R1 OK, jet de 1d100 pour PP et BMPoP,
+* R3 : Quand R2 OK, jet de BMPoP pour obtenir un PoP,
+* R4 : Si R3 OK, si succès, alors jet de PP pour obtenir un second PoP.
 
 Nous verrons apparaître ce genre de règles gigognes dans les autres éditions de D&D signées de Gygax.
 
-## Compétences psychiques (CP)
+## Pouvoirs psychiques (PoP)
 
-### Liste des compétences
+### Liste des pouvoirs
 
 La liste originale est présentée ci-dessous.
 
 ![Listedescompetencespsioniques](../images/od&d-psionics.png)
 
-La liste des CP est fournie ci-dessous, retriée par type (interprétation personnelle) et par classe de personnages.
+La liste des PoP est fournie ci-dessous, retriée par type (interprétation personnelle) et par classe de personnages.
 
-| 1d3-1d12 | 1dX | Compétence                        | Type | Guerriers & Voleurs | Magiciens | Clercs  |
-|----------|-----|-----------------------------------|------|---------------------|-----------|---------|
-| 1-1      | 1   | Réduction                         | A    | Oui (B)             | Oui (B)   |         |
-| 1-2      | 2   | Expansion                         | A    | Oui (B)             | Oui (B)   |         |
-| 1-3      | 3   | Lévitation                        | A    | Oui (B)             | Oui (B)   | Oui (B) |
-| 1-4      | 4   | Changer le poids du corps         | A    | Oui (B)             |           | Oui (B) |
-| 1-5      | 5   | Corps comme arme                  | A    | Oui (B)             |           |         |
-| 1-6      | 6   | Réarrangement moléculaire         | A    | Oui (S)             |           | Oui (S) |
-| 1-7      | 7   | Manipulation moléculaire          | A    | Oui (S)             |           |         |
-| 1-8      | 8   | Contrôle du corps                 | A    | Oui (S)             |           |         |
-| 1-9      | 9   | Barrière mentale                  | A    | Oui (S)             |           |         |
-| 1-10     | 10  | Agitation moléculaire             | A    |                     | Oui (B)   |         |
-| 1-11     | 11  | Altération de la forme            | A    |                     | Oui (S)   |         |
-| 1-12     | 12  | Contrôle cellulaire               | A    |                     |           | Oui (B) |
-| 2-1      | 13  | Contrôle de l'esprit sur le corps | A    | Oui (B)             |           | Oui (B) |
-| 2-2      | 14  | Invisibilité                      | A    | Oui (B)             |           |         |
-| 2-3      | 15  | Hibernation                       | A    | Oui (B)             |           |         |
-| 2-4      | 16  | Télékinésie                       | A    | Oui (S)             | Oui (S)   |         |
-| 2-5      | 17  | Contrôle de l'énergie             | A    | Oui (S)             |           |         |
-| 2-6      | 1   | Domination                        | B    | Oui (B)             |           | Oui (B) |
-| 2-7      | 2   | Hypnose                           | B    |                     | Oui (B)   | Oui (B) |
-| 2-8      | 3   | Projection télépathique           | B    |                     | Oui (S)   | Oui (S) |
-| 2-9      | 4   | Altération de l'aura              | B    |                     |           | Oui (S) |
-| 2-10     | 5   | Domination des masses             | B    |                     |           | Oui (S) |
-| 2-11     | 6   | ESP                               | B    |                     | Oui (B)   | Oui (B) |
-| 2-12     | 7   | Empathie                          | B    |                     |           | Oui (S) |
-| 3-1      | 8   | Télépathie animale                | B    |                     |           | Oui (B) |
-| 3-2      | 1   | Prémonition                       | C    | Oui (B)             | Oui (S)   | Oui (S) |
-| 3-3      | 2   | Clairaudience                     | C    | Oui (B)             | Oui (B)   |         |
-| 3-4      | 3   | Clairvoyance                      | C    | Oui (B)             | Oui (B)   |         |
-| 3-5      | 4   | Détection du mal/du bien          | C    |                     | Oui (B)   | Oui (B) |
-| 3-6      | 5   | Détection de la magie             | C    |                     | Oui (B)   |         |
-| 3-7      | 1   | Marche dimensionnelle             | D    | Oui (S)             |           | Oui (S) |
-| 3-8      | 2   | Projection astrale                | D    | Oui (S)             | Oui (S)   | Oui (S) |
-| 3-9      | 3   | Porte dimensionnelle              | D    |                     | Oui (S)   |         |
-| 3-10     | 4   | Téléportation                     | D    |                     | Oui (S)   |         |
-| 3-11     | 5   | Substance éthérée                 | D    |                     | Oui (S)   |         |
-| 3-12     | 6   | Voyage probabiliste               | D    |                     |           | Oui (S) |
+| Pouvoir Psychique (PoP)           | Type | Guerriers & Voleurs | Magiciens  | Clercs     |
+|-----------------------------------|------|---------------------|------------|------------|
+| Réduction                         | A    | 1 Oui (B)           | 1 Oui (B)  |            |
+| Expansion                         | A    | 2 Oui (B)           | 2 Oui (B)  |            |
+| Lévitation                        | A    | 3 Oui (B)           | 3 Oui (B)  | 1 Oui (B)  |
+| Changer le poids du corps         | A    | 4 Oui (B)           |            | 2 Oui (B)  |
+| Corps comme arme                  | A    | 5 Oui (B)           |            |            |
+| Réarrangement moléculaire         | A    | 6 Oui (S)           |            | 3 Oui (S)  |
+| Manipulation moléculaire          | A    | 7 Oui (S)           |            |            |
+| Contrôle du corps                 | A    | 8 Oui (S)           |            |            |
+| Barrière mentale                  | A    | 9 Oui (S)           |            |            |
+| Agitation moléculaire             | A    |                     | 4 Oui (B)  |            |
+| Altération de la forme            | A    |                     | 5 Oui (S)  |            |
+| Contrôle cellulaire               | A    |                     |            | 4 Oui (B)  |
+| Contrôle de l'esprit sur le corps | A    | 10 Oui (B)          |            | 5 Oui (B)  |
+| Invisibilité                      | A    | 11 Oui (B)          |            |            |
+| Hibernation                       | A    | 12 Oui (B)          |            |            |
+| Télékinésie                       | A    | 13 Oui (S)          | 6 Oui (S)  |            |
+| Contrôle de l'énergie             | A    | 14 Oui (S)          |            |            |
+| Domination                        | B    | 15 Oui (B)          |            | 6 Oui (B)  |
+| Hypnose                           | B    |                     | 7 Oui (B)  | 7 Oui (B)  |
+| Projection télépathique           | B    |                     | 8 Oui (S)  | 8 Oui (S)  |
+| Altération de l'aura              | B    |                     |            | 9 Oui (S)  |
+| Domination des masses             | B    |                     |            | 10 Oui (S) |
+| ESP                               | B    |                     | 9 Oui (B)  | 11 Oui (B) |
+| Empathie                          | B    |                     |            | 12 Oui (S) |
+| Télépathie animale                | B    |                     |            | 13 Oui (B) |
+| Prémonition                       | C    | 16 Oui (B)          | 10 Oui (S) | 14 Oui (S) |
+| Clairaudience                     | C    | 17 Oui (B)          | 11 Oui (B) |            |
+| Clairvoyance                      | C    | 18 Oui (B)          | 12 Oui (B) |            |
+| Détection du mal/du bien          | C    |                     | 13 Oui (B) | 15 Oui (B) |
+| Détection de la magie             | C    |                     | 14 Oui (B) |            |
+| Marche dimensionnelle             | D    | 19 Oui (S)          |            | 16 Oui (S) |
+| Projection astrale                | D    | 20 Oui (S)          | 15 Oui (S) | 17 Oui (S) |
+| Porte dimensionnelle              | D    |                     | 16 Oui (S) |            |
+| Téléportation                     | D    |                     | 17 Oui (S) |            |
+| Substance éthérée                 | D    |                     | 18 Oui (S) |            |
+| Voyage probabiliste               | D    |                     |            | 18 Oui (S) |
 
 Nous pouvons classer ces pouvoirs en plusieurs catégories (ce n'est pas dans le livre original) :
 
@@ -116,13 +116,15 @@ Nous pouvons classer ces pouvoirs en plusieurs catégories (ce n'est pas dans le
 * C : Sens,
 * D : Voyage psychique.
 
-Les compétences sont présentes chez les types de personnages soient au niveau Basique (B) soit au niveau Supérieur (S). Le fait qu'une CP soit Supérieure ne se traduit (dans les règles) que par le fait qu'elle soit détectable par un autre personnage ayant des pouvoirs psy au double de la distance. Les PJ ne peuvent pas avoir plus de CP Supérieures que de CP Basiques.
+Les pouvoirs sont présents chez les types de personnages soient au niveau Basique (B) soit au niveau Supérieur (S). Le fait qu'un PoP soit Supérieur ne se traduit (dans les règles) que par le fait qu'elle soit détectable par un autre personnage ayant des pouvoirs psy au double de la portée du pouvoir (voir plus bas détection des pouvoirs psychiques).
 
-La détermination des CPs est aléatoire mais il est suggéré de restreindre le choix à des types de CP cohérentes. Pour se faire, j'ai créé une première colonne proposant de lancer 1d3 et 1d12 pour tirer une CP aléatoirement. Il est aussi possible de faire des jets spéciaux (colonne 1dX) pour choisir dans sa catégorie. Évidemment, rejouer si le PJ possède déjà la CP.
+Les PJ ne peuvent pas avoir plus de PoP Supérieurs que de PoP Basiques.
+
+Cette distinction est peu développée et on imagine que le but était d'avoir la possibilité de deux puissances différentes dans les mêmes pouvoirs. Par contre, les pouvoirs eux-mêmes n'utilisent pas cette distinction.
+
+La détermination des PoPs est aléatoire mais il est suggéré de restreindre le choix à des types de PoP cohérents.
 
 ### A - Contrôle de la matière et de l'énergie
-
-Lancer 1d20 et rejouer en cas de 18, 19, 20.
 
 On retrouve dans cette dimension pas mal de pouvoirs :
 
@@ -146,8 +148,6 @@ On retrouve dans cette dimension pas mal de pouvoirs :
 
 ### B - Contrôle via l'esprit de l'esprit
 
-Lancer 1d8.
-
 On retrouve les pouvoirs suivants :
 
 * Domination, pour forcer une personne à faire ce que le PJ souhaite ;
@@ -161,8 +161,6 @@ On retrouve les pouvoirs suivants :
 
 ### C - Sens 
 
-Lancer 1d6 et rejouer en cas de 6.
-
 On retrouve les pouvoirs suivants :
 
 * Prémonition ;
@@ -173,8 +171,6 @@ On retrouve les pouvoirs suivants :
 
 ### D - Voyage psychique
 
-Lancer 1d6.
-
 * Marche dimensionnelle ;
 * Projection astrale ;
 * Porte dimensionnelle
@@ -184,34 +180,93 @@ Lancer 1d6.
 
 ## Modes d'Attaque et Modes de Défense
 
-Une fois que le PJ a sa première CP, il gagne son premier **Mode d'Attaque** psychique (MA). Les autres MA sont gagnés toutes les 4 CP (5 pour les Guerriers).
+Une fois que le PJ a son premier PoP, il gagne son premier **Mode d'Attaque** psychique (MA) : *Explosion psionique* (voir tableau ci-dessous).
 
-Cette dernière consigne est un peu ambiguë. Elle sous-entend que, lors du passage de niveau, le PJ ayant des pouvoirs psychiques va refaire un test pour avoir une nouvelle CP (sachant qu'il peut en obtenir au maximum deux par niveau). Il gagnera un mode d'attaque alors en fonction du nombre de CP dont il dispose.
+Les autres MA sont gagnés tous les 4 PoP (5 pour les Guerriers).
 
-Concernant les **Modes de Défense**, encore une fois les règles ne sont pas claires. Il est dit qu'ils sont acquis à raison de un toutes les 3 CP acquises (4 pour les Guerriers). Comme les PJs ayant des pouvoirs psychiques sont capables de combattre psychiquement, il faut supposer que cela marche comme pour les MAs et que le PJ gagne son premier MD avec sa première CP, puis ensuite toutes les 3 (ou 4) CP acquises.
+Cette dernière consigne est un peu vague. Elle sous-entend que, lors du passage de niveau, le PJ ayant des pouvoirs psychiques va refaire un test pour avoir un nouveau PoP (sachant qu'il peut en obtenir au maximum deux par niveau). Il gagnera un mode d'attaque alors en fonction du nombre de PoP dont il dispose.
+
+Concernant les **Modes de Défense** (MD), encore une fois les règles ne sont pas claires. Il est dit qu'ils sont acquis à raison de un tous les 3 PoP acquis (4 pour les Guerriers).
+
+Comme les PJs ayant des pouvoirs psychiques sont capables de combattre psychiquement, il faut supposer que les MDs marchent comme pour les MAs et que le PJ gagne son premier MD avec son premier PoP, puis ensuite tous les 3 (ou 4) PoP acquis.
+
+Une autre interprétation possible serait qu'il faut vraiment avoir 3 ou 4 PoP pour gagner son premier MD. Je trouve cette interprétation un peu bizarre au regard de la suite qui présuppose, dans le combat psionique, que l'attaquant psy a un MA et que le défenseur a un MD. Un défenseur ayant des pouvoirs psychiques sans MD ouvre une brèche dans le système.
+
+Il n'est pas expliqué comment les MA/MD sont attribués : aléatoirement (D6 en rejouant le 6) ou séquentiellement, en utilisant les lettres, ou par simple choix. Comme la puissance de ces attaques est diverse et non linéaire, je pense pas que les lettres soient très importantes pour les MA. Pour les MD, il y a une certaine progression. Au DM de choisir son mode d'attribution.
 
 La liste des modes d'attaque et de défense est présentée ci-dessous avec leur coût en **Force Psionique** entre parenthèses.
 
-| Modes d'Attaque (MA), toutes classes | Modes de Défense (MD), toutes classes |
-|--------------------------------------|---------------------------------------|
-| A. Explosion psionique (20)          | F. Esprit vide (1)                    |
-| B. Poussée de l'esprit (10)          | G. Bouclier de pensée (2)             |
-| C. Coup de fouet sur l'ego (15)      | H. Barrières mentales (4)             |
-| D. Imposition d'identité (10)        | I. Forteresse intellectuelle (7)      |
-| E. Écrasement psychique (25*)        | J. Tour de volonté de fer (10)        |
+| Modes d'Attaque (MA), toutes classes     | Modes de Défense (MD), toutes classes |
+|------------------------------------------|---------------------------------------|
+| A. Explosion psionique (20)[x3]          | F. Esprit vide (1)                    |
+| B. Poussée de l'esprit (10)[x1]          | G. Bouclier de pensée (2)             |
+| C. Coup de fouet sur l'ego (15)[x3]      | H. Barrières mentales (4)             |
+| D. Imposition d'identité (10)[x1]        | I. Forteresse intellectuelle (7)      |
+| E. Écrasement psychique (25&spades;)[x3] | J. Tour de volonté de fer (10)        |
 
-(*) Si le PJ possède moins de 25 points de FP, il est demandé au MJ de "modifier la probabilité de succès de manière *ad hoc*"
+&spades; Si le PJ possède moins de 25 points de FP, il est demandé au MJ de "modifier la probabilité de succès de manière *ad hoc*".
 
-## Force Psionique d'Attaque (FPA)
+L'utilisation des MAs peut être détectée par un PJ ou PNJ ayant des pouvoirs psychiques. Le facteur entre crochets donne le multiplicateur de portée du MA dans lequel le PJ ou PNJ peut détecter son usage. Pour mémoire, les pouvoirs 
 
-La FPA est calculée en additionnant :
+## Force Psionique (FP), Force Psionique d'Attaque (FPA) et de Défense (FPD)
 
-* Le PP,
-* Le nombre de CP x 2,
-* Le nombre de MA x 5,
-* Le nombre de MD x 5.
+Les formules sont les suivantes :
+
+* FPA = PP + 2 x nombre(PoP) + 5 x nombre(MA) + 5 x nombre(MD)
+* FPD = FPA
+* FP = FPA + FPD = 2 x FPA
+
+Ces scores serviront de réservoirs de points pour les attaques et les défenses psychiques en combat psychique, mais aussi pour les divers PoP que les PJs auront accumulés et dont le coût est expliqué dans les descriptions.
+
+A chaque fois que de la FP est consommée, il faut répartir la consommation à 50%-50% entre la FPA et la FPD, cela pour toutes les consommations. En gros, la FP est un réservoir de points divisés en deux avec une consommation égale dans les deux sous-réservoirs (cela vaut aussi pour la consommation des points en combat, soit avec les MA et MD).
+
+La FP se récupère assez vite en cessant toute activité psychique et en suivant les indications de la table suivante.
+
+| Activité                            | Gain en FP          |
+|-------------------------------------|---------------------|
+| Marcher, parler et autres activités | 6 points par heure  |
+| Se reposer tranquillement           | 12 points par heure |
+| Dormir                              | 24 points par heure |
+
+## Détection des PoP et des MA
+
+La table ci-dessous présente les règles de détection des PoP et MA (nous avons utilisé les lettres pour désigner les MA) de PJs ou PNJs ayant des pouvoirs psychiques et détectant dans leur voisinage des créatures utilisant des pouvoirs.
+
+| Type                     | Niveau/Nom | Portée de la détection | % de base | Cumulatif par tour |
+|--------------------------|------------|------------------------|-----------|--------------------|
+| PoP                      | Basique    | Portée du pouvoir      | 10%       | Oui (+10%)         |
+| PoP                      | Supérieur  | 2 x Portée du pouvoir  | 10%       | Oui (+10%)         |
+| MA                       | A, C, E    | 3 x Portée du pouvoir  | 10%       | Oui (+10%)         |
+| MA                       | B, D       | Portée du pouvoir      | 10%       | Oui (+10%)         |
+| Objet psy                | -          | Portée du pouvoir      | 10%       | Oui (+10%)         |
+| Sort (idem psy)          | -          | Portée du sort         | 10%       | Oui (+10%)         |
+| Objet magique (idem psy) | -          | Portée du sort         | 10%       | Oui (+10%)         |
+
+Si le pouvoir est utilisé en continu, alors les chances de détection dans le cadre de la portée de détection grandissent de 10% par tour.
+
+La créature qui détecte ne pourra pas détecter un pouvoir qu'elle n'a pas, mais pourra, au premier tour détecter dans quelle direction le pouvoir est utilisé, et au second tour avec quelle puissance "relative" ce pouvoir est utilisé.
+
+Les sorts qui sont similaires aux pouvoirs psychiques seront détectés de la même façon que lesdits pouvoirs. Les objets magiques qui ont les mêmes fonctions que les objets psychiques seront, eux-aussi, détectés de la même façon.
+
+## Le PJ psionique selon OD&D
+
+Le PJ psionique a donc les caractéristiques suivantes :
+
+* PP avec BMPoP,
+* Liste des PoPs,
+* FP = FPA + FPD,
+* Listes des MAs et MDs.
+
+## Combat psychique
+
+
+
 
 *En cours*
+
+## Liens
+
+
 
 <div class="mydate">03-20 juin 2023</div>
 
