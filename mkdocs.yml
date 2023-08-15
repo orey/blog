@@ -34,6 +34,7 @@ site_url: https://orey.github.io/blog
 nav:
 - Home: index.md
 - Blog:
+    - 'Août 2023': 'blog/202308.md'
     - 'Juin 2023': 'blog/202306.md'
     - 'Mai 2023': 'blog/202305.md'
     - 'Janvier 2023': 'blog/202301.md'
@@ -58,6 +59,7 @@ nav:
 #    - 'Players Handbook': 'pages/players.md'
 #    - 'Game Masters Guide': 'pages/gms.md'
 - Downloads:
+    - 'OD&D Pouvoirs psioniques': 'downloads/eldritch-wizardry.md'
     - 'Ghostbusters': 'downloads/ghostbusters.md'
     - 'Fighting Fantasy': 'downloads/fighting-fantasy.md'
     - 'Risus': 'downloads/risus.md'

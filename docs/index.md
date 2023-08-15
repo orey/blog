@@ -22,12 +22,12 @@
 <img src="./images/lutrin.png" width="400px">
 </td>
 <td style="font-size:14px;">
-<a href="./blog/202306/">Le Blog</a>
+<a href="./blog/202308/">Le Blog</a>
 <br>
 Parfois en français, parfois en anglais, diverses notes, études et commentaires sur les JDR
 </td>
 <td style="font-size:14px;">
-<a href="./blog/202306/">The Blog</a>
+<a href="./blog/202308/">The Blog</a>
 <br>
 Sometimes in English, sometimes in French, various notes, studies and comments about TTRPG
 </td>
@@ -36,13 +36,23 @@ Sometimes in English, sometimes in French, various notes, studies and comments a
 
 # Téléchargements JDR gratuits
 
+## OD&D Eldritch Wizardry - Pouvoirs et combat psionique (1976)
+
+<table>
+    <tr><td><img src="./images/eldritch-wizardry/eldritch-wizardry-psioniques.png" width="180px"></td>
+    <td><b>OD&D Eldritch Wizardry - Pouvoirs et combat psionique (1976), les règles en français</b><br>
+    par <a href="./about">rouboudou</a><br>
+    <button  type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='./downloads/eldritch-wizardry'">Page dédiée</button><br>
+    </td></tr>
+</table>
+
 ## Ghostbusters (1986)
 
 <table>
     <tr><td><img src="./images/ghostbusters/image-game.png" width="180px"></td>
     <td><b>Ghostbusters (1986), les règles en français</b><br>
     par <a href="./about">rouboudou</a><br>
-    <button onclick="window.location.href='./downloads/ghostbusters'">Page dédiée</button><br>
+    <button  type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='./downloads/ghostbusters'">Page dédiée</button><br>
     </td></tr>
 </table>
 
@@ -52,7 +62,7 @@ Sometimes in English, sometimes in French, various notes, studies and comments a
     <tr><td><img src="./images/fighting-fantasy/proj.png" width="180px"></td>
     <td><b>Fighting Fantasy (1984) en français</b><br>
     par <a href="./about">rouboudou</a><br>
-    <button onclick="window.location.href='./downloads/fighting-fantasy'">Page dédiée</button><br>
+    <button  type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='./downloads/fighting-fantasy'">Page dédiée</button><br>
     </td></tr>
 </table>
 
@@ -64,7 +74,7 @@ Sometimes in English, sometimes in French, various notes, studies and comments a
 par <a href="./about">rouboudou</a><br>
 <button onclick="window.location.href='./downloads/cthulhu-dark'">Page dédiée</button><br>
 <br>
-<button type="button" onclick="window.location.href='https://orey.github.io/cthulhu-dark-fr'">Mini-site</button><br>
+<button type="button"  type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='https://orey.github.io/cthulhu-dark-fr'">Mini-site</button><br>
 </td></tr>
 </table>
 
@@ -74,7 +84,7 @@ par <a href="./about">rouboudou</a><br>
 <tr><td><img src="./images/grande-liste/proj2.png" width="180px"></td>
 <td><b>La Grande Liste des intrigues de JDR</b><br>
 par <a href="./about">rouboudou</a><br>
-<button onclick="window.location.href='./downloads/grande-liste'">Page dédiée</button>
+<button  type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='./downloads/grande-liste'">Page dédiée</button>
 </td></tr>
 </table>
 
@@ -84,7 +94,7 @@ par <a href="./about">rouboudou</a><br>
 <tr><td><img src="./images/risus/proj.png" width="180px"></td>
 <td><b>Risus, l'écran-jeu</b><br>
 par <a href="./about">rouboudou</a><br>
-<button onclick="window.location.href='./downloads/risus'">Page dédiée</button>
+<button  type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='./downloads/risus'">Page dédiée</button>
 </td></tr>
 </table>
 
@@ -94,7 +104,7 @@ par <a href="./about">rouboudou</a><br>
 <tr><td><img src="./images/mega/proj.png" width="180px"></td>
 <td><b>Méga motorisé par Risus</b><br>
 par <a href="./about">rouboudou</a><br>
-<button onclick="window.location.href='./downloads/mega'">Page dédiée</button>
+<button  type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='./downloads/mega'">Page dédiée</button>
 </td></tr>
 </table>
 
@@ -104,7 +114,7 @@ par <a href="./about">rouboudou</a><br>
 <tr><td><img src="./images/fudge/proj.png" width="180px"></td>
 <td><b>Fudge en une page</b><br>
 par <a href="./about">rouboudou</a><br>
-<button onclick="window.location.href='./downloads/fudge'">Page dédiée</button>
+<button  type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='./downloads/fudge'">Page dédiée</button>
 </td></tr>
 </table>
 
@@ -116,7 +126,7 @@ par <a href="./about">rouboudou</a><br>
 <tr><td><img src="./images/dungeonsquad/proj.png" width="180px"></td>
 <td><b>DungeonSquad! le JDR</b><br>
 par <a href="./about">rouboudou</a><br>
-<button onclick="window.location.href='./downloads/dungeonsquad'">Page dédiée</button>
+<button  type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='./downloads/dungeonsquad'">Page dédiée</button>
 </td></tr>
 </table>
 
@@ -127,7 +137,7 @@ par <a href="./about">rouboudou</a><br>
 <td><b>Première Fable, le JDR</b><br>
 par <a href="./about">rouboudou</a><br>
 Première Fable le JDR<br>
-<a href="https://orey.github.io/premierefable"><button  onclick="window.location.href='https://orey.github.io/premierefable';">Site dédié</button></a><br>
+<a href="https://orey.github.io/premierefable"><button  type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px"  onclick="window.location.href='https://orey.github.io/premierefable';">Site dédié</button></a><br>
 </td></tr>
 </table>
 
