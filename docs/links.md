@@ -56,6 +56,8 @@ tags :
 | Les meilleurs articles TTRPG traduits                | <https://ptgptb.fr>                                                      |
 | **S**                                                |                                                                          |
 | La Scénariothèque                                    | <https://www.scenariotheque.org/>                                        |
+| **U**                                                |                                                                          |
+| Univers OD&D                                         | <https://drive.google.com/file/d/1e3ajZrKyufbN28KpMcwOCo_xpaX2Mq4s/view> |
 | **V**                                                |                                                                          |
 | La voix d'Héort, ressources pour Glorantha           | <https://heort.wordpress.com/>                                           |
 |                                                      |                                                                          |
