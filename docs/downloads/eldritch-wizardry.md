@@ -43,7 +43,7 @@ Téléchargez le document.
 
 <table>
 <tr>
-<td><button type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='../../files/eldritch-wizardry/EldritchWizardry-PouvoirsEtCombatPsionique-FR-v1-0.pdf';">Télécharger v1.1</button></td>
+<td><button type="submit" style="font-size:16px;border-radius: 4px;font-weight: bold;background:#fa5c5c;color:white;padding:10px" onclick="window.location.href='../../files/eldritch-wizardry/EldritchWizardry-PouvoirsEtCombatPsionique-FR-v1-1.pdf';">Télécharger v1.1</button></td>
 <td style="font-size:16px;vertical-align:middle;">EldritchWizardry-PouvoirsEtCombatPsionique-FR-v1-1.pdf</td>
 </tr>
 <tr>
