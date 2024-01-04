@@ -1,7 +1,7 @@
 site_name: Cthulhu Fhtagn A Lot
 site_description: A Grognard Blog
 site_author: Olivier Rey
-copyright: Copyleft Olivier Rey 2017-2023 (GNU FDL)
+copyright: Copyleft Olivier Rey 2017-2024 (GNU FDL)
 theme:
     name: material
     palette:
@@ -34,6 +34,7 @@ site_url: https://orey.github.io/blog
 nav:
 - Home: index.md
 - Blog:
+    - 'Janvier 2024': 'blog/202401.md'
     - 'Novembre 2023': 'blog/202311.md'
     - 'Septembre 2023': 'blog/202309.md'
     - 'Août 2023': 'blog/202308.md'
@@ -47,9 +48,6 @@ nav:
     - 'November 2021': 'blog/202111.md'
     - 'September 2020': 'blog/202009.md'
     - 'August 2020': 'blog/202008.md'
-- 'Links/Liens':
-    - 'TTRPG websites': links-en.md
-    - 'Sites JDR': links.md
 - Etudes/Studies:
     - 'Les pouvoirs psychiques dans le JDR': 'pages/psionics.md'
     - 'Brève étude des Game Master Emulator': 'pages/gme.md'
@@ -70,6 +68,9 @@ nav:
     - 'Risus pour Méga': 'downloads/mega.md'
     - 'Fudge en une page': 'downloads/fudge.md'
     - 'DungeonSquad!': 'downloads/dungeonsquad.md'
+- 'Links/Liens':
+    - 'TTRPG websites': links-en.md
+    - 'Sites JDR': links.md
 - Tags: tags.md
 - About:
     - Author: about.md
