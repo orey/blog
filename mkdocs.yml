@@ -50,6 +50,7 @@ nav:
     - 'September 2020': 'blog/202009.md'
     - 'August 2020': 'blog/202008.md'
 - Etudes/Studies:
+    - 'Les licences "ouvertes" dans le JDR': 'pages/licences.md'
     - 'Les pouvoirs psychiques dans le JDR': 'pages/psionics.md'
     - 'Brève étude des Game Master Emulator': 'pages/gme.md'
     - 'Comparaison des systèmes D6': 'pages/D6-systems.md'
