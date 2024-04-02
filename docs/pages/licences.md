@@ -10,6 +10,7 @@ tags:
     - Dark Sun
     - Dune RPG
     - Goodman Games
+    - GURPS
     - Indiana Jones RPG
     - Kobold Press
     - Men in Black RPG
@@ -1005,8 +1006,8 @@ Nous sommes typiquement dans le cas de C si l'on regarde le schéma ci-dessus.
 
 Alors, refaisons encore une fois le parcours :
 
-* Si le contenu de du SRD 5.1 et le contenu de Kobold Press sont soumis au copyright, alors la licence est valide et je dois avoir une licence pour les deux, CC4 pour le SRD 5.1 et Orc pour le contenu Kobold Press. Car bien entendu, Kobold Press n'a pas le droit de changer la licence CC4 du SRD 5.1 par une distribution sous licence ORC. Il faut donc les deux licences.
-* Si le contenu n'est que composé de règles, ce que je pense à première vue, alors je peux tout copier et e faire ce que je veux sans citer personne.
+* Si le contenu du SRD 5.1 et le contenu de Kobold Press sont soumis au copyright, alors la licence est valide et je dois avoir une licence pour les deux, CC4 pour le SRD 5.1 et Orc pour le contenu Kobold Press. Car bien entendu, Kobold Press n'a pas le droit de changer la licence CC4 du SRD 5.1 par une distribution sous licence ORC. Il faut donc les deux licences.
+* Si le contenu n'est que composé de règles, ce que je pense à première vue, alors je peux tout copier et en faire ce que je veux sans citer personne.
 
 Compliqué, n'est-il pas ?
 
@@ -1016,9 +1017,9 @@ Compliqué, n'est-il pas ?
 
 Considérant que le document *Black Flag* ne contient aucune mention explicite à du *Reserved Material*, tout ce qui n'est pas mécanique de jeu (au sens de la licence ORC) peut donc être assimilé à du contenu sous copyright. La dernière phrase entérine ce fait en insistant sur le fait qu'il n'y a pas, en dehors du contenu règles et assimilé, de contenu sous copyright explicitement ouvert.
 
-Une lecture rapide de Black Flag permet de voir que le contenu est une version simplifiée du SRD 5.1 de *D&D* plus quelques innovations de règles (la règle "Doom" par exemple).
+Une lecture rapide de Black Flag permet de voir que le contenu est une version simplifiée du SRD 5.1 de *D&D* plus quelques innovations de règles (la règle "Doom" par exemple). Il faut un peu de toupet pour apposer un copyright à ce jeu qui ne s'appuie sur aucune trademark !
 
-*Black Flag* doit servir de fondation au jeu *Tales of the Valiant*. Par cette manipulation de licences, Kobold Press veut construire sur une base ouverte inattaquable et inaltérable lui permettant d'exploiter le contenu de WotC. Il veut aussi donner cela à la communauté.
+*Black Flag* doit servir de fondation au jeu *Tales of the Valiant*. Par cette manipulation de licences, Kobold Press veut construire sur une base ouverte inattaquable et inaltérable lui permettant d'exploiter le contenu de WotC. Il veut aussi "donner" cela à la communauté.
 
 C'est une approche "ceinture et bretelles" mais qui maintient l'ambiguïté sur la nature du contenu du SRD 5.1. En prenant uniquement un extrait de ce contenu, les Kobold Press entendent définir à leur tour ce qui n'est vraiment pas, de manière certaine, soumis au copyright.
 
@@ -1045,6 +1046,8 @@ et non pas :
 
 *material [...] ***copyright*** WotC*
 
-Quand les autres compagnies emboîtent le pas, font des moulinets, crient, se pâment, créent une autre licence, pour "rassurer la communauté", tout ça pour se retrouver sur D&D Beyond un an après (avec un accord de royalties qui doit être sympa pour WotC), on se dit qu'on est vraiment *en plein jeu de rôles* !
+Quand, à la suite de la levée de boucliers contre la licence OGL V2.0, la communauté du JDR pousse des cris d'orfraie, que tous font des moulinets, crient, se pâment, créent une autre licence, pour "se rassurer", tout ça pour que quelques uns se retrouvent sur D&D Beyond un an après (avec un accord de royalties qui doit être sympa pour WotC), on se dit qu'on est vraiment *en plein jeu de rôles* !
+
+Et que le MJ se fout bien de notre gueule !
 
 <div class="mydate">02 avril 2024</div>
