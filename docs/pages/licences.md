@@ -854,16 +854,16 @@ Un tel niveau d'incompétence est quand même rarement vu.
 
 ### Peur des procès
 
-Ce que l'on peut dire, c'est que, faisant partie du groupe Hasbro, WotC est vu comme une grosse maison disposant de moyens énormes, notamment juridiques.
+Ce que l'on peut dire, c'est que, faisant partie du groupe Hasbro, WotC est vu comme une grosse maison disposant de moyens énormes, notamment juridiques. D'une certaine façon, étant donnés leurs moyens, ce mastodonte du jeu fait peur à toute la communauté.
 
-2023 nous montre que :
+Et portant, 2023 nous montre que :
 
-* Ce n'est pas le cas : aucune conseil juridique digne de ce nom n'a pu drafter cette licence ;
-* WotC a une peur panique des procès, alors que tout le monde a peur, dans le cadre de l'OGL, d'enfreindre des copyrights et de se faire attaquer par WotC ;
-* WotC n'a aucune stratégie claire concernant l'OGL ou les liens avec les compagnies utilisant cette licence ;
-* Certaines personnes savent que le contenu SRD 5.1 est sans doute non soumis au copyright, et d'autres aimeraient faire croire le contraire.
+* Les compétences juridiques ne sont pas au rendez-vous, car personne de compétent n'a pu dignement drafter cette licence ;
+* WotC semble avoir une peur panique des procès, alors que tout le monde a peur, dans le cadre de l'OGL, d'enfreindre des copyrights et de se faire attaquer par WotC, ce qui est un peu ironique ;
+* WotC n'a aucune stratégie claire concernant l'OGL ou les liens avec les compagnies utilisant cette licence (même si en 2024, des éditeurs tiers commencent à mettre leur produits compatibles 5e sur D&D Beyond) ;
+* Certaines personnes de WotC doivent savoir que le contenu SRD 5.1 est sans doute non soumis au copyright dans sa quasi-totalité, tandis que d'autres aimeraient croire et faire croire le contraire.
 
-WotC est une belle machine pour sortir des livres physiques et des PDF, pour exploiter aussi des contenus en ligne, mais le reste montre de gros manques en termes de stratégie et de compétences. 
+WotC est une belle machine pour sortir des livres physiques et des PDF, pour exploiter aussi des contenus en ligne, mais le reste montre de gros manques en termes de stratégie et de compétences.
 
 ## Suite des événements dans le monde OGL en janvier 2023
 
@@ -924,29 +924,62 @@ Encore une fois, plusieurs points sont à noter.
 
 La licence ORC entend clairement s'attaquer à l'article 9 de la licence OGL V1.0a, le fameux article qui indique que WotC peut changer sa licence, ce qui a été tenté avec la version 2.0.
 
-Il faut rester persuadé qu'une grosse partie du SRD 5.1 de *D&D* ne peut pas légalement porter de copyright car ce sont des règles. Il faudrait faire l'exercice avec un spécialiste pour extraire le contenu "non règles" pour obtenir un SRD complètement ouvert, dans le domaine public.
+La volonté est clairement de rendre "éternelle" cette ouverture de contenu :
 
-Mais réalisons que peu de gens ont intérêt à lever l'ambiguïté du copyright lié aux règles. Au contraire, beaucoup de sociétés ont intérêt à se protéger derrière des licences même si ces dernières sont bancales. Au niveau de leurs investisseurs, cela peut rassurer.
+> V.b. Modifications. This ORC License may not be amended, superseded, modified, updated, repealed, revoked, or deauthorized. Neither You nor Licensor may modify the terms of this ORC License; however, You may enter into a separate agreement of Your own making provided such agreement does not seek to modify the terms hereof. This ORC License does not, and shall not be interpreted to reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this ORC License.
+
+On comprend bien l'intention. Pour autant, cette intention est un vœu pieu par rapport au droit US. Nous l'avons déjà expliqué mais le détenteur d'un copyright possède la propriété de ce copyright. Quand il définit une licence non exclusive, cette dernière n'est valide que dans certaines conditions, conditions qui peuvent changer. Il n'est donc pas plus possible de garantir la pérennité de la licence avec ORC qu'avec CC4.Nous ne parlons bien entendu pas de la pérennité du texte de la licence, mais des objets qui sont couverts par elle.
+
+La particularité de ce dossier est que le contenu lui-même ne peut pas être soumis au copyright donc nous parlons pour rien.
+
+Bien entendu, peu de gens ont intérêt à lever l'ambiguïté du copyright lié aux règles. Au contraire, beaucoup de sociétés ont intérêt à se protéger derrière des licences même si ces dernières sont bancales ou juste inapplicables. Au niveau de leurs investisseurs, cela peut rassurer.
+
+### Mais pourquoi réinventer une CC4 ?
+
+C'est un peu la question qu'on peut légitimement se poser, surtout après le dépôt par WotC de tout le SRD 5.1 en CC4. Car, au final, si l'article 9 de la licence OGL V1.0a est visé, autant prendre une licence qui existe déjà et qui n'est pas possédée par WotC. Certes, la licence ORC est plus précise en distinguant bien les trois types de contenus, mais est-ce si important ?
+
+Car la vraie question derrière toute cette histoire est quand même : est-il important qu'une licence soit possédée par celui qui l'utilise pour ouvrir son contenu ?
+
+Parce que, si nous revenons aux fondamentaux, regardons ce que font les ayant-droits de Tolkien avec leurs licences exclusives JDR :
+
+* Ils signent des accords du durée limitée avec des entreprises de jeu ;
+* Ils doivent sans doute mettre des critères sur les produits dérivés, notamment le respect de l'œuvre, du monde, etc. ;
+* Ils négocient des royalties ;
+* Il est probable que la licence possède des conditions de sortie prématurées pour le cas où la société bénéficiaire des licences s'avère incompétente ou en faillite par exemple.
+
+Certes, WotC ne publie pas ses contenus Product Identity en publiant un SRD en CC4, mais il est quand même normal que cette société, au moment où elle veut le faire, que ce soit pour de bonnes ou de mauvaises raisons, décrive les termes qui l'arrangent dans la mesure où il se peut qu'elle croie honnêtement (ce dont je doute mais supposons) qu'elle permette à l'écosystème de profiter de son IP (*Intellectual Property*) gratuitement.
+
+Dans la démarche, l'utilisation en cascade de la licence OGL est un peu étrange, car un certain nombre de termes de cette licence ne sont pas adaptés aux œuvres dérivées, mais il n'est pas choquant que, si on suppose que WotC croît partager son copyright, ces derniers s'arrogent le droit (qu'ils ont du fait de la loi sur le copyright !) de changer la licence voire de la rendre obsolète (cf. article 9).
+
+Pour ce qui est des autres compagnies, que cherchent-elles vraiment ?
+
+Si elles cherchent à construire sur un socle fiable dans le temps, ces dernières risqueront toujours de suivre WotC qui, en raison de ses marques et de son aura, et aussi d'une bonne qualité de ses produits, reconnaissons-le, aura toujours une version d'avance. Pour ceux qui ont misé sur le D20 voilà 20 ans et sur le SRD 3.5, ils peuvent continuer de tenter de vendre des produits, car c'est possible. Ce n'est jute plus vendable...
+
+...Plus vendable hormis pour Paizo qui, avec Pathfinder 2e, a fait le choix de rester dans la lignée du SRD 3.5 avec une nouvelle branche qui enlève toute mention ambiguë pouvant les taxer d'atteinte au copyright de WotC. C'est finalement peut-être la société la plus sensée dans cette histoire car elle a visé le fond du problème : récupérer toutes les règles qu'elle voulait, car ces règles étaient du domaine public, et changer les dénominations pour éviter toute exposition à un potentiel risque de Product Identity. Elle peut donc maintenant travailler sans dépendance par rapport à WotC. Pour autant, les règles de Pathfinder 2e, elles-aussi, ne peuvent pas être soumises au copyright !
+
+Mais les autres sociétés, que veulent-elles à part vouloir vendre des produits 5e avec le contenu du SRD 5.1 ouvert, pas de royalties et pas de risque juridique ? Regardons le sujet de plus près.
 
 ## Ouverture de BRP 5e en ORC
 
-La société Chaosium a publié quasiment [toute la 5e du Basic RolePlaying (BRP)](https://www.chaosium.com/blogdownload-the-free-basic-roleplaying-orc-content-document-sell-the-games-you-create-royaltyfree/) system en ORC.
+Début 2024, la société Chaosium a publié quasiment [toute la 5e du Basic RolePlaying (BRP)](https://www.chaosium.com/blogdownload-the-free-basic-roleplaying-orc-content-document-sell-the-games-you-create-royaltyfree/) system en ORC.
 
 ![BRP logo](../images/brp-logo-brown.png)
 
-Il est donc possible de voir cette publication comme, une fois de plus,  une ligne tracée entre ce qui est du contenu sans copyright d'un contenu avec copyright.
+Il est donc possible de voir cette publication comme, une fois de plus, une ligne tracée entre ce qui est du contenu sans copyright d'un contenu avec copyright. Au moins, les choses sont clairement exprimées et écrites. Le SRD lève donc l'ambiguïté du mélange des contenus et s'aligne, en cela, comme nous ne cessons de le répéter, avec la loi US sur le copyright.
 
-D'une certaine façon, c'est le lot des systèmes de jeu génériques (BRP, GURPS, etc.) d'avoir une très grosse partie de leur contenu publiable en mode SRD - sans copyright.
+D'une certaine façon, c'est le lot des systèmes de jeu génériques (*BRP*, *GURPS*, *D&D*, etc.) d'avoir une très grosse partie de leur contenu publiable en mode SRD - sans copyright. Je sais que c'est le cauchemar de Steve Jackson de GURPS mais un jour, la baudruche se dégonflera...
 
-Faute de mieux et histoire de demander à la communauté d'être *fair play* avec les inventeurs, citer la filiation est un acte de bonne conduite que les licences OGL, CC-BY-V4.0 et ORC voudraient rendre obligatoire.
+Faute de mieux et histoire de demander à la communauté d'être *fair play* avec les inventeurs, citer la filiation est un acte de bonne conduite que les licences OGL, CC-BY-V4.0 et ORC veulent rendre obligatoire.
 
 Mais si l'acte est moralement bon, il ne figure pas dans les obligations légales de la loi sur le copyright.
+
+Chaosium n'est pas en concurrence avec WotC, on pourrait même que ces deux sociétés ont eu des intérêts communs du temps de Call of Cthulhu D20. Pour Chaosium qui veut, je pense, continuer de jouer sur cette ambiguïté des règles sans copyright et du matériel protégé par ledit copyright, c'est une façon de tenter de faire comme WotC, de faire fructifier un écosystème qui, au final, fait de la publicité pour un système de jeu et dynamise les ventes. Que la licence soit ORC ou CC4 n'a que peu d'importance. Il était tellement tentant de surfer sur la vague d'indignation causée par l'OGL V2.0. Après tout, comme on dit là-bas : *It's only business*.
 
 ## *Black Flag* et *Tales of the Valiant*
 
 Les plus énervés par les rumeurs sur WotC et la licence OGL en janvier 2023 ont sans doute été les *Kobold Press*.
 
-Ils ont annoncé assez vite que vivre avec cette épée de Damoclès au dessus de la tête était insupportable et qu'ils allaient créer un socle de jeu de type D20 qui serait ORC et que tout le monde pourrait construire de manière fiable et long terme en dérivant de ce contenu.
+Ils ont annoncé assez vite que vivre avec cette épée de Damoclès au dessus de la tête était insupportable et qu'ils allaient créer un socle de jeu de type 5e qui serait ORC et que tout le monde pourrait construire de manière fiable et long terme en dérivant de ce contenu.
 
 Le résultat s'appelle *Black Flag* et le Reference Document peut être trouvé [ici](https://www.koboldpress.com/bfr-reference-doc/).
 
@@ -966,6 +999,17 @@ Kobold Press a choisi d'exploiter la licence CC-BY-4.0 du SRD de *D&D* au lieu d
 
 Kobold Press remplit les exigences de la licence ORC sur la demande à ses "descendants" de faire une référence sur le contenu original.
 
+Notons que ces derniers ont apposé leur copyright sur le résultat ! Quel toupet, alors que le copyright ne porte que sur les innovations de Kobold Press... Alors, en tant que créateur de jeu, j'inclue leur mention dans mon jeu mais avec ou sans la mention du SRD de D&D ?
+
+Nous sommes typiquement dans le cas de C si l'on regarde le schéma ci-dessus.
+
+Alors, refaisons encore une fois le parcours :
+
+* Si le contenu de du SRD 5.1 et le contenu de Kobold Press sont soumis au copyright, alors la licence est valide et je dois avoir une licence pour les deux, CC4 pour le SRD 5.1 et Orc pour le contenu Kobold Press. Car bien entendu, Kobold Press n'a pas le droit de changer la licence CC4 du SRD 5.1 par une distribution sous licence ORC. Il faut donc les deux licences.
+* Si le contenu n'est que composé de règles, ce que je pense à première vue, alors je peux tout copier et e faire ce que je veux sans citer personne.
+
+Compliqué, n'est-il pas ?
+
 > Reserved Material: Reserved Material elements in this product include all elements designated as Reserved Material under the ORC License.
 
 > Expressly Designated Licensed Material: This product contains no Expressly Designated Licensed Material.
@@ -974,26 +1018,33 @@ Considérant que le document *Black Flag* ne contient aucune mention explicite �
 
 Une lecture rapide de Black Flag permet de voir que le contenu est une version simplifiée du SRD 5.1 de *D&D* plus quelques innovations de règles (la règle "Doom" par exemple).
 
-*Black Flag* doit servir de fondation au jeu *Tales of the Valiant*. Par cette manipulation de licences, Kobold Press veut construire sur une base ouverte inattaquable et inaltérable lui permettant d'exploiter le contenu de WotC.
+*Black Flag* doit servir de fondation au jeu *Tales of the Valiant*. Par cette manipulation de licences, Kobold Press veut construire sur une base ouverte inattaquable et inaltérable lui permettant d'exploiter le contenu de WotC. Il veut aussi donner cela à la communauté.
 
 C'est une approche "ceinture et bretelles" mais qui maintient l'ambiguïté sur la nature du contenu du SRD 5.1. En prenant uniquement un extrait de ce contenu, les Kobold Press entendent définir à leur tour ce qui n'est vraiment pas, de manière certaine, soumis au copyright.
+
+Faire cela revient un peu à faire la même chose que ce qu'a fait Paizo pour Pathfinder 2e, au risque de s'accrocher à une version de *D&D* qui va vieillir rapidement. Nous sommes en 2024 et la nouvelle version des trois manuels arrivera vers l'automne de cette année.
+
+Mais tout cela n'est-il pas que du théâtre ? Kobold Press, après tout, vient juste de rentrer sur D&D Beyond (depuis le 21 mars 2024) pour vendre son *Tome of Beast*... Le leader des ennemis devenant premier partenaire ? Hum...
 
 ## Conclusion
 
 Il n'est pas possible que certains acteurs du JDR américains n'aient pas compris depuis longtemps que cette licence OGL était "creuse" du fait que le contenu distribué par WotC ne puisse pas être soumis au copyright.
 
-Il paraît invraisemblable que personne chez WotC n'ait compris que le contenu du SRD n'était pas soumis au copyright, j'en veux pour preuve :
+La polémique de janvier 2023 sur les licences est à l'image de l'absurdité de ce dossier :
+
+* Si le contenu du SRD 5.1 est soumis au copyright, alors WotC a le droit de résilier tous les accords de licence qu'il a passés quand il le souhaite. Si l'on croît à la validité de la licence, on ne doit pas critiquer la tentative affligeante de la licence OGL V2.0.
+* Si le contenu du SRD 5.1 n'est pas soumis au copyright, alors qu'importe la licence OGL et les gesticulations de la communauté ?
+
+Il est certain que certaines personnes chez WotC ont compris depuis longtemps que le contenu du SRD n'était pas soumis au copyright, et pour des gens si rigoureux dans le fait de montrer la différence entre leur "Product Identity" et le reste, la non utilisation du copyright dans la licence CC4 est un vrai signe.
 
 ![SRD5.1-CC4.png](../images/SRD5.1-CC4.png)
 
 *material [...] ***by*** WotC*
 
-et non pas 
+et non pas :
 
 *material [...] ***copyright*** WotC*
 
-Cela voudrait dire que toute cette affaire n'est qu'une vulgaire baudruche qui, un jour, se dégonflera.
+Quand les autres compagnies emboîtent le pas, font des moulinets, crient, se pâment, créent une autre licence, pour "rassurer la communauté", tout ça pour se retrouver sur D&D Beyond un an après (avec un accord de royalties qui doit être sympa pour WotC), on se dit qu'on est vraiment *en plein jeu de rôles* !
 
-En attendant, voyons qui va utiliser *Black Flag*.
-
-<div class="mydate">30 mars 2024</div>
+<div class="mydate">02 avril 2024</div>
