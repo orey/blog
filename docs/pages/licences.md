@@ -8,10 +8,15 @@ tags:
     - Chaosium
     - D&D
     - Dark Sun
+    - Dune RPG
+    - Goodman Games
+    - Indiana Jones RPG
     - Kobold Press
+    - Men in Black RPG
     - Middle-Earth Role Playing
     - Paizo
     - Pathfinder
+    - Star Wars
     - Tales of the Valiant
     - The Lord of the Rings Roleplaying Game
     - The One Ring
@@ -45,7 +50,7 @@ Le paragraphe 101 du Title 17 des définitions définit (entre autres) les notio
 Dans la loi américaine, un copyright est un *ensemble de droits* sur une œuvre, cela depuis 1978. Chaque droit peut faire l'objet de transfert de propriété ou d'une licence exclusive ou non-exclusive :
 
 * La licence exclusive s'apparente à un transfert de propriété sur un ou plusieurs droits (mais pas tous) ;
-* La licence non-exclusive s'apparente à une autorisation d'usage sous certaines conditions.
+* La licence non-exclusive s'apparente à une autorisation d'usage sous certaines conditions et pour une certaine durée.
 
 ![compendium](../images/compendium.png)
 
@@ -131,7 +136,7 @@ Le droit de créer des œuvres dérivées est un droit du possesseur du copyrigh
 
 > (3) to distribute copies or phonorecords of the copyrighted work to the public by sale or other transfer of ownership, or by rental, lease, or lending;
 
-Le possesseur du copyright a le droit de vendre des copies ou de passer par un transfert de propriété, une location, un leasing ou un prêt. Ce ces existe dans le JDR pour les jeux exploitant les licences officielles des films, des séries ou des œuvres littéraires.
+Le possesseur du copyright a le droit de vendre des copies ou de passer par un transfert de propriété, une location, un leasing ou un prêt. Ce cas existe dans le JDR pour les jeux exploitant les licences officielles des films, des séries ou des œuvres littéraires.
 
 > (4) in the case of literary, musical, dramatic, and choreographic works, pantomimes, and motion pictures and other audiovisual works, to perform the copyrighted work publicly;
 
@@ -141,7 +146,11 @@ Le possesseur du copyright a le droit de vendre des copies ou de passer par un t
 
 ### Conclusion temporaire
 
-Nous savons ce qu'est un copyright, quels sont les droits qui lui sont associés. Nous savons aussi qu'une licence est un droit d'usage de ces droits, ainsi que nous avons que ,dans le cadre d'une œuvre dérivée, le copyright original s'applique toujours sur le contenu original.
+Nous avons désormais une connaissance des sujets suivants :
+
+* Ce qu'est un copyright et quels sont les droits qui lui sont associés ;
+* Une licence non-exclusive est un droit d'usage de ces droits avec des conditions,
+* Dans le cadre d'une œuvre dérivée, le copyright original s'applique toujours sur le contenu original ; se pose donc la question de la licence du contenu original quelque soit le nombre d'intermédiaires (voir figure 1 ci-dessous).
 
 ## Synthèse de la problématique dans le JDR
 
@@ -185,7 +194,7 @@ Car, de manière générale, le contenu sous copyright est et reste, dans le cad
 
 ### Cas des licences exclusives
 
-La licence exclusive procède à un transfert de propriété d'un ou plusieurs droits (mais pas de tous, pour une durée et des conditions données.
+La licence exclusive procède à un transfert de propriété d'un ou plusieurs droits (mais pas de tous), pour une durée et des conditions données.
 
 Si je possède un personnage de BD par exemple, je peux transférer le droit d'adaptation à l'écran à une société cinématographique de manière exclusive, moyennant accord financier, conditions et durée.
 
@@ -212,21 +221,25 @@ Selon la loi sur le copyright, il est donc parfaitement possible d'utiliser les 
 
 Certes, il faudra faire attention à la proclamation de la compatibilité avec les règles de l'oeuvre originale : pas d'utilisation des trademarks, ni du copyright du détenteur original.
 
-Une formule comme "*le plus grand JDR du monde*" semble accepté par le marché.
+Une formule comme "*le plus grand JDR du monde*" semble acceptée par le marché.
 
 Certes l'incertitude porte alors que la définition de la frontière entre règle et contenu sous copyright. Dans la première version du SRD de *Basic Roleplaying Game* 4e (*BRP*), Chaosium prévient que certaines mécaniques de jeu, dont des concepts de magie, sont sous copyright. Ces mécaniques de jeu sont, en effet, très liées avec le background du jeu.
 
-Il est donc possible, en effet de considérer que la "santé mentale" dans *Call of Cthulhu* est soumise au copyright parce qu'elle est une mécanique spécifique à l'univers et intégrée dans cet univers comme partie constitutive de ce dernier. Ca se plaide, mais nous sommes à la limite.
+Il est possible, en effet, de considérer que les règles concernant la "santé mentale" dans *Call of Cthulhu* sont soumises au copyright parce qu'elles sont une mécanique spécifique à l'univers et intégrée dans cet univers comme partie constitutive de ce dernier.
 
-Pour le SRD 5.1 de *D&D*, les choses sont plus simple : en enlevant quelques noms propres, les sorts deviennent de pures mécaniques non liées à des univers et sortent donc du domaine du copyright. La preuve en est que les mécaniques psioniques de *Dark Sun* ne font pas partie du SRD, alors que ce sont des règles, mais faisant partie intégrante de l'univers *Dark Sun* soumis au copyright.
+Pour le SRD 5.1 de *D&D*, les choses sont plus simples : en enlevant quelques noms propres, les sorts deviennent de pures mécaniques non liées à des univers et sortent donc du domaine du copyright. La preuve en est que les mécaniques psioniques de *Dark Sun* ne font pas partie du SRD, alors que ce sont des règles, mais faisant partie intégrante de l'univers *Dark Sun* soumis au copyright.
+
+Notons quand même, dans le SRD 5.1 de *D&D*, une partie introductive décrivant explicitement ce qui est Product Identity (les trademarks, les noms propres et quelques contenus spécifiques).
+
+Encore une fois, dans le monde du JDR, le SRD sert à tracer une limite entre contenu non soumis au copyright et contenu protégé.
 
 ## La licence OGL V1.0a
 
-En 2000, WotC publie l'étrange licence OGL. Cette dernière est vue comme une avancée majeure, sans doute parce que personne ou presque, dans le monde du JDR, ne comprend le droit américain du copyright.
+En 2000, WotC publie l'étrange licence OGL. Cette dernière est vue comme une avancée majeure, sans doute parce que personne ou presque, dans le monde du JDR, ne comprend le droit américain du copyright. En effet, si les gens comprenaient le sujet, personne n'aurait intégré cette licence dans les produits dérivés.
 
 Les effets positifs de cette licence sont de libérer une certaine créativité dans les œuvres OGL et de créer notamment le mouvement OSR (Old School Renaissance) qui revient aux bases du JDR et aux premières versions de *D&D*.
 
-Les effets négatifs sont que la communauté du JDR se met en position de suiveuse de WotC et ne parvient pas à comprendre que la licence OGL demande plus que la loi américaine et qu'en cela, elle est inutile.
+Les effets négatifs sont que la communauté du JDR se met en position de suiveuse de WotC, et ne parvient pas à comprendre que la licence OGL demande plus que la loi américaine et qu'en cela, elle est inutile.
 
 ### Examen de la licence
 
@@ -284,23 +297,13 @@ Notons que nous entrons ici un peu dans la confusion. Nous parlions jusqu'à pr�
 
 C'est le problème de vouloir faire une licence générique.
 
-Au titre de la loi américaine, le contenu soumis au copyright reste soumis au copyright. Comme ce contenu a une certaine valeur, son possesseur devrai définir la licence avec ceux qui en auront l'usage. Cette licence doit avoir une durée, des conditions et un arrangement financier. Bien entendu, rien n'oblige le possesseur de ce copyright à utiliser la licence OGL pour son contenu.
+Au titre de la loi américaine, le contenu soumis au copyright reste soumis au copyright. Comme ce contenu a une certaine valeur, son possesseur devrait définir la licence avec ceux qui en auront l'usage. Cette licence doit avoir une durée, des conditions et un arrangement financier. Bien entendu, rien n'oblige le possesseur de ce copyright à utiliser la licence OGL pour licencier son contenu.
 
-> and means any work covered by this License, including
-
-> * translations
-
-Les traductions ne sont pas OGC de la définition même de la licence OGL sur les *Derivative Material*. L'affirmation ci-dessus est aussi contraire au droit américain. Une traduction est un *Derivative Work* qui possède son propre copyright.
-
-WotC ne peut pas décréter que les traductions sont OGC sans l'autorisation des traducteurs.
-
-La licence OGL est sur ce point en contradiction avec elle-même et en contradiction partielle avec le droit américain.
-
-> * and derivative works under copyright law, but specifically excludes Product Identity.
+> and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity.
 
 Cette phrase est très étrange.
 
-De fait, les œuvres dérivées selon la loi du copyright ne sont pas OGC. Certes, si elles sont du Product Identity, elles ne le sont pas non plus.
+De fait, les œuvres dérivées selon la loi du copyright ne sont pas OGC (les traductions ne sont pas OGC de l'avis même de la licence OGL, voir ci-dessus).
 
 Il est possible que WotC ait voulu parler des traductions et des autres œuvres dérivées soumises au copyright que les auteurs auraient voulu mettre en OGC quand même (alors qu'elles ne le sont pas par défaut). Mais la formulation est totalement obscure si c'est cette interprétation qu'il faut retenir.
 
@@ -316,9 +319,9 @@ Malheureusement, les sorts sont considérés comme des règles du jeu. Le cas de
 
 > personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs;
 
-Cette liste est assez étrange car contraire avec le contenu ouvert par WotC, même dans le SRD 5.1 de *D&D*, notamment sur les créatures et les caractéristiques magiques qui peuvent être assimilées à des règles.
+Cette liste est assez étrange car contraire avec le contenu ouvert par WotC dans le SRD 5.1 de *D&D*. En ouvrant les sorts dans le SRD 5.1, WotC est en contradiction avec la licence apposée sur le SRD !
 
-Mais il est possible qu'en presque 20 ans, la compréhension du droit du copyright ait évolué chez WotC.
+On verra plus loin, avec l'affaire du SRD V2.0, qu'en plus de 20 ans, la compréhension du droit du copyright semble toujours obscure chez certaines personnes de WotC.
 
 > and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content;
 
@@ -344,10 +347,9 @@ Droit d'usage du contenu OGC.
 
 La formulation employée, *perpetual, worldwide, royalty-free, non-exclusive license*, est étrangement empruntée au cas de l'administration américaine décrit dans le cadre de la loi US sur le copyright.
 
-En effet, dans le paragraphe 105, il est stipulé qu'un employé de l'Etat appartenant à certaines organisations conserve son copyright mais qu'on peut lui ordonner de donner à l'Etat une *irrevocable, royalty-free, worldwide, nonexclusive license to reproduce,
-distribute, perform, or display*.
+En effet, dans le paragraphe 105 de ladite loi, il est stipulé qu'un employé de l'Etat appartenant à certaines organisations conserve son copyright mais qu'on peut lui ordonner de donner à l'Etat une *irrevocable, royalty-free, worldwide, nonexclusive license to reproduce, distribute, perform, or display*.
 
-Le problème est que WotC n'est pas l'Etat, que la licence est un contrat entre deux parties et que si une des deux parties meurt, la licence s'arrête, ce qui n'est pas le cas de l'Etat américain.
+Le problème est que WotC n'est pas l'Etat, que la licence est un contrat entre deux parties et que si une des deux parties meurt ou le souhaite, la licence s'arrête, ce qui n'est pas le cas de l'Etat américain.
 
 > 5.Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.
 
@@ -359,13 +361,13 @@ De plus, rien n'indique que le récipiendaire de la licence OGL voudra utiliser 
 
 Notons qu'il est dangereux de présumer que l'on donne gratuitement un copyright sans licence, car utiliser la licence OGL sur un contenu copyrighté que l'on possède et que l'on souhaite ouvrir est très dangereux pour le possesseur - et le droit américain nous le dit.
 
-Supposons que je crée dans le cadre d'une licence OGL *D&D* Mister DarkFuzz, un héros aux caractéristiques spéciales et que je l'intègre dans ma déclaration OCG en tant que copyright que je transforme en OGC. Supposons que quelqu'un produise une campagne à succès, des livres et un film sur Mister DarkFuzz. Quels sont mes moyens de contrôler mon copyright ? Il ne faut évidemment pas considérer ce que WotC nous suggère, surtout que eux, ne le font pas (voir plus bas)
+Supposons que je crée dans le cadre d'une licence OGL *D&D* Mister DarkFuzz, un héros aux caractéristiques spéciales et que je l'intègre dans ma déclaration OCG en tant que copyright que je transforme en OGC. Supposons que quelqu'un produise une campagne à succès, des livres et un film sur Mister DarkFuzz. Quels sont mes moyens de contrôler mon copyright ?
 
 > 6.Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.
 
 Evidemment, réutiliser du contenu non soumis à copyright (OGC) ne nécessite pas de créditer ni WotC, ni Gygax, ni qui que ce soit. Car, les règles de *D&D*, dans la mesure où elles sont génériques, ne peuvent pas porter de copyright.
 
-On dirait que cet article est là pour dire à Hasbro, la maison mère de WotC : regardez, vous avez acheté de l'IP (*Intellectual Property*) ! Mais le fait est que non. Au regard du droit US sur le copyright, tout le SRD était ouvert avant qu'il ne soit publié.
+On dirait que cet article est là pour dire à Hasbro, la maison mère de WotC : regardez, vous avez acheté de l'IP (*Intellectual Property*) ! Mais le fait est que non. Au regard du droit US sur le copyright, tout le SRD était ouvert avant même qu'il ne soit publié.
 
 Il n'est donc pas besoin de créditer quelqu'un pour un matériau qui est dans le domaine public.
 
@@ -385,7 +387,7 @@ Amusant : cette remarque est totalement conforme avec le droit américain. Tout 
 
 > 8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.
 
-Voilà quelque chose de contraignant et j'avoue ne l'avoir jamais vraiment vu faire. Les gens précisent, au contraire, ce qui est Product Identity.
+Voilà quelque chose de contraignant et j'avoue ne l'avoir jamais vraiment vu faire. Les gens précisent, au contraire, ce qui est Product Identity. Les reste est OGC.
 
 > 9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.
 
@@ -393,17 +395,19 @@ Soit en bon français :
 
 *9. Mise à jour de la licence : Wizards ou ses représentants désignés peuvent publier des mises à jour de cette licence. Vous pouvez utiliser n'importe quelle version **autorisée** de cette licence pour copier, modifier et distribuer n'importe quel contenu Open Game Content originellement distribué sous n'importe quelle version de cette licence.*
 
-Cet article indique que WotC pourrait décider que la version V1.0a est non autorisée et autoriser une V2 qui elle demande 50% des revenus faits par le récipiendaire de la licence.
+Cet article indique que WotC peut décider que la version V1.0a est non autorisée et autoriser une V2 qui elle demande 50% des revenus faits par le récipiendaire de la licence. C'est en un sens ce qu'ils ont fait avec la tentative de licence V2.0.
 
-Beaucoup de gens ont considéré cet article comme un risque juridique important. Au final, ce n'en est pas un du tout en raison du type de contenus publié par WotC (voir plus bas).
+Beaucoup de gens ont considéré cet article comme un risque juridique important.
+
+Au final, ce n'en est pas un du tout en raison du type de contenus publié par WotC (voir plus bas).
 
 > 10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You Distribute.
 
-Nous remettons en cause ce besoin au regard de la loi sur le copyright (voir plus loin).
+Nous remettons en cause ce besoin au regard de la loi sur le copyright (voir plus loin) en raison du type de contenu distribué par WotC à l'origine : si le premier contenu n'a pas de copyright, il n'est pas besoin de cascader la licence.
 
 > 11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.
 
-Encore une fois le sujet des trademarks. Oui, WotC, personne ne doit user de vos trademarks sans accord.
+Encore une fois le sujet des trademarks. Oui, personne ne doit user des trademarks de WotC sans accord. Mais c'est vrai de toutes les trademarks.
 
 > 12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.
 
@@ -436,17 +440,15 @@ Or selon la loi sur le copyright et selon la définition même de WotC, **le con
 
 Selon la loi sur le copyright, ce que WotC définit comme Product Identity (en excluant monstres génériques et sorts génériques) est soumis à la loi sur le copyright, tout comme les trademarks. Il n'est donc pas possible de les utiliser sans accord explicite et gré à gré avec WotC. La licence OGL n'apporte rien non plus sur cette catégorie de contenu qui est, *de facto*, protégée par le droit américain.
 
-Evidemment, la licence OGL peut jouer le rôle de "rappel de la loi" auprès de ceux qui, ne comprenant pas bien les limites des contenus protégés et non protégés, auraient envie d'utiliser le contenu des univers *D&D* ou les marques pour leur produit dérivé.
+Evidemment, la licence OGL peut jouer le rôle de "rappel de la loi" auprès de ceux qui, ne comprenant pas bien les limites des contenus protégés et non protégés, auraient envie d'utiliser le contenu des univers *D&D* ou les marques pour leur produit dérivé. Elle marque en quelque sorte la limite explicite entre les types de contenus.
 
 Il reste la troisième sorte de contenu : le Product Identity déclaré OGL par le possesseur du copyright dans le but de le transférer à des récipiendaires au travers d'une licence (laquelle ?).
 
-La loi américaine est simple sur le sujet : le copyright reste à son ayant droit et la licence doit être définie (exclusive avec transfert de propriété, ou non-exclusive).
-
-Celui qui veut licencier son propre contenu (par exemple B à C dans le diagramme ci-dessus) choisira alors son mode licensing.
+La loi américaine est simple sur le sujet : le copyright reste à son ayant droit et la licence doit être définie (exclusive avec transfert de propriété, ou non-exclusive). Celui qui veut licencier son propre contenu (par exemple B à C dans le diagramme ci-dessus) choisira alors son mode licensing, ses conditions et sa durée.
 
 ### Intention et réalité
 
-L'ironie de l'affaire est que WotC, dans son SRD 3.5, ne publie en 2000 que du OGC. Donc ils ne font que publier ce qui, chez eux, n'est pas soumis au copyright ! Et donc que tout le monde a le droit de copier !
+L'ironie de l'affaire est que WotC, dans son SRD 3.5, ne publie en 2000 que du contenu OGC. Donc ils ne font que publier ce qui, chez eux, n'est pas soumis au copyright ! Et donc que tout le monde a le droit de le copier sans autre forme de procès !
 
 Ils n'ont pas besoin de licence pour ça, mais cette dernière va faire peur... et va, en même temps, dynamiser le marché.
 
@@ -462,7 +464,7 @@ Et comme le milieu du JDR est un petit monde avec peu de juristes, la pilule est
 
 Car si le contenu de WotC OGC est composé de règles sur lesquelles aucun copyright n'est possible, il n'existe aucun devoir à une personne physique ou morale qui voudrait utiliser les règles de *D&D* pour étendre ces règles, ainsi qu'aucune obligation d'attribution.
 
-Au travers de cette licence, WotC a menacé toute la communauté :
+Au travers de cette licence, WotC a, de plus, *menacé* toute la communauté :
 
 * En réaffirmant qu'on ne pouvait pas pirater impunément ses marques et ses univers (le fameux Product Identity), ce qui est totalement vrai et compatible avec le droit américain sur le copyright ;
 * En levant toute ambiguïté et en publiant le contenu OGC ouvert, façon de tracer la limite entre leur Product Identity et ce sur quoi aucun copyright ne portait.
@@ -473,11 +475,9 @@ C'est malin, quoique la licence soit mal écrite, bien plus mal que le droit US 
 
 La licence Creative Commons CC-BY-4.0 est une licence non-exclusive qui n'établit aucun transfert de propriété.
 
-De manière générale, les licences Creative Common ont été créées dans le but d'être une alternative aux licences GNU, GNU GPL notamment, licences ayant des propriétés contaminantes : quand un composant logiciel est GPL 3.0 et qu'il est utilisé et distribué dans un software, ce dernier devient GPL 3.0 et donc invendable et open source (*free software*).
+De manière générale, les licences Creative Common ont été créées dans le but d'être une alternative aux licences GNU, GNU GPL notamment, licences ayant des propriétés contaminantes : quand un composant logiciel est GPL 3.0 et qu'il est utilisé et distribué dans un software, ce dernier devient GPL 3.0 et donc invendable et open source (*free software*). D'ailleurs, il serait sans doute bien de regarder de plus près les licences GNU et leur conformité au droit US.
 
-Il faudrait les analyser toutes, mais je doute qu'elles valent grand chose face à la loi américaine.
-
-### Analyse de la licence CC4
+### Analyse de la licence CC4 dans le cadre du SRD du D&D
 
 La licence CC4 porte la même dualité que la licence OGL : selon les moments elle parle de celui qui possède le copyright et qui autorise l'usage de son contenu sans royalties (A dans le schéma ci-dessus) ; à d'autres moments, elle parle de celui qui exploite le contenu et qui a envie de l'utilisation de son contenu dans la chaîne "descendante" des acteurs (B et C dans le schéma).
 
@@ -499,7 +499,7 @@ Regardons ce qui est écrit dans la [licence](https://creativecommons.org/licens
 
 L'aspect contractuel de la licence est expliqué en préambule.
 
-Dans les définitions, on voit de suite que la licence CC-BY-4.0 (CC4 pour faire plus court) n'est pas pensée pour le sujet du jeu de rôle, soit un mélange de contenus "littéraires" dont (au regard de la loi américaine) une partie possède des droits et est protégée par le copyright (les personnages nommés, les histoires, les lieux, etc.) et une partie ne l'est pas (les règles du jeu).
+Dans les définitions, on voit de suite que la licence CC-BY-4.0 (CC4 pour faire plus court) n'est pas pensée pour le sujet du jeu de rôle, soit pour une œuvre étant un mélange de contenus "littéraires" dont (au regard de la loi américaine) une partie possède des droits et est protégée par le copyright (les personnages nommés, les histoires, les lieux, etc.) et une partie ne l'est pas (les règles du jeu).
 
 La licence CC4 ne propose que deux concepts concernant les contenus :
 
@@ -510,7 +510,7 @@ La licence repousse le problème des deux types de contenus du *Adapted Material
 
 > 1.b. **Adapter's License** means the license You apply to Your Copyright and Similar Rights in **Your contributions to Adapted Material** in accordance with the terms and conditions of this Public License.
 
-Comme dans le droit américain, celui qui a créé un contenu dérivé possède un copyright sur ses contributions seulement (pas sur le contenu original).
+Comme dans le droit américain, celui qui a créé un contenu dérivé possède un copyright sur ses contributions seulement (pas sur le contenu original bien sûr).
 
 > 2.a.1. Subject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:
 
@@ -545,7 +545,7 @@ La notice du copyright est évidemment la notice du copyright du propriétaire d
 
 Or, pour les jeux de rôles, la jurisprudence américaine considère que la propriété ne s'applique qu'à une partie du contenu original : la partie non relative aux règles du jeu.
 
-Demander un copyright sur le contenu devient donc, dans le cadre des jeux, une mention ambiguë : les règles D20 ne sont pas sous copyright alors que les *Forgotten Realms* le sont.
+Demander un copyright sur le contenu devient donc, dans le cadre des jeux, une mention ambiguë : les règles D20 ne sont pas sous copyright alors que le terme D20 est une trademark et les *Forgotten Realms* le sont.
 
 Dans le cadre d'un SRD ne publiant que des règles, nous avons vu ci-dessus qu'il était inutile de rappeler que les règles du SRD étaient copyright WotC alors que des règles ne peuvent pas porter de copyright. Il est également inutile de créditer les auteurs.
 
@@ -559,15 +559,19 @@ Dans le cadre d'un SRD ne publiant que des règles, nous avons vu ci-dessus qu'i
 
 > C. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.
 
-Voilà ce que demande WotC dans le SRD 5.1 de *D&D* en version CC4 :
+Voilà ce que demande WotC dans le SRD 5.1 de *D&D* en version CC4 en terme de crédits :
 
 > The System Reference Document 5.1 is provided to you free of charge under the terms of the Creative Commons Attribution 4.0 International License (“CC-BY-4.0”). You are free to use this content **in any manner permitted by that license** as long as you include the following attribution statement in your own work:
 
 > *This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) **by Wizards of the Coast LLC** and available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.*
 
-Il est très amusant que WotC ne demande pas de citer son copyright. Pourquoi ? Parce que ces derniers savent que le contenu du SRD n'est pas soumis au copyright ! Il utilisent donc le terme "by WotC" qui n'a aucune valeur juridique.
+Il est très amusant que WotC ne demande pas de citer son *copyright*. Pourquoi ? Parce que ces derniers savent que le contenu du SRD n'est pas soumis au copyright ! Il utilisent donc la façon courante CC4 d'attribuer la propriété "by WotC" qui n'a aucune valeur juridique et qui maintient l'ambiguïté.
 
-Cela signifie qu'ils savent que ce que raconte cet article est vrai mais que, tant que les choses marchent, ils continuent.
+Voir [ici](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution) : *Sometimes, the author will also provide a copyright notice, which consists of the copyright symbol, year of publication, and the name of the author/licensor. Include the copyright notice as a part of your attribution if such information is provided.*
+
+Comme WotC impose des choses sur son contenu, ils auraient dû imposer de créditer leur copyright. Or ils ne le font pas, tout simplement parce qu'ils n'en ont pas sur cette partie.
+
+Cela signifie qu'ils savent que le point de vue défendu par cet article est vrai mais que, tant que les choses marchent, ils continuent à faire illusion !
 
 > Please do not include any other attribution regarding Wizards other than that provided above. You may, however, include a statement on your work that it is “compatible with fifth edition” or “5E compatible.”
 
@@ -575,7 +579,9 @@ Cela signifie qu'ils savent que ce que raconte cet article est vrai mais que, ta
 
 Notons que, dans cette version, WotC ouvre sa simili-trademark "5e" ou "Fifth Edition", cela facilite l'identification des produits, ce qui est une bonne chose.
 
-Mais là encore, WotC enfonce une porte ouverte : "5e" ou "Fifth edition" ne peut pas faire l'objet d'une vraie trademark en raison de son caractère vraiment trop générique. Si une trademark avait été déposée, cela signifierait que tous les utilisateurs de cette expression devraient payer des royalties à WotC pour l'utiliser !
+Mais là encore, WotC enfonce une porte ouverte : "5e" ou "Fifth edition" ne peut pas faire l'objet d'une vraie trademark en raison de son caractère vraiment trop générique.
+
+Seul Googman Games avait déposé [une trademark](https://tsdr.uspto.gov/#caseNumber=97269669&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch) sur *Fifth Edition Fantasy* mais l'a abandonné en juin 2023.
 
 Mais revenons à la licence CC4.
 
@@ -593,41 +599,43 @@ Nous avons vu que la licence CC4 est liée au copyright original, ce qui est nor
 
 > a. This Public License applies **for the term of the Copyright** and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.
 
-Voilà la conséquence naturelle : si les droits se terminent, la licence CC4 devient caduque et il n'est plus possible d'exploiter le contenu. Le copyright est un titre de propriété possédé par une entité.
+Voilà la conséquence naturelle : si les droits se terminent, la licence CC4 devient caduque et il n'est plus possible d'exploiter le contenu. Le copyright est un titre de propriété possédé par une entité qui a sa durée de vie. Comme toute licence, le possesseur du copyright peut la terminer s'il le souhaite.
 
 ### CC4 ou OGL, même combat
 
 En fait, nous en sommes au même point. Dès lors que le contenu distribué par WotC n'est pas soumis au copyright, ces derniers peuvent bien le distribuer sous toutes les licences du monde.
 
-Il y a un gros côté hypocrite dans le fait de distribuer ce contenu sous une licence CC4, car la licence CC4 indique que le contenu "ouvert" doit être distribué sous licence CC4. Or c'est faux dans notre cas.
+Il y a un gros côté hypocrite dans le fait de distribuer ce contenu sous une licence CC4, car la licence CC4 indique que le contenu "ouvert" doit être distribué sous licence CC4. Or c'est faux dans notre cas au titre du fait que le contenu est non soumis au copyright. Il est donc complètement libre.
 
-C'est faux au titre du fait que, dans notre cas, le contenu est non soumis au copyright. Il est donc complètement libre. Or comme la licence CC4 impose une attribution des auteurs, elle impose une contrainte supplémentaire à la nature du contenu. Elle est donc en violation avec le droit US : elle restreint l'usage d'un contenu totalement libre en obligeant à une attribution.
+Or comme la licence CC4 impose une attribution des auteurs, elle impose une contrainte supplémentaire par rapport à la nature du contenu. Elle est donc en violation avec le droit US : elle restreint l'usage d'un contenu totalement libre en obligeant à une attribution.
 
-Notons que c'est aussi le cas de l'OGL ! Cette "licence" restreint l'utilisation d'un contenu public en obligeant à créditer des personnes qui, au regard de la loi US, ne portent aucun copyright.
+Notons que c'est aussi le cas de l'OGL ! Cette "licence" restreint l'utilisation d'un contenu public en obligeant à créditer des personnes qui, au regard de la loi US, ne portent aucun copyright sur le contenu.
 
-Il est notable que WotC nous prouve, avec les mentions portées dans le document SRD 5.1 CC4, qu'il est au courant de l'affaire.
+Il est notable que WotC nous prouve, avec les mentions portées dans le document SRD 5.1 CC4 et l'absence d'usage de son copyright dans la demande d'attribution, qu'il est au courant de l'affaire.
 
 Et pourtant...
 
 ## L'update qui fâche
 
-Fin décembre 2022, WotC indique qu'ils travaillent sur un [update de la licence](../files/divers/OGL1.2_DraftForDiscussionPurpose.pdf), update qui va mettre des conditions financières à la licence OGL V1.0a (voir [ici](https://arstechnica.com/gaming/2023/01/rpg-fans-irate-as-dd-tries-to-shut-its-open-game-license/)).
+Fin décembre 2022, WotC indique qu'ils travaillent sur un [update de la licence](../files/divers/OGL1.2_DraftForDiscussionPurpose.pdf), update qui va mettre des contraintes supplémentaires à la licence OGL V1.0a (voir [ici](https://arstechnica.com/gaming/2023/01/rpg-fans-irate-as-dd-tries-to-shut-its-open-game-license/)).
 
-Pour ceux qui croient à la licence, c'est un *casus belli*. Et pourtant, il est nécessaire de bien lire.
+Pour ceux qui croient à la licence, c'est un *casus belli*. Et pourtant, il est nécessaire de bien lire le draft de la nouvelle licence.
 
 ### Deux types de contenu dans le SRD 5.1
 
-La licence commence par une page d'introduction redéfinissant les contenus dans le SRD 5.1 de *D&D*. Certaines parties du SRD sortent de la licence CC4 (comme quoi, il est toujours possible avec cette licence de la renier) :
+Un mot de contexte : à ce moment, le SRD 5.1 complet n'a jamais été publié sous licence CC4.
 
-* Les classes de personnages (pages 1 à 55),
+La licence commence par une page d'introduction redéfinissant les contenus dans le SRD 5.1 de *D&D*. Certaines parties du SRD ne seraient pas publiés sous la licence CC4 :
+
+* Les classes de personnages,
 * Les sorts, pièges, maladies, folie, objets, poisons, et objets magiques,
-* Les conditions.
+* Les conditions des personnages.
 
-Pourquoi faire ces choix ? Mystère. Surtout qu'après avoir ouvert ce contenu pendant si longtemps, il est facile de montrer que beaucoup de ces chapitres sont des règles et des mécaniques de jeu - donc qu'aucun copyright ne s'applique dessus.
+Pourquoi faire ces choix ? Mystère. Surtout qu'après avoir ouvert ce contenu pendant si longtemps (depuis [2016](https://en.wikipedia.org/wiki/System_Reference_Document)), il est facile de montrer que beaucoup de ces chapitres sont des règles et des mécaniques de jeu - donc qu'aucun copyright ne s'applique dessus.
 
-Sur ce qui reste du SRD, WotC propose de mettre une licence CC4 (à ce moment, le SRD 5.1 complet n'a jamais été publié en CC4). Sur les parties non soumises à la licence CC4 (voir liste ci-dessus), ce serait la licence OGL V1.2 qui s'appliquerait.
+Sur ce qui reste du SRD, WotC propose de mettre une licence CC4 . Sur les parties non soumises à la licence CC4 (voir liste ci-dessus), ce serait la licence OGL V1.2 qui s'appliquerait.
 
-La plupart des règles du D20 n'étant pas soumises au copyright, jouer avec la contrainte et faire un "mini SRD" reprenant toutes les règles auxquelles incontestablement, il serait impossible d'attacher un copyright. Puis bâtir sur cette base. C'est ce qu'a fait Kobold Press avec *Black Flag* (voir plus loin).
+Ce distinguo indique qu'en 2023, WotC définit les nouveaux contours d'un "mini SRD" reprenant toutes les règles auxquelles incontestablement, il est impossible d'attacher un copyright (les parties sous CC4). Si ce mini-SRD était créé, il serait possible de bâtir des jeux éternellement libres sur cette base. C'est ce qu'a voulu faire Kobold Press avec *Black Flag* (voir plus loin).
 
 ### Suppression de la licence OGL V1.0a
 
@@ -679,13 +687,13 @@ Cette définition est redondante avec ce qui a été écrit avant.
 
 En termes de contenus, nous allons voir les restrictions. En termes de forme, WotC voulait imposer une forme spéciale aux suppléments des créateurs, comme ce que l'on peut trouver sur D&D Beyond ou DMs Guild.
 
-Cette contrainte est totalement inacceptable pour des éditeurs de jeux tierces qui ont, à l'époque leur propre visuel et leur propre gestion artistique. De plus, cette contrainte artistique est bien adaptée pour les petits scénarios, mais pas pour les nouveaux jeux.
+Cette contrainte est totalement inacceptable pour des éditeurs de jeux tierces qui ont toujours eu leur propre visuel et leur propre gestion artistique. De plus, cette contrainte artistique est bien adaptée pour les petits scénarios publiés sur les plateformes en ligne telles D&D Beyond ou DMs Guild, mais pas pour les nouveaux jeux.
 
 Il était normal que cette nouvelle version provoque un tollé.
 
 > 2. LICENSE. In consideration for your compliance with this license, you may copy, use, modify and distribute Our Licensed Content around the world as part of Your Licensed Works. This license is perpetual (meaning that it has no set end date), non-exclusive (meaning that we may offer others a license to Our Licensed Content or Our Unlicensed Content under any conditions we choose), and irrevocable (meaning that content licensed under this license can never be withdrawn from the license). It also cannot be modified except for the attribution provisions of Section 5 and Section 9(a) regarding notices.
 
-Cette garantie est fausse. Dans le droit américain, une licence d'utilisation peut s'arrêter.
+Cette garantie est fausse. Dans le droit américain, une licence d'utilisation peut s'arrêter. Le sujet est : est-ce que cette licence porte que des contenus sous copyright ?
 
 D'ailleurs, WotC aurait pu aller plus loin et rendre invendable les produits sous licence OGL V1.0a.
 
@@ -703,7 +711,7 @@ Cette mention est parfaitement contraire au droit du copyright qui autorise tout
 
 > (b) In any such lawsuit, you must show that we knowingly and intentionally copied your Licensed Work. Access and substantial similarity will not be enough to prove a breach of this Section 3.
 
-Ils ne manquent pas d'air et veulent faire le procèe et ses conclusions dans la licence. Hasbro et WotC sont-ils au courant qu'ils sont dans un état souverain avec des lois auxquelles ils sont soumis ?
+Ils ne manquent pas d'air et veulent faire le procès et ses conclusions dans la licence. Hasbro et WotC sont-ils au courant qu'ils sont dans un état souverain avec des lois auxquelles ils sont soumis ?
 
 > 4. WHAT WE OWN. We own Our Licensed Content and reserve all rights not expressly granted in this license.
 
@@ -726,7 +734,6 @@ Il serait intéressant de consulter un spécialiste du droit du copyright pour s
 > (b) You may permit the use of your Content on any terms you want. However, if any license you offer to your Licensed Work is different from the terms of this license, you must include in the Licensed Work the attribution for Our Licensed Content found in the preamble to the applicable SRD, and make clear that Our Licensed Content included in your Licensed Work is made available on the terms of this license.
 
 Cette demande est légitime et conforme au droit du copyright et des œuvres dérivées.
-
 
 > 6. WARRANTIES AND DISCLAIMERS. You represent and warrant that:
 
@@ -754,7 +761,7 @@ Cette contrainte, encore une fois, est inacceptable. Il n'appartient pas à WotC
 
 Cette partie 6 a un côté absurde. Dans la partie *Warranty* généralement, la société qui licencie son contenu doit se protéger en disant que tout ce qui peut arriver n'est pas de sa faute, en gros que tout ce qui peut se faire de mal avec son contenu n'est plus de sa responsabilité.
 
-En lieu et place, WotC fait signer un contrat d'adhésion à une plateforme de type réseau social en obligeant les récipiendaires de licences à accepter des règles dont ils doivent rendre compte devant WotC. C'est absurde.
+En lieu et place, WotC fait signer un contrat d'adhésion à une plateforme de type réseau social en obligeant les récipiendaires de licences à accepter des règles dont ils doivent rendre compte devant WotC. C'est une confusion des genres.
 
 > 7 MODIFICATION OR TERMINATION
 
@@ -815,21 +822,22 @@ Osons le dire, ce *draft for discussion purposes* est un torchon ! Il faut absol
 Une fois de plus, WotC était en pleine confusion, voire en plein délire :
 
 * **Confusion de logique** :
-    * Quel lien entre le contenu protégé par l'OGL V2.0 et la licence elle-même ?
-    * Quel lien entre le contenu CC4 et le contenu lui-même ?
-    * Il semble qu'il n'y ait aucun lien. Pourquoi ce découpage ? Certains monstres ont une origine très ancienne dans *D&D*, alors pourquoi ne figurent-ils pas dans les éléments non CC4 de la licence ?
-* **Confusion de compréhension de la nature des contenus** : vouloir protéger un contenu qu'on a ouvert pendant très longtemps signifie que l'on a mesuré le risque juridique de se faire attaquer sur ce point car, pendant des années, les gens ont pris l'habitude d'utiliser ce contenu gratuitement. Il y a eu la mise en place d'un usage régulier. Le risque juridique aurait donc été que des sociétés attaquent WotC pour démontrer que les contenus nouvellement "fermés" par la licence OGL V2.0 étaient en fait des règles du jeu sur lesquelles aucun copyright ne pouvait être posé.
-    * Regardons n'importe quelle classe de personnages et osons dire que ce n'est pas une règle.
+    * Quel lien entre le contenu protégé par l'OGL V2.0 et la licence elle-même ? Quel lien entre le contenu CC4 et le contenu lui-même ? Il n'y a aucune logique. Pourquoi ce découpage ? Certains monstres ont une origine très ancienne dans *D&D*, alors pourquoi ne figurent-ils pas dans les éléments non CC4 de la licence ?
+* **Confusion de compréhension de la nature des contenus**
+    * Vouloir protéger un contenu qu'on a ouvert pendant très longtemps signifie que l'on a mesuré le risque juridique de se faire attaquer sur ce point car, pendant des années (au moins entre 2016 et 2023 soit pendant 7 ans), les gens ont pris l'habitude d'utiliser ce contenu gratuitement. Il y a eu la mise en place d'un *usage régulier*. Le risque juridique aurait donc été que des sociétés attaquent WotC pour démontrer que les contenus nouvellement "fermés" par la licence OGL V2.0 étaient en fait des règles du jeu sur lesquelles aucun copyright ne pouvait être posé.
+    * Comme illustration, regardons n'importe quelle classe de personnages, contenu nouvellement fermé dans la licence OGL V2.0, et osons dire que ce n'est pas une règle.
 * **Confusion business** :
     * WotC a-t-il réalisé qu'une oeuvre dérivée doit pouvoir s'exprimer par la forme et donc qu'une contrainte sur la forme est inacceptable ?
-    * Une licence d'utilisation d'un contenu ne peut pas être contrainte à une forme, mais éventuellement à un esprit (dans le cadre de licences exclusives). Si trop de contraintes sont ajoutées, la licence devient un contrat de prestation pour le compte de WotC.
+    * Une licence d'utilisation d'un contenu ne peut pas être contrainte à une forme, mais éventuellement le respect d'un esprit (dans le cadre de licences exclusives). Si trop de contraintes sont ajoutées, la licence devient un contrat de prestation pour le compte de WotC, mais ce n'est plus un contrat de licence.
+    * Cela pose le problème des contrats signés par les utilisateurs des plateformes comme DMS Guild qui imposent une forme spéciale.
+    * Depuis ces événements, D&D Beyond s'est mis à publier du contenu de tierces parties sans imposer ces contraintes.
 * **Confusions légales** :
     * Il n'est pas possible dans le cadre d'une licence de faire signer aux récipiendaires des renonciations à leurs droits légaux, ni de contraindre à pré-choisir des modes d'attaques ou de défense en cas de procès.
-    * Il n'est pas possible de déterminer par avance l'issue de potentielles attaques, par exemple pour plagiat. Ces litiges doivent être résolus par les tribunaux dans l'exercice plein et entier du droit américain.
+    * Il n'est pas possible de déterminer par avance l'issue de potentielles attaques, par exemple dans le cas d'un plagiat. Ces litiges doivent être résolus par les tribunaux dans l'exercice plein et entier du droit américain.
 * **Confusion de textes légaux** : on trouve dans cette licences des éléments venant de multiples sources :
     * Des licences de type CC4,
     * Des conditions d'adhésion à un service Internet en ligne (type D&D Beyond),
-    * Voire des clauses de contrat de travail,
+    * Des clauses qui ressemblent à celles d'un contrat de travail,
     * Des clauses contractuelles établies dans le cadre d'un accord entre deux compagnies.
 
 Ce document est une honte pour le monde du JDR tant l'incompétence des gens ayant travaillé sur ce dossier est patente.
@@ -838,11 +846,24 @@ De plus, au regard de son caractère propre à tuer le business, il est normal q
 
 ### Conclusion de l'affaire
 
-Devant la levée de boucliers, WotC se décide à publier le SRD 5.1 en version OGL V1.0a et en version CC-BY-4.0 (CC4).
+Devant la levée de boucliers, WotC se décide à publier le SRD 5.1 dans son intégralité en version OGL V1.0a et en version CC-BY-4.0 (CC4).
 
-Cette position est parfaitement incohérente : dans CC4, tout le contenu est ouvert, alors que dans le clauses de la licence OGL, les sorts par exemple ne figurent pas dans les éléments ouverts (alors qu'ils sont dans le SRD)...
+Cette position est parfaitement incohérente : dans CC4, tout le contenu est ouvert, alors que dans le clauses de la licence OGL, les sorts par exemple ne figurent pas dans les éléments ouverts (alors qu'ils sont dans le SRD) ! WotC n'est pas à une bêtise près.
 
 Un tel niveau d'incompétence est quand même rarement vu.
+
+### Peur des procès
+
+Ce que l'on peut dire, c'est que, faisant partie du groupe Hasbro, WotC est vu comme une grosse maison disposant de moyens énormes, notamment juridiques.
+
+2023 nous montre que :
+
+* Ce n'est pas le cas : aucune conseil juridique digne de ce nom n'a pu drafter cette licence ;
+* WotC a une peur panique des procès, alors que tout le monde a peur, dans le cadre de l'OGL, d'enfreindre des copyrights et de se faire attaquer par WotC ;
+* WotC n'a aucune stratégie claire concernant l'OGL ou les liens avec les compagnies utilisant cette licence ;
+* Certaines personnes savent que le contenu SRD 5.1 est sans doute non soumis au copyright, et d'autres aimeraient faire croire le contraire.
+
+WotC est une belle machine pour sortir des livres physiques et des PDF, pour exploiter aussi des contenus en ligne, mais le reste montre de gros manques en termes de stratégie et de compétences. 
 
 ## Suite des événements dans le monde OGL en janvier 2023
 
@@ -905,7 +926,7 @@ La licence ORC entend clairement s'attaquer à l'article 9 de la licence OGL V1.
 
 Il faut rester persuadé qu'une grosse partie du SRD 5.1 de *D&D* ne peut pas légalement porter de copyright car ce sont des règles. Il faudrait faire l'exercice avec un spécialiste pour extraire le contenu "non règles" pour obtenir un SRD complètement ouvert, dans le domaine public.
 
-Mais beaucoup de sociétés ont intérêt à se protéger derrière des licences même si ces dernières sont bancales.
+Mais réalisons que peu de gens ont intérêt à lever l'ambiguïté du copyright lié aux règles. Au contraire, beaucoup de sociétés ont intérêt à se protéger derrière des licences même si ces dernières sont bancales. Au niveau de leurs investisseurs, cela peut rassurer.
 
 ## Ouverture de BRP 5e en ORC
 
@@ -915,9 +936,9 @@ La société Chaosium a publié quasiment [toute la 5e du Basic RolePlaying (BRP
 
 Il est donc possible de voir cette publication comme, une fois de plus,  une ligne tracée entre ce qui est du contenu sans copyright d'un contenu avec copyright.
 
-D'une certaine façon, c'est le lot des systèmes de jeu génériques (BRP, GURPS, etc.) d'avoir une très grosse partie de leur contenu publiable en mode SRD.
+D'une certaine façon, c'est le lot des systèmes de jeu génériques (BRP, GURPS, etc.) d'avoir une très grosse partie de leur contenu publiable en mode SRD - sans copyright.
 
-Faute de mieux et histoire de demander à la communauté d'être *fair play* avec les inventeurs, citer la filiation est un acte de bonne conduite que les licences OGL et ORC voudraient rendre obligatoire.
+Faute de mieux et histoire de demander à la communauté d'être *fair play* avec les inventeurs, citer la filiation est un acte de bonne conduite que les licences OGL, CC-BY-V4.0 et ORC voudraient rendre obligatoire.
 
 Mais si l'acte est moralement bon, il ne figure pas dans les obligations légales de la loi sur le copyright.
 
@@ -955,9 +976,11 @@ Une lecture rapide de Black Flag permet de voir que le contenu est une version s
 
 *Black Flag* doit servir de fondation au jeu *Tales of the Valiant*. Par cette manipulation de licences, Kobold Press veut construire sur une base ouverte inattaquable et inaltérable lui permettant d'exploiter le contenu de WotC.
 
+C'est une approche "ceinture et bretelles" mais qui maintient l'ambiguïté sur la nature du contenu du SRD 5.1. En prenant uniquement un extrait de ce contenu, les Kobold Press entendent définir à leur tour ce qui n'est vraiment pas, de manière certaine, soumis au copyright.
+
 ## Conclusion
 
-Il n'est pas possible que certains acteurs du JDR américains n'aient pas compris depuis longtemps que cette licence OGL était creuse du fait que le contenu distribué par WotC ne puisse pas être soumis au copyright.
+Il n'est pas possible que certains acteurs du JDR américains n'aient pas compris depuis longtemps que cette licence OGL était "creuse" du fait que le contenu distribué par WotC ne puisse pas être soumis au copyright.
 
 Il paraît invraisemblable que personne chez WotC n'ait compris que le contenu du SRD n'était pas soumis au copyright, j'en veux pour preuve :
 
