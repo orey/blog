@@ -121,6 +121,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://orey.github.io/blog/pages/enterprise-rpg/</loc>
+         <lastmod>2025-03-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://orey.github.io/blog/pages/gme/</loc>
          <lastmod>2025-03-09</lastmod>
          <changefreq>daily</changefreq>
