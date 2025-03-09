@@ -16,15 +16,16 @@
 
 # The Blog - Le Blog
 
-<table>
+<table style="margin-left:auto;margin-right:auto;" width="700px"">
 <tr>
-<td>
-<img src="./images/lutrin.png" width="400px">
+<td style="align:center;">
+<a href="./blog/2025/"><img src="./images/lutrin.png" width="300px"></a>
 </td>
-<td style="font-size:14px;">
-<a href="./blog/2025/">Le Blog</a>
-<br>
-Diverses notes, études et commentaires sur les JDR
+<td style="vertical-align:middle;" width="300px">
+<span style="font-size:16px;font-weight:bold;"><a href="./blog/2025/">Le Blog</a><br>
+Diverses notes,<br>
+études et commentaires<br>
+sur les JDR</span>
 </td>
 </tr>
 </table>
