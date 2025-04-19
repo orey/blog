@@ -2,12 +2,9 @@
 
 <table>
 <tr>
-<th> Français </th>
-<th> English </th>
-</tr>
-<tr>
-<td style="font-size:16px;color:red;">Profitons-en pendant que Cthulhu Fhtagn ! Ce site vous propose diverses choses en français ou en anglais sur les jeux de rôles (JDR). </td>
-<td style="font-size:16px;">Enjoy while Cthulhu Fhtagn! This site proposes various stuff in English and French about tabletop roleplaying games (TTRPG). </td>
+<td style="text-align:center;font-size:16px;color:darkred;">Profitons-en pendant que Cthulhu Fhtagn !<br>
+Ce site vous propose diverses choses relatives aux jeux de rôles, "sur table" comme on dit maintenant (JDR, RPG, TTRPG). </td>
+</td>
 </tr>
 </table>
 
