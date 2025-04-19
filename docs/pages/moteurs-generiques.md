@@ -1,50 +1,79 @@
 ---
 tags:
-    - Adventure in Middle-Earth
-    - Apocalypse World
-    - Atomic Robo
+    - 2d20
+    - Adventures in Middle-Earth
+    - Age System
     - Basic Roleplaying System
+    - BESM
     - Blades in the Dark
     - Call of Cthulhu
+    - Conan 2d20
+    - Cortex Prime
+    - Cthulhu Confidential
+    - Cypher
+    - d20 System
+    - D6 System
     - D&D
-    - Diaspora
-    - Dresden Files
-    - Dungeon World
+    - EABA
+    - Elric
+    - Esoterrorists
     - Fate
+    - Forge Engine
+    - FU
     - Fudge
     - Fuzion
-    - Ghostbusters
+    - Genesys
+    - Gumshoe
     - GURPS
-    - Indiana Jones
-    - Ironforged
-    - Judge Dredd
-    - Kult
+    - Hero System
+    - Hollow Earth Expedition
+    - Interlock
+    - Lord of the Rings 5e
     - M-Space
-    - Men in Black
-    - Metabarons
+    - Magic World
+    - Megaversal
+    - MERP
     - Microlite
     - Mutants & Masterminds
+    - Open-Legend RPG
+    - Palladium
     - Pathfinder
+    - PbtA
+    - Rolemaster
+    - Runequest
     - Savage Worlds
-    - Star Wards D6
     - Star Wars 5e
-    - Solspace
-    - SotU
-    - Tal'Dorei
-    - Talislanta
-    - The Spawn
+    - Stormbringer
+    - Swords of the Serpentine
+    - Tri-Stat dX
     - True20
-    - Ultramodern 5e
-    - Xenomorphs
+    - Ubiquity
+    - WOIN
 ---
 
 # Petit aperçu partial des moteurs de JDR génériques
 
+## Introduction
+
+### Page reddit
+
 La liste qui suit vient d'une page reddit qui listait les moteurs de jeux génériques : [lien reddit](https://www.reddit.com/r/rpg/comments/123rm76/best_generic_systems/?rdt=56245).
 
-Je me suis dit que ce serait une bonne idée pour moi de faire la synthèse de ce que j'ai vu et lu et de ce à quoi j'ai joué. Attention, tout est très partial.
+Je me suis dit que ce serait une bonne idée pour moi de faire la synthèse de ce que j'ai vu et lu et de ce à quoi j'ai joué. Attention, tout est très partial et surtout très incomplet, mais cela me permet de capitaliser un peu sur ce que je lis.
 
-Par ordre alphabétique.
+### Typologie des systèmes
+
+En fait, nous pouvons commencer une typologie des systèmes.
+
+Le premier élément est que beaucoup de ces systèmes sont le fruit d'une seule personne, ou d'un très petit groupe de jeu. C'est souvent un inconvénient, car travailler sur un groupe large avec une communauté créative permet de créer des jeux plus équilibrés, plus *streamlined* comme on dit en anglais.
+
+Ensuite, beaucoup de systèmes de jeux reprennent les mêmes mécaniques. Un papier assez intéressant a été écrit sur les design patterns dans le JDR : [Design Patterns of Successful Roleplaying Games](../files/divers/RPG_Design_Patterns_9_13_09.pdf).
+
+Pour autant, nous pouvons établir une classification un peu différente des jeux. A compléter.
+
+### A propos de la liste
+
+La liste est présentée par ordre alphabétique. Elle contiendra de plus en plus les mini-systèmes et les liens vers les sites concernés.
 
 ## 2D20-System
 
@@ -68,7 +97,7 @@ Alors que dire... Malgré toutes les attaques contre la 5e, on peut voir qu'elle
 
 ![Star Wars 5e](../images/starwars5e.png)
 
-J'aime bien *Adventures in Middle Earth*, même si je n'ai jamais joué. J'ai joué, voilà bien longtemps, un scénar de MERP (avec un des "spécialistes" de Tolkien dans le monde du JDR) mais cela ne m'a pas emballé. A l'époque, des gars avaient la grosse tête parce qu'ils avaient lu tout Tolkien en anglais. Cela me laissait perplexe.
+J'aime bien *Adventures in Middle-Earth*, même si je n'ai jamais joué. J'ai joué, voilà bien longtemps, un scénar de MERP (avec un des "spécialistes" de Tolkien dans le monde du JDR) mais cela ne m'a pas emballé. A l'époque, des gars avaient la grosse tête parce qu'ils avaient lu tout Tolkien en anglais. Cela me laissait perplexe.
 
 ![adventures-in-middle-earth.png](../images/adventures-in-middle-earth.png)
 
@@ -122,12 +151,12 @@ En fait, j'ai l'impression que *Magic World* est plus simple et plus équilibré
 
 ![magicworld.jpg](../images/magicworld.jpg)
 
-Cela me fait l'effet de *Stormbringer/Elric* qui a pris un parti volontairement très violent.
+Cela me fait l'effet de *Stormbringer/Elric* qui a pris un parti volontairement très violent et très custom sur la partie magie.
 
 J'aime beaucoup ce système même si je cherche toujours un système de psioniques qui vaille le coup :
 
 * Celui du *Big Yellow Book* n'est vraiment pas top,
-* On a un embryon de système dans M-Space mais ce n'est pas top non plus.
+* On a un embryon de système dans *M-Space* mais ce n'est pas top non plus.
 
 ##  Cortex Prime
 
@@ -228,6 +257,19 @@ Je note ces systèmes pour les analyser plus tard, mais je ne les connais pas.
 
 Je crois que l'utilisation de dés spéciaux m'a tout de suite repoussé. Déjà avec DCC, si l'on veut vraiment avoir la suite de dés, il faut acheter des dés tordus mais là, cela m'a arrêté tout net. J'y reviendrai peut-être.
 
+## Gumshoe
+
+| Jeux                 |                      |                          |
+|----------------------|----------------------|--------------------------|
+| Fear Itself          | Esoterrorists        | Trail of Cthulhu         |
+| Night's Black Agents | Cthulhu Confidential | Swords of the Serpentine |
+
+Je connais bien *Esoterrorists*. J'ai acquis une occase de *Cthulhu Confidential* mais sans avoir pris le temps de le lire (le bouquin est très gros).
+
+Je ne suis pas convaincu par l'hypothèse même qui a généré ce système. Il faudrait aussi regarder dans *Swords of the Serpentine* comment le système s'adapte à du médiéval fantastique.
+
+Lien vers le SRD : [Gumshoe SRD](https://pelgranepress.com/2013/10/24/the-gumshoe-system-reference-document/).
+
 ## GURPS
 
 J'ai en magasin les éditions 2, 3 et 4 (enfin complète !) et j'aime bien le système.
@@ -288,7 +330,7 @@ Bon, enfin, j'ai quand même failli acheter *Blades in the Dark* en occase la de
 | Rolemaster Fantasy | Spacemaster | MERP |
 | Shadow World       | Cyberspace  |      |
 
-J'ai la version française de *Rolemaster* d'il y a longtemps mais je n'ai jamais joué. J'avais trouvé pas mal le jeu dans le passé, mais un peu compliqué avec ses dizaines de tables. MERP était une version simplifiée.
+J'ai la version française de *Rolemaster* d'il y a longtemps mais je n'ai jamais joué. J'avais trouvé pas mal le jeu dans le passé, mais un peu compliqué avec ses dizaines de tables. *MERP* était une version simplifiée.
 
 ![Rolemaster](../images/rolemaster.jpg)
 
@@ -364,7 +406,6 @@ Jusqu'ici, c'est très *D&D* ! Les secondary attributes sont un refactoring des 
 Le système est basé sur des pools de dés et propose quelques variantes en comparaison de *D&D* édition 3.5 à l'époque. Certes, il n'y a pas de classes, mais malgré son côté *dice pool*, ce système peut être vu comme une variante du d20 !
 
 Ce qui me gène, c'est qu'il est promus comme étant innovant et *pulp*. Mouais.
-
 
 ## W.O.I.N.
 
