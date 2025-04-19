@@ -1,7 +1,7 @@
 site_name: Cthulhu Fhtagn A Lot
 site_description: A Grognard Blog
 site_author: Olivier Rey
-copyright: Copyleft Olivier Rey 2017-2024 (GNU FDL)
+copyright: Copyleft Olivier Rey 2017-2025 (GNU FDL)
 theme:
     name: material
     palette:
