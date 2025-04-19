@@ -1,0 +1,1989 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A Grognard Blog">
+      
+      
+        <meta name="author" content="Olivier Rey">
+      
+      
+        <link rel="canonical" href="https://orey.github.io/blog/pages/moteurs-generiques/">
+      
+      
+      
+      <link rel="icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.2">
+    
+    
+      
+        <title>Petit aperçu partial des moteurs de JDR génériques - Cthulhu Fhtagn A Lot</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.f56500e0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#petit-apercu-partial-des-moteurs-de-jdr-generiques" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Cthulhu Fhtagn A Lot" class="md-header__button md-logo" aria-label="Cthulhu Fhtagn A Lot" data-md-component="logo">
+      
+  <img src="../../images/Monstre1.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cthulhu Fhtagn A Lot
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Petit aperçu partial des moteurs de JDR génériques
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../blog/2025/" class="md-tabs__link">
+        Blog
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../licences/" class="md-tabs__link">
+        Etudes/Studies
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../downloads/eldritch-wizardry/" class="md-tabs__link">
+        Downloads
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../links-en/" class="md-tabs__link">
+        Links/Liens
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../tags/" class="md-tabs__link">
+      Tags
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Cthulhu Fhtagn A Lot" class="md-nav__button md-logo" aria-label="Cthulhu Fhtagn A Lot" data-md-component="logo">
+      
+  <img src="../../images/Monstre1.png" alt="logo">
+
+    </a>
+    Cthulhu Fhtagn A Lot
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Blog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Blog" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Blog
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2025/" class="md-nav__link">
+        2025
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2024/" class="md-nav__link">
+        2024
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2023/" class="md-nav__link">
+        2023
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2022/" class="md-nav__link">
+        2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2021/" class="md-nav__link">
+        2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2020/" class="md-nav__link">
+        2020
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Etudes/Studies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Etudes/Studies" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Etudes/Studies
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licences/" class="md-nav__link">
+        Les licences "ouvertes" dans le JDR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../psionics/" class="md-nav__link">
+        Les pouvoirs psychiques dans le JDR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gme/" class="md-nav__link">
+        Brève étude des Game Master Emulator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-systems/" class="md-nav__link">
+        Comparaison des systèmes D6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-TargetNumber/" class="md-nav__link">
+        Target Number dans le système D6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-Combat/" class="md-nav__link">
+        Combat dans le système D6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pbta/" class="md-nav__link">
+        Analyse des jeux PbtA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../propp/" class="md-nav__link">
+        Morphologie du Conte, de Vladimir Propp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../enterprise-rpg/" class="md-nav__link">
+        Enterprise RPG
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Downloads
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Downloads" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Downloads
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/eldritch-wizardry/" class="md-nav__link">
+        OD&D Pouvoirs psioniques
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/ghostbusters/" class="md-nav__link">
+        Ghostbusters
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/fighting-fantasy/" class="md-nav__link">
+        Fighting Fantasy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/risus/" class="md-nav__link">
+        Risus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/grande-liste/" class="md-nav__link">
+        La grande Liste des intrigues de JDR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/cthulhu-dark/" class="md-nav__link">
+        Cthulhu Dark
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/mega/" class="md-nav__link">
+        Risus pour Méga
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/fudge/" class="md-nav__link">
+        Fudge en une page
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/dungeonsquad/" class="md-nav__link">
+        DungeonSquad!
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Links/Liens
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Links/Liens" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Links/Liens
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links-en/" class="md-nav__link">
+        TTRPG websites
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/" class="md-nav__link">
+        Sites JDR
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        Tags
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        Author
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LICENSE/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#petit-apercu-partial-des-moteurs-de-jdr-generiques" class="md-nav__link">
+    Petit aperçu partial des moteurs de JDR génériques
+  </a>
+  
+    <nav class="md-nav" aria-label="Petit aperçu partial des moteurs de JDR génériques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2d20-system" class="md-nav__link">
+    2D20-System
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5e-jeux-bases-sur-la-5eme-edition-de-dd" class="md-nav__link">
+    5e, jeux basés sur la 5ème édition de D&amp;D
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#age-system" class="md-nav__link">
+    Age system
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#basic-roleplaying-system" class="md-nav__link">
+    Basic Roleplaying System
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cortex-prime" class="md-nav__link">
+    Cortex Prime
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cypher" class="md-nav__link">
+    Cypher
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d6-system-opend6" class="md-nav__link">
+    D6 System, OpenD6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d20-system-jeux-bases-sur-la-3035e-de-dd" class="md-nav__link">
+    d20 system, jeux basés sur la 3.0/3.5e de D&amp;D
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eaba" class="md-nav__link">
+    EABA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fate-fate-accelerated" class="md-nav__link">
+    Fate, Fate Accelerated
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fu-freeform-universal" class="md-nav__link">
+    FU (Freeform Universal)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forge-engine" class="md-nav__link">
+    Forge Engine
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fuzion-interlock" class="md-nav__link">
+    Fuzion, Interlock
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#genesys" class="md-nav__link">
+    Genesys
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gurps" class="md-nav__link">
+    GURPS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hero-system" class="md-nav__link">
+    Hero System
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#omni-system" class="md-nav__link">
+    Omni System
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-legend-rpg" class="md-nav__link">
+    Open Legend RPG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#palladiummegaversal-system" class="md-nav__link">
+    Palladium/Megaversal-System
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pbta-powered-by-the-apocalypse" class="md-nav__link">
+    PbtA - Powered by the Apocalypse
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rolemaster" class="md-nav__link">
+    Rolemaster
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#savage-worlds" class="md-nav__link">
+    Savage Worlds
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tri-stat-dx" class="md-nav__link">
+    Tri-Stat dX
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#true20" class="md-nav__link">
+    True20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubiquity-roleplaying-system" class="md-nav__link">
+    Ubiquity Roleplaying System
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#woin" class="md-nav__link">
+    W.O.I.N.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+  <nav class="md-tags" >
+    
+      
+      
+        <a href="../../tags/#adventure-in-middle-earth" class="md-tag">Adventure in Middle-Earth</a>
+      
+    
+      
+      
+        <a href="../../tags/#apocalypse-world" class="md-tag">Apocalypse World</a>
+      
+    
+      
+      
+        <a href="../../tags/#atomic-robo" class="md-tag">Atomic Robo</a>
+      
+    
+      
+      
+        <a href="../../tags/#basic-roleplaying-system" class="md-tag">Basic Roleplaying System</a>
+      
+    
+      
+      
+        <a href="../../tags/#blades-in-the-dark" class="md-tag">Blades in the Dark</a>
+      
+    
+      
+      
+        <a href="../../tags/#call-of-cthulhu" class="md-tag">Call of Cthulhu</a>
+      
+    
+      
+      
+        <a href="../../tags/#dd" class="md-tag">D&D</a>
+      
+    
+      
+      
+        <a href="../../tags/#diaspora" class="md-tag">Diaspora</a>
+      
+    
+      
+      
+        <a href="../../tags/#dresden-files" class="md-tag">Dresden Files</a>
+      
+    
+      
+      
+        <a href="../../tags/#dungeon-world" class="md-tag">Dungeon World</a>
+      
+    
+      
+      
+        <a href="../../tags/#fate" class="md-tag">Fate</a>
+      
+    
+      
+      
+        <a href="../../tags/#fudge" class="md-tag">Fudge</a>
+      
+    
+      
+      
+        <a href="../../tags/#fuzion" class="md-tag">Fuzion</a>
+      
+    
+      
+      
+        <a href="../../tags/#ghostbusters" class="md-tag">Ghostbusters</a>
+      
+    
+      
+      
+        <a href="../../tags/#gurps" class="md-tag">GURPS</a>
+      
+    
+      
+      
+        <a href="../../tags/#indiana-jones" class="md-tag">Indiana Jones</a>
+      
+    
+      
+      
+        <a href="../../tags/#ironforged" class="md-tag">Ironforged</a>
+      
+    
+      
+      
+        <a href="../../tags/#judge-dredd" class="md-tag">Judge Dredd</a>
+      
+    
+      
+      
+        <a href="../../tags/#kult" class="md-tag">Kult</a>
+      
+    
+      
+      
+        <a href="../../tags/#m-space" class="md-tag">M-Space</a>
+      
+    
+      
+      
+        <a href="../../tags/#men-in-black" class="md-tag">Men in Black</a>
+      
+    
+      
+      
+        <a href="../../tags/#metabarons" class="md-tag">Metabarons</a>
+      
+    
+      
+      
+        <a href="../../tags/#microlite" class="md-tag">Microlite</a>
+      
+    
+      
+      
+        <a href="../../tags/#mutants-masterminds" class="md-tag">Mutants & Masterminds</a>
+      
+    
+      
+      
+        <a href="../../tags/#pathfinder" class="md-tag">Pathfinder</a>
+      
+    
+      
+      
+        <a href="../../tags/#savage-worlds" class="md-tag">Savage Worlds</a>
+      
+    
+      
+      
+        <a href="../../tags/#star-wards-d6" class="md-tag">Star Wards D6</a>
+      
+    
+      
+      
+        <a href="../../tags/#star-wars-5e" class="md-tag">Star Wars 5e</a>
+      
+    
+      
+      
+        <a href="../../tags/#solspace" class="md-tag">Solspace</a>
+      
+    
+      
+      
+        <a href="../../tags/#sotu" class="md-tag">SotU</a>
+      
+    
+      
+      
+        <a href="../../tags/#taldorei" class="md-tag">Tal'Dorei</a>
+      
+    
+      
+      
+        <a href="../../tags/#talislanta" class="md-tag">Talislanta</a>
+      
+    
+      
+      
+        <a href="../../tags/#the-spawn" class="md-tag">The Spawn</a>
+      
+    
+      
+      
+        <a href="../../tags/#true20" class="md-tag">True20</a>
+      
+    
+      
+      
+        <a href="../../tags/#ultramodern-5e" class="md-tag">Ultramodern 5e</a>
+      
+    
+      
+      
+        <a href="../../tags/#xenomorphs" class="md-tag">Xenomorphs</a>
+      
+    
+  </nav>
+
+
+
+
+
+  <h1>Petit aperçu partial des moteurs de JDR génériques</h1>
+
+<h2 id="petit-apercu-partial-des-moteurs-de-jdr-generiques">Petit aperçu partial des moteurs de JDR génériques<a class="headerlink" href="#petit-apercu-partial-des-moteurs-de-jdr-generiques" title="Permanent link">#</a></h2>
+<p>La liste qui suit vient d'une page reddit qui listait les moteurs de jeux génériques : <a href="https://www.reddit.com/r/rpg/comments/123rm76/best_generic_systems/?rdt=56245">lien reddit</a>.</p>
+<p>Je me suis dit que ce serait une bonne idée pour moi de faire la synthèse de ce que j'ai vu et lu et de ce à quoi j'ai joué. Attention, tout est très partial.</p>
+<p>Par ordre alphabétique.</p>
+<h3 id="2d20-system">2D20-System<a class="headerlink" href="#2d20-system" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conan</td>
+<td>Star Trek Adventures</td>
+<td>Mutant Chronicles 3e</td>
+</tr>
+<tr>
+<td>Infinity RPG</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="conan-2d20.png" src="../../images/conan-2d20.png" /></p>
+<p>Je connais mal ce système. J'ai acquis, il n'y a pas longtemps, un exemplaire de <em>Conan 2D20</em> publié pour le <em>Free RPG Day</em>, mai je n'ai pas eu le temps de regarder. A suivre.</p>
+<h3 id="5e-jeux-bases-sur-la-5eme-edition-de-dd">5e, jeux basés sur la 5ème édition de D&amp;D<a class="headerlink" href="#5e-jeux-bases-sur-la-5eme-edition-de-dd" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux basés sur la 5.0/5.5</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adventure in Middle-Earth</td>
+<td>Tal'Dorei</td>
+<td>Talislanta</td>
+</tr>
+<tr>
+<td>Ultramodern 5e</td>
+<td>Star Wars 5e</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Alors que dire... Malgré toutes les attaques contre la 5e, on peut voir qu'elle s'adapte plutôt pas mal à différentes choses. J'ajouterai en ligne : <a href="https://www.sw5e.com">Star Wars 5e</a> que je trouve assez réussi.</p>
+<p><img alt="Star Wars 5e" src="../../images/starwars5e.png" /></p>
+<p>J'aime bien <em>Adventures in Middle Earth</em>, même si je n'ai jamais joué. J'ai joué, voilà bien longtemps, un scénar de MERP (avec un des "spécialistes" de Tolkien dans le monde du JDR) mais cela ne m'a pas emballé. A l'époque, des gars avaient la grosse tête parce qu'ils avaient lu tout Tolkien en anglais. Cela me laissait perplexe.</p>
+<p><img alt="adventures-in-middle-earth.png" src="../../images/adventures-in-middle-earth.png" /></p>
+<p>Certes <em>Cubicle 7</em> a perdu sa licence mais les ayant-droits dudit Tolkien paraissent un peu psychopathes parce qu'on ne bâtit pas une gamme en 5 minutes. Faut-il que les fans rachètent la version <em>Lord of the Rings 5e</em> de <em>Free League</em> ?</p>
+<p>Quand les gammes changent trop, c'est compliqué à suivre. Le pire, ces derniers temps, c'est <em>Pathfinder 2e</em> avec ses deux éditions (une OGL et une sans aucune mention venant de l'OGL).</p>
+<h3 id="age-system">Age system<a class="headerlink" href="#age-system" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fantasy Age</td>
+<td>Dragon Age</td>
+<td>Modern Age</td>
+</tr>
+</tbody>
+</table>
+<p>Je ne connais que les quickstart guides de <em>Dragon Age</em> et de <em>Modern Age</em>, mais le système est très voisin : 3D6 + caractéristique + focus contre facteur de difficulté.</p>
+<p><img alt="DragonAge.png" src="../../images/DragonAge.png" /></p>
+<p>La table ci-dessous compare les caractéristiques de ces jeux avec <em>D&amp;D</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Dragon Age</th>
+<th>Modern Age</th>
+<th>D&amp;D</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Accuracy</td>
+<td>Dexterity</td>
+</tr>
+<tr>
+<td>Communication</td>
+<td>Communication</td>
+<td>Charisma</td>
+</tr>
+<tr>
+<td>Constitution</td>
+<td>Constitution</td>
+<td>Constitution</td>
+</tr>
+<tr>
+<td>Cunning</td>
+<td>Intelligence</td>
+<td>Intelligence</td>
+</tr>
+<tr>
+<td>Dexterity</td>
+<td>Dexterity</td>
+<td>Dexterity</td>
+</tr>
+<tr>
+<td></td>
+<td>Fighting</td>
+<td>Strength/Dexterity</td>
+</tr>
+<tr>
+<td>Magic</td>
+<td></td>
+<td>Wisdom/Intelligence/Charisma</td>
+</tr>
+<tr>
+<td>Perception</td>
+<td>Perception</td>
+<td>Wisdom</td>
+</tr>
+<tr>
+<td>Strength</td>
+<td>Strength</td>
+<td>Strength</td>
+</tr>
+<tr>
+<td>Willpower</td>
+<td>Willpower</td>
+<td>Wisdom</td>
+</tr>
+</tbody>
+</table>
+<p>Pour <em>D&amp;D</em>, nous sommes avec d20 + bonus de caractéristique + proficiency bonus + autres bonus contre facteur de difficulté.</p>
+<p>Age propose la courbe en cloche des 3D6 contre la linéarité du d20. Mouais, why not. Je ne suis pas certain que cela apporte quelque chose. Si, disons que matérialiser Perception comme une caractéristique est intéressant (c'est un peu une bidouille dans <em>D&amp;D</em>).</p>
+<h3 id="basic-roleplaying-system">Basic Roleplaying System<a class="headerlink" href="#basic-roleplaying-system" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Call of Cthulhu</td>
+<td>Runequest</td>
+<td>Magic World</td>
+</tr>
+<tr>
+<td>Stormbringer</td>
+<td>Elric</td>
+<td>M-Space</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="coc7e.png" src="../../images/coc7e.png" /></p>
+<p>Bon, ce système parfait pour <em>Cthulhu</em>, je pense que c'est clair, même si je n'aime pas les caractéristiques en pourcentage de la 7ème édition.</p>
+<p>Pour <em>Runequest</em>, je le trouve un peu dur (voir l'<a href="../../blog/2025/#a-propos-du-lien-classe-darmure-et-d20">article sur la classe d'armure</a>) : ainsi, il est facile de mourir suite à un mauvais hasard (et non à des actions du joueur). Quoiqu'en dise Petersen dans une de ses interviews, cette façon de faire du médiéval-fantastique est un peu dure pour moi. J'avoue : je ne prends pas plaisir à tuer des personnages (sauf à <em>Cthulhu</em> peut-être).</p>
+<p>En fait, j'ai l'impression que <em>Magic World</em> est plus simple et plus équilibré sans doute que <em>Runequest</em>, même si des innovations de Runequest sont très intéressantes.</p>
+<p><img alt="magicworld.jpg" src="../../images/magicworld.jpg" /></p>
+<p>Cela me fait l'effet de <em>Stormbringer/Elric</em> qui a pris un parti volontairement très violent.</p>
+<p>J'aime beaucoup ce système même si je cherche toujours un système de psioniques qui vaille le coup :</p>
+<ul>
+<li>Celui du <em>Big Yellow Book</em> n'est vraiment pas top,</li>
+<li>On a un embryon de système dans M-Space mais ce n'est pas top non plus.</li>
+</ul>
+<h3 id="cortex-prime">Cortex Prime<a class="headerlink" href="#cortex-prime" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Battle Star Galatica</td>
+<td>Smallville</td>
+<td>Supernatural</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="CortexPrime.png" src="../../images/CortexPrime.png" /></p>
+<p>Bon, là, j'avoue que j'ai du mal. Si la mécanique de base de <em>Cortex Prime</em> est simpliste, dès que l'on entre un peu dans les détails, cela me paraît plutôt compliqué. Cela m'a fait un peu le même effet que <em>Tri-Stat dX</em>, et j'avoue que je n'ai jamais fait l'effort de rentrer plus dans ces mécaniques complexes de <em>dice pools</em> et de négociations pour faire le moindre jet.</p>
+<p>Mais ce doit être mon côté <em>Microlite20</em> qui ressort.</p>
+<h3 id="cypher">Cypher<a class="headerlink" href="#cypher" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Numenera</td>
+<td>The Strange</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Bon alors là, je trouve que ce système est la preuve qu'un bon créateur de contenus de JDR comme Monte Cook peut être très mauvais concepteur de jeu. Ce n'est d'ailleurs pas étonnant : la créativité univers/scénarios est un talent différent de celui de créateur de jeu.</p>
+<p><img alt="Cypher system" src="../../images/cypher.png" /></p>
+<p>Ces jeux font partie des rares que j'ai revendu sans problème.</p>
+<p>Voir l'article du blog en <a href="../../blog/2024/#cypher-a-eviter">2024</a>.</p>
+<h3 id="d6-system-opend6">D6 System, OpenD6<a class="headerlink" href="#d6-system-opend6" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ghostbusters</td>
+<td>WEG Star Wars</td>
+<td>Indiana Jones</td>
+</tr>
+<tr>
+<td>Men in Black</td>
+<td>Metabarons</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>J'ai beaucoup joué et écrit sur le <a href="https://orey.github.io/blog/tags/#d6-system">D6</a>. J'aime bien ce système et tout le contenu open qui va avec, même si l'équilibre du jeu est parfois limite.</p>
+<p><img alt="d6-spaceships.jpg" src="../../images/d6-spaceships.jpg" /></p>
+<p>A noter la partie psionique très intéressante de <em>D6 Space Opera</em>, un peu moins connu que ses petits camarades (voir <a href="https://ogc.rpglibrary.org/index.php?title=OpenD6">ici</a>).</p>
+<h3 id="d20-system-jeux-bases-sur-la-3035e-de-dd">d20 system, jeux basés sur la 3.0/3.5e de D&amp;D<a class="headerlink" href="#d20-system-jeux-bases-sur-la-3035e-de-dd" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux basés sur la 3.0/3.5</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mutants &amp; Masterminds</td>
+<td>Microlite20</td>
+<td>SotU</td>
+</tr>
+<tr>
+<td>Talislanta</td>
+<td>Pathfinder</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Honte à moi : j'ai acheté en occasion <em>Mutants &amp; Masterminds</em> 2e voilà plus d'un an (je poursuis ma quête d'un système de jeu simple intuitif et explosif pour les pouvoirs psioniques) et je n'ai fait que le feuilleter.</p>
+<p><img alt="M&amp;M2e.jpg" src="../../images/M%26M2e.jpg" /></p>
+<p>C'est sans doute un bon plan que de faire un "fork" de la 3e. <em>Microlite</em> est un de mes systèmes de jeux favoris</p>
+<p><img alt="microlite20-purest-essence.png" src="../../images/microlite20-purest-essence.png" /></p>
+<p><a href="https://www.drivethrurpg.com/en/product/311250/microlite20-rpg-collection-2020-edition">Achetez-le</a> ! 1 euro pour 2 700 pages de jeux !</p>
+<h3 id="eaba">EABA<a class="headerlink" href="#eaba" title="Permanent link">#</a></h3>
+<p>Je ne connais pas mais il est décrit sur <a href="https://en.wikipedia.org/wiki/EABA">Wikipedia</a>. Encore un <em>dice pool</em> system.</p>
+<h3 id="fate-fate-accelerated">Fate, Fate Accelerated<a class="headerlink" href="#fate-fate-accelerated" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dresden Files</td>
+<td>Atomic Robo</td>
+<td>Diaspora</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Fudge" src="../../images/fudge.png" /></p>
+<p>J'ai joué à <a href="../../downloads/fudge/">Fudge</a> mais jamais à <em>Fate</em>.</p>
+<p>Je ne suis pas un grand connaisseur mais ce que j'en ai retenu était l'innovation des <em>aspects</em>. Au final, ce jeu m'a paru plutôt compliqué à diriger.</p>
+<h3 id="fu-freeform-universal">FU (Freeform Universal)<a class="headerlink" href="#fu-freeform-universal" title="Permanent link">#</a></h3>
+<p>Un jeu de rôle super lite disponible <a href="https://www.perilplanet.com/freeform-universal/">en ligne</a>.</p>
+<h3 id="forge-engine">Forge Engine<a class="headerlink" href="#forge-engine" title="Permanent link">#</a></h3>
+<p><img alt="ForgeEngine.png" src="../../images/ForgeEngine.png" /></p>
+<p>Le PDF est gratuit sur <a href="https://www.drivethrurpg.com/en/product/235070/forge-engine-universal-role-playing-system?src=blog">DriveThru</a> donc vous pouvez le télécharger.</p>
+<p>Cela sent le système de jeu fait par un seul homme, comme <em>Cypher</em>.</p>
+<p>Pour ma part, j'ai été un peu rebuté d'emblée par le mélange de symboles pour les dés et de dice pools. Je suis sans doute trop vieux...</p>
+<h3 id="fuzion-interlock">Fuzion, Interlock<a class="headerlink" href="#fuzion-interlock" title="Permanent link">#</a></h3>
+<p>Je note ces systèmes pour les analyser plus tard, mais je ne les connais pas.</p>
+<h3 id="genesys">Genesys<a class="headerlink" href="#genesys" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FFG Star Wars</td>
+<td>Shadow of the Beanstalk</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Je crois que l'utilisation de dés spéciaux m'a tout de suite repoussé. Déjà avec DCC, si l'on veut vraiment avoir la suite de dés, il faut acheter des dés tordus mais là, cela m'a arrêté tout net. J'y reviendrai peut-être.</p>
+<h3 id="gurps">GURPS<a class="headerlink" href="#gurps" title="Permanent link">#</a></h3>
+<p>J'ai en magasin les éditions 2, 3 et 4 (enfin complète !) et j'aime bien le système.</p>
+<p>Je l'aime particulièrement quand il est ultra-simplifié : voir <a href="https://www.drivethrurpg.com/en/product/310041/gurps-ultra-lite">GURPS Ultra-Lite</a>.</p>
+<p><img alt="gurps-space.jpg" src="../../images/gurps-space.jpg" /></p>
+<p>Les suppléments sont vraiment de grande qualité, et très faciles à utiliser pour d'autres jeux, notamment les suppléments (en grand nombre) de la troisième édition.</p>
+<h3 id="hero-system">Hero System<a class="headerlink" href="#hero-system" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Champions</td>
+<td>Espionage</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Je n'ai jamais été convaincu par le système Héro qui m'a toujours paru très complexe et quand même très adapté au monde des super-héros.</p>
+<h3 id="omni-system">Omni System<a class="headerlink" href="#omni-system" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Talislanta 4e</td>
+<td>Atlantis</td>
+<td>High Medieval</td>
+</tr>
+</tbody>
+</table>
+<p><em>Omni System</em> est une variante du système d20 qui est plus light (pas de classes) mais qui est quand même très proche (caractéristique + compétence + d20 pour faire le plus possible sur une échelle de réussite).</p>
+<p><img alt="talislanta-d20.png" src="../../images/talislanta-d20.png" /></p>
+<p>Pour rigoler, l'image est la version d20 de <em>Talislanta</em>.</p>
+<h3 id="open-legend-rpg">Open Legend RPG<a class="headerlink" href="#open-legend-rpg" title="Permanent link">#</a></h3>
+<p>Le système est open source et disponible <a href="https://openlegendrpg.com">sur le net</a>. Il semble que ce soit un système d20, mais il me faudrait plus de temps pour analyser le tout.</p>
+<h3 id="palladiummegaversal-system">Palladium/Megaversal-System<a class="headerlink" href="#palladiummegaversal-system" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rifts</td>
+<td>Robotech</td>
+<td>Palladium Fantasy RPG</td>
+</tr>
+<tr>
+<td>Heroes unlimited</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Pareil, le système Rifts n'est pas fait pour moi, car trop compliqué et trop collé à l'univers de Rifts. Je reviendrai dessus avec plus d'arguments.</p>
+<h3 id="pbta-powered-by-the-apocalypse">PbtA - Powered by the Apocalypse<a class="headerlink" href="#pbta-powered-by-the-apocalypse" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apocalypse World</td>
+<td>Dungeon World</td>
+<td>Kult 3e</td>
+</tr>
+<tr>
+<td>Blades in the Dark</td>
+<td>Ironforged</td>
+<td>The Spawn</td>
+</tr>
+</tbody>
+</table>
+<p>Bon, je n'aime pas ces jeux, voir la page sur les jeux <a href="../pbta/">PBTA</a>.</p>
+<p>Bon, enfin, j'ai quand même failli acheter <em>Blades in the Dark</em> en occase la dernière fois. Pour être sûr.</p>
+<h3 id="rolemaster">Rolemaster<a class="headerlink" href="#rolemaster" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rolemaster Fantasy</td>
+<td>Spacemaster</td>
+<td>MERP</td>
+</tr>
+<tr>
+<td>Shadow World</td>
+<td>Cyberspace</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>J'ai la version française de <em>Rolemaster</em> d'il y a longtemps mais je n'ai jamais joué. J'avais trouvé pas mal le jeu dans le passé, mais un peu compliqué avec ses dizaines de tables. MERP était une version simplifiée.</p>
+<p><img alt="Rolemaster" src="../../images/rolemaster.jpg" /></p>
+<p>Avec le recul, comme pour Légendes, je trouve ces jeux trop complexes. On les dirait issus d'une tradition plus wargame, un monde de spécialistes qui ont le temps de potasser des règles très complexes et qui aiment, autour de la table, passer du temps à les utiliser.</p>
+<h3 id="savage-worlds">Savage Worlds<a class="headerlink" href="#savage-worlds" title="Permanent link">#</a></h3>
+<p>J'ai failli jouer de nombreuses fois à SW mais cela ne s'est jamais fait. J'ai bien lu les règles sans être très emballé ni partager l'enthousiasme des fans. Il y en avait beaucoup il y a quelques années, mais la passion semble être un peu retombée.</p>
+<p><img alt="savageworlds.png" src="../../images/savageworlds.png" /></p>
+<p>Je suis intéressé par des suppléments comme <em>Lankhmar</em> que j'achèterai peut-être un jour.</p>
+<h3 id="tri-stat-dx">Tri-Stat dX<a class="headerlink" href="#tri-stat-dx" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BESM</td>
+<td>Empire of the Petal Throne</td>
+<td>Silver Age Sentinels</td>
+</tr>
+</tbody>
+</table>
+<p>On revient dans le monde des systèmes D6.</p>
+<p>J'ai pas mal regardé ce système et je ne peux pas m'empêcher de le comparer avec <em>GURPS</em>. Je l'avais découvert dans la première édition de <em>BESM</em> (2004) au travers d'un supplément écrit par John S. Ross, le créateur de <em>Risus</em>: <em>Uresia, grave of Heaven</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Tri-Stat dX</th>
+<th>GURPS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Body</td>
+<td>Strength-Dexterity</td>
+</tr>
+<tr>
+<td>Mind</td>
+<td>IQ</td>
+</tr>
+<tr>
+<td>Soul</td>
+<td>Will ou avantages</td>
+</tr>
+</tbody>
+</table>
+<p>La mécanique de création est très proche de <em>GURPS</em> : il faut acheter des caractéristiques et des skills avec des points. Au lieu d'utiliser 3D6 comme dans <em>GURPS</em>, on <em>roll under</em> avec 2D6. Mouais.</p>
+<p><img alt="besm-1e.png" src="../../images/besm-1e.png" /></p>
+<p>Si le système de jeu de <em>BESM</em> est assez simple, celui de <em>Tri-Stat dX</em>, dans la mesure où il se veut générique avec n'importe quel dé, devient plus compliqué au point finalement de perdre son intérêt.</p>
+<p>C'est vrai que, même si je ne suis pas un fan absolu du système de jeu de <em>GURPS</em>, je le recommande par rapport à <em>Tri-Stat dX</em></p>
+<h3 id="true20">True20<a class="headerlink" href="#true20" title="Permanent link">#</a></h3>
+<p>Je suis tombé par hasard sur des publications de <em>Green Ronin</em>, l'éditeur de <em>True20</em>, ces derniers mois, notamment sur le <em>Psychic's Handbook</em> que j'avais beaucoup apprécié et que je me suis fait imprimer par <a href="https://lulu.com">lulu</a>.</p>
+<p><img alt="psychic-handbook.png" src="../../images/psychic-handbook.png" /></p>
+<p>Je me suis toujours dit que je hackerai ce système psionique (extension du système d20) dans le futur, tant je le trouve intéressant. Peut-être faire un croisement avec <em>D6 Opera</em> et <em>Space Opera</em> serait la solution à mon problème.</p>
+<p>Mais revenons à nos moutons.</p>
+<p><img alt="True20.jpg" src="../../images/True20.jpg" /></p>
+<p>Je ne sais plus pourquoi je me suis intéressé au système <em>True20</em>, probablement parce que ce système semblait plus adapté à de la SF que les autres systèmes d20. J'avais gardé dans mes tablettes de me faire une idée plus précise. Il est possible que je le trouve en occase quelque part, j'ai un peu du mal à me faire à la lecture PDF.</p>
+<h3 id="ubiquity-roleplaying-system">Ubiquity Roleplaying System<a class="headerlink" href="#ubiquity-roleplaying-system" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hollow Earth Expedition</td>
+<td>Revelations of Mars</td>
+<td>Space 1889</td>
+</tr>
+</tbody>
+</table>
+<p>J'ai toujours un peu de mal à comprendre pourquoi réinventer la roue ou faire des variations cosmétiques pour faire différent. Le système <em>Ubiquity</em> naît en 2006 avec <em>Hollow Earth Expedition</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Hollow Earth Expedition</th>
+<th>D&amp;D</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Body</td>
+<td>Constitution</td>
+</tr>
+<tr>
+<td>Dexterity</td>
+<td>Dexterity</td>
+</tr>
+<tr>
+<td>Strength</td>
+<td>Strength</td>
+</tr>
+<tr>
+<td>Charisma</td>
+<td>Charisma</td>
+</tr>
+<tr>
+<td>Intelligence</td>
+<td>Intelligence</td>
+</tr>
+<tr>
+<td>Willpower</td>
+<td>Wisdom</td>
+</tr>
+</tbody>
+</table>
+<p>Jusqu'ici, c'est très <em>D&amp;D</em> ! Les secondary attributes sont un refactoring des skills de <em>D&amp;D</em> et de la classe d'armure, les talents sont les <em>feats</em>...</p>
+<p><img alt="HollowEarthExpedition.png" src="../../images/HollowEarthExpedition.png" /></p>
+<p>Le système est basé sur des pools de dés et propose quelques variantes en comparaison de <em>D&amp;D</em> édition 3.5 à l'époque. Certes, il n'y a pas de classes, mais malgré son côté <em>dice pool</em>, ce système peut être vu comme une variante du d20 !</p>
+<p>Ce qui me gène, c'est qu'il est promus comme étant innovant et <em>pulp</em>. Mouais.</p>
+<h3 id="woin">W.O.I.N.<a class="headerlink" href="#woin" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jeux</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Judge Dredd</td>
+<td>Xenomorphs</td>
+<td>Solspace</td>
+</tr>
+</tbody>
+</table>
+<p>A découvrir, je ne connais pas, même si je vais sur <a href="https://www.enworld.org">ENWorld.org</a> de temps en temps.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyleft Olivier Rey 2017-2024 (GNU FDL)
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5cf534bf.min.js"></script>
+      
+    
+  </body>
+</html>
