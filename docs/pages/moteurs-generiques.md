@@ -39,6 +39,7 @@ tags:
     - Palladium
     - Pathfinder
     - PbtA
+    - Risus
     - Rolemaster
     - Runequest
     - Savage Worlds
@@ -322,6 +323,14 @@ Pareil, le système Rifts n'est pas fait pour moi, car trop compliqué et trop c
 Bon, je n'aime pas ces jeux, voir la page sur les jeux [PBTA](../pages/pbta.md).
 
 Bon, enfin, j'ai quand même failli acheter *Blades in the Dark* en occase la dernière fois. Pour être sûr.
+
+## Risus
+
+Risus est un mini-jeu qui peut se jouer dans tous les univers.
+
+![header](../images/risus/header2.png)
+
+Allez sur la [page dédiée](../downloads/risus.md).
 
 ## Rolemaster
 
