@@ -1,0 +1,1327 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A Grognard Blog">
+      
+      
+        <meta name="author" content="Olivier Rey">
+      
+      
+        <link rel="canonical" href="https://orey.github.io/blog/pages/analyse-d100/">
+      
+      <link rel="icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.2.5">
+    
+    
+      
+        <title>Réflexions sur le système d100 de BRP - Cthulhu Fhtagn A Lot</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2d9f7617.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#546d78">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#reflexions-sur-le-systeme-d100-de-brp" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Cthulhu Fhtagn A Lot" class="md-header__button md-logo" aria-label="Cthulhu Fhtagn A Lot" data-md-component="logo">
+      
+  <img src="../../images/Monstre1.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cthulhu Fhtagn A Lot
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Réflexions sur le système d100 de BRP
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../blog/2025/" class="md-tabs__link">
+        Blog
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../moteurs-generiques/" class="md-tabs__link">
+        Etudes/Studies
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../downloads/eldritch-wizardry/" class="md-tabs__link">
+        Downloads
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../links-en/" class="md-tabs__link">
+        Links/Liens
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../tags/" class="md-tabs__link">
+      Tags
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Cthulhu Fhtagn A Lot" class="md-nav__button md-logo" aria-label="Cthulhu Fhtagn A Lot" data-md-component="logo">
+      
+  <img src="../../images/Monstre1.png" alt="logo">
+
+    </a>
+    Cthulhu Fhtagn A Lot
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Blog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Blog" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Blog
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2025/" class="md-nav__link">
+        2025
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2024/" class="md-nav__link">
+        2024
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2023/" class="md-nav__link">
+        2023
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2022/" class="md-nav__link">
+        2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2021/" class="md-nav__link">
+        2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2020/" class="md-nav__link">
+        2020
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Etudes/Studies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Etudes/Studies" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Etudes/Studies
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../moteurs-generiques/" class="md-nav__link">
+        Les moteurs génériques de JDR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licences/" class="md-nav__link">
+        Les licences "ouvertes" dans le JDR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../psionics/" class="md-nav__link">
+        Les pouvoirs psychiques dans le JDR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gme/" class="md-nav__link">
+        Brève étude des Game Master Emulator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-systems/" class="md-nav__link">
+        Comparaison des systèmes D6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-TargetNumber/" class="md-nav__link">
+        Target Number dans le système D6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-Combat/" class="md-nav__link">
+        Combat dans le système D6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pbta/" class="md-nav__link">
+        Analyse des jeux PbtA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../propp/" class="md-nav__link">
+        Morphologie du Conte, de Vladimir Propp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../enterprise-rpg/" class="md-nav__link">
+        Enterprise RPG
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Downloads
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Downloads" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Downloads
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/eldritch-wizardry/" class="md-nav__link">
+        OD&D Pouvoirs psioniques
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/ghostbusters/" class="md-nav__link">
+        Ghostbusters
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/fighting-fantasy/" class="md-nav__link">
+        Fighting Fantasy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/risus/" class="md-nav__link">
+        Risus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/grande-liste/" class="md-nav__link">
+        La grande Liste des intrigues de JDR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/cthulhu-dark/" class="md-nav__link">
+        Cthulhu Dark
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/mega/" class="md-nav__link">
+        Risus pour Méga
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/fudge/" class="md-nav__link">
+        Fudge en une page
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/dungeonsquad/" class="md-nav__link">
+        DungeonSquad!
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Links/Liens
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Links/Liens" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Links/Liens
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links-en/" class="md-nav__link">
+        TTRPG websites
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/" class="md-nav__link">
+        Sites JDR
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        Tags
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        Author
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LICENSE/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#reflexions-sur-le-systeme-d100-de-brp" class="md-nav__link">
+    Réflexions sur le système d100 de BRP
+  </a>
+  
+    <nav class="md-nav" aria-label="Réflexions sur le système d100 de BRP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ressources" class="md-nav__link">
+    Ressources
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#structure-du-combat-dans-brp-v5" class="md-nav__link">
+    Structure du combat dans BRP v5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cas-des-special-success-et-des-critiques" class="md-nav__link">
+    Cas des "special success" et des critiques
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cas-de-la-magie" class="md-nav__link">
+    Cas de la Magie
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+  
+
+  <nav class="md-tags" >
+    
+      
+        <a href="../../tags/#basic-roleplaying-system" class="md-tag">
+          Basic Roleplaying System
+        </a>
+      
+    
+      
+        <a href="../../tags/#dd" class="md-tag">
+          D&D
+        </a>
+      
+    
+  </nav>
+
+
+
+  <h1>Réflexions sur le système d100 de BRP</h1>
+
+<h2 id="reflexions-sur-le-systeme-d100-de-brp">Réflexions sur le système d100 de BRP<a class="headerlink" href="#reflexions-sur-le-systeme-d100-de-brp" title="Permanent link">#</a></h2>
+<h3 id="ressources">Ressources<a class="headerlink" href="#ressources" title="Permanent link">#</a></h3>
+<ul>
+<li><a href="https://github.com/orey/jdr-brp/tree/master/source">SRD du Basic Role Playing system</a> de Chaosium, ainsi que vers sa licence ORC.</li>
+<li><a href="https://www.chaosium.com/basic-roleplaying-universal-game-engine-pdf/">Divers handouts</a> pour <em>BRP</em> v5.</li>
+<li><a href="../moteurs-generiques/">Page des moteurs de jeux de rôle génériques</a>.</li>
+</ul>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">#</a></h3>
+<p><em>BRP</em> n'est pas un système aussi simple qu'il en a l'air. Des choix de conception le distinguent fondamentalement de <em>D&amp;D</em>. Sans émettre de jugement de valeur, il est souvent plus difficile dans <em>BRP</em> de faire la même chose que dans <em>D&amp;D</em>.</p>
+<h3 id="structure-du-combat-dans-brp-v5">Structure du combat dans BRP v5<a class="headerlink" href="#structure-du-combat-dans-brp-v5" title="Permanent link">#</a></h3>
+<p>Dans <em>BRP</em>, deux jets sont faits à chaque action : un jet pour l'Attaquant et un jet pour le Défenseur. Cette mécanique se retrouve dans de nombreux jeux et n'est pas la même que la mécanique de <em>D&amp;D</em> basée sur un seul jet.</p>
+<p><img alt="d100-combat-BRPv5SRD.png" src="../../images/d100-combat-BRPv5SRD.png" /></p>
+<p><em>Table 1 : Extrait du SRD de BRP v5</em></p>
+<p>Le combat est centré sur l'attaquant qui, s'il rate son jet de d100 sous sa compétence de combat, ne touche pas son adversaire. Nous avons la même chose dans <em>D&amp;D</em> avec un échec de jet contre la Classe d'Armure (CA).</p>
+<p><img alt="JasonDurall.jpg" src="../../images/JasonDurall.jpg" /></p>
+<p>Mais quand l'attaque est réussie dans <em>D&amp;D</em>, les dommages sont calculés, ce qui n'est pas le cas dans <em>BRP</em>, en raison du second jet, celui de la défense.</p>
+<p>Dans <em>BRP</em>, l'adversaire a le choix de parer ou d'esquiver (voir tableau ci-dessus). Si la parade ou l'esquive fonctionne, alors c'est un échec pour l'attaquant.</p>
+<p>J'écoutais dernièrement Jason Durall (photo ci-dessus) dire que <em>BRP</em> était un jeu "transparent" (<a href="https://www.youtube.com/watch?v=Zte5aFZfiqc">ici</a>) qui donnait les vraies chances de réussite. C'est vrai pour les compétences, mais pas entièrement vrai pour le combat, car un "succès" peut devenir facilement un échec.</p>
+<table>
+<thead>
+<tr>
+<th>Attaquant</th>
+<th>Défenseur (succès/échec)</th>
+<th>% réel de réussite</th>
+<th>CA émulée (*)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>25%</td>
+<td>25%/75%</td>
+<td>25% x 75% = <em>19</em>%</td>
+<td>19</td>
+</tr>
+<tr>
+<td>25%</td>
+<td>50%/50%</td>
+<td>25% x 50% = <em>13</em>%</td>
+<td>20</td>
+</tr>
+<tr>
+<td>25%</td>
+<td>75%/25%</td>
+<td>25% x 25% = <em>6</em>%</td>
+<td>22</td>
+</tr>
+<tr>
+<td>50%</td>
+<td>25%/75%</td>
+<td>50% x 75% = <em>38</em>%</td>
+<td>15</td>
+</tr>
+<tr>
+<td>50%</td>
+<td>50%/50%</td>
+<td>50% x 50% = <em>25</em>%</td>
+<td>18</td>
+</tr>
+<tr>
+<td>50%</td>
+<td>75%/25%</td>
+<td>50% x 25% = <em>13</em>%</td>
+<td>20</td>
+</tr>
+<tr>
+<td>75%</td>
+<td>25%/75%</td>
+<td>75% x 75% = <em>56</em>%</td>
+<td>12</td>
+</tr>
+<tr>
+<td>75%</td>
+<td>50%/50%</td>
+<td>75% x 50% = <em>38</em>%</td>
+<td>15</td>
+</tr>
+<tr>
+<td>75%</td>
+<td>75%/25%</td>
+<td>75% x 25% = <em>19</em>%</td>
+<td>19</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 2 : % réel de réussite en fonction des % d'attaque et de défense</em></p>
+<p>Ce problème de probabilités est similaire à celui expliqué dans la <a href="../D6-Combat/">page sur les combats avec un système D6</a>.</p>
+<p>Dans le cas de <em>BRP</em>, la probabilité de succès réel n'est pas la probabilité de succès de l'action.</p>
+<p>Nous pouvons tenter d'émuler l'adversaire en mode CA d20 (voir colonne (*)) pour décortiquer un peu le mécanisme, preuve que ce dernier n'est pas complètement transparent.</p>
+<p>Prenons un cas moyen de <em>D&amp;D</em> : un PJ a +0 dans le Ability Bonus et il est de niveau 1 avec un Proficiency Bonus de +2. Le jet d'attaque est d20+2 (jet allant de 3 à 22).</p>
+<table>
+<thead>
+<tr>
+<th>Jet</th>
+<th>Probabilité %</th>
+<th>Jet</th>
+<th>Probabilité %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>100</td>
+<td>13</td>
+<td>50</td>
+</tr>
+<tr>
+<td>4</td>
+<td>95</td>
+<td>14</td>
+<td>45</td>
+</tr>
+<tr>
+<td>5</td>
+<td>90</td>
+<td>15</td>
+<td>40</td>
+</tr>
+<tr>
+<td>6</td>
+<td>85</td>
+<td>16</td>
+<td>35</td>
+</tr>
+<tr>
+<td>7</td>
+<td>80</td>
+<td>17</td>
+<td>30</td>
+</tr>
+<tr>
+<td>8</td>
+<td>75</td>
+<td>18</td>
+<td>25</td>
+</tr>
+<tr>
+<td>9</td>
+<td>70</td>
+<td>19</td>
+<td>20</td>
+</tr>
+<tr>
+<td>10</td>
+<td>65</td>
+<td>20</td>
+<td>15</td>
+</tr>
+<tr>
+<td>11</td>
+<td>60</td>
+<td>21</td>
+<td>10</td>
+</tr>
+<tr>
+<td>12</td>
+<td>55</td>
+<td>22</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 3 : Probabilité de toucher pour un PJ de base dans D&amp;D expliquant la CA émulée</em></p>
+<p>Nous voyons que la CA émulée du Défenseur est <em>relative</em>.</p>
+<table>
+<thead>
+<tr>
+<th>% du Défenseur</th>
+<th>CA émulée avec attaquant 25%/50%/75%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>25</td>
+<td>19/15/12</td>
+</tr>
+<tr>
+<td>50</td>
+<td>20/18/15</td>
+</tr>
+<tr>
+<td>75</td>
+<td>22/20/19</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 4 : CA variable selon la force de l'attaquant</em></p>
+<p>Cela signifie qu'un même adversaire est plus ou moins difficile à toucher selon la compétence de l'attaquant.</p>
+<p>Ce choix de conception n'est pas le même que le choix de <em>D&amp;D</em>, jeu dans lequel la CA de l'adversaire est absolue. Certes, le jet de dé de l'attaquant a plus ou moins de chances de réussir, mais la CA n'est pas variable en fonction de la puissance de l'attaquant.</p>
+<p>En quelque sorte, vu du système <em>D&amp;D</em>, le système BRP est celui de la double-peine :</p>
+<ul>
+<li>L'attaquant a un score peu élevé et donc moins de chances de toucher, dans l'absolu ;</li>
+<li>Mais en plus, ses chances de toucher sont diminuées par la force de l'attaquant.</li>
+</ul>
+<p><img alt="d100-attack.png" src="../../images/d100-attack.png" /></p>
+<p><em>Table 5 : Pourcentage réel de réussite dans BRP suivant la force de l'attaquant</em></p>
+<p>En fait, le score d'attaque de <em>BRP</em> n'est que la limite théorique de la borne supérieure de la probabilité de succès de l'attaquant quand la probabilité de parer/esquiver du défenseur tend vers zéro.</p>
+<p>C'est évidemment un choix de conception un peu "punitif" et moins épique que celui de <em>D&amp;D</em>. cela veut dire aussi qu'un même adversaire ne représente pas la même difficulté (sous-entendu <em>absolue</em>) pour tous les PJs.</p>
+<h3 id="cas-des-special-success-et-des-critiques">Cas des "special success" et des critiques<a class="headerlink" href="#cas-des-special-success-et-des-critiques" title="Permanent link">#</a></h3>
+<p>Ce choix est par contre mené de manière cohérente dans le système. Par exemple, dans le cas des succès spéciaux et des critiques.</p>
+<p><img alt="d100-special-success.png" src="../../images/d100-special-success.png" /></p>
+<p><em>Table 6 : Table des succès spéciaux et des critiques</em></p>
+<p>Dans <em>BRP</em>, les réussites critiques sont à 1/20 du score de la compétence, tout comme les échecs critiques (à 100% - 1/20 de la compétence). Les succès spéciaux sont à 1/5 du score de compétence.</p>
+<p>Ce choix de conception implique que les chances de réussite critique ne sont pas constantes pour tous les PJs mais <em>relatives</em> à leur score de compétence.</p>
+<p>L'approche de <em>D&amp;D</em> est différente : un 1 est toujours un échec critique et un 20 naturel toujours une réussite critique, cela quelque soit les niveaux de compétences.</p>
+<p>Encore une fois, <em>BRP</em> fait le choix de la relativité.</p>
+<p>Notons que la difficulté et la facilité, dans <em>BRP</em> v5, sont traitées avec des bonus ou des malus de type : +50%/+20%/+0%/-20%/-50% qui sont, eux, des bonus et malus absolus.</p>
+<h3 id="cas-de-la-magie">Cas de la Magie<a class="headerlink" href="#cas-de-la-magie" title="Permanent link">#</a></h3>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyleft Olivier Rey 2017-2025 (GNU FDL)
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.bd0b6b67.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.467223ff.min.js"></script>
+      
+    
+  </body>
+</html>

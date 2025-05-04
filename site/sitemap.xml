@@ -121,6 +121,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://orey.github.io/blog/pages/analyse-d100/</loc>
+         <lastmod>2025-05-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://orey.github.io/blog/pages/dd5-zip/</loc>
          <lastmod>2025-05-01</lastmod>
          <changefreq>daily</changefreq>
