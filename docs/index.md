@@ -16,10 +16,10 @@ Ce site vous propose diverses choses relatives aux jeux de rôles, "sur table" c
 <table style="margin-left:auto;margin-right:auto;" width="700px"">
 <tr>
 <td style="align:center;">
-<a href="./blog/2025/"><img src="./images/lutrin.png" width="300px"></a>
+<a href="./blog/2026/"><img src="./images/lutrin.png" width="300px"></a>
 </td>
 <td style="vertical-align:middle;" width="300px">
-<span style="font-size:16px;font-weight:bold;"><a href="./blog/2025/">Le Blog</a><br>
+<span style="font-size:16px;font-weight:bold;"><a href="./blog/2026/">Le Blog</a><br>
 Diverses notes,<br>
 études et commentaires<br>
 sur les JDR</span>

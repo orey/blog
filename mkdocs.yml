@@ -34,6 +34,7 @@ site_url: https://orey.github.io/blog
 nav:
 - Home: index.md
 - Blog:
+    - '2026': 'blog/2026.md'
     - '2025': 'blog/2025.md'
     - '2024': 'blog/2024.md'
     - '2023': 'blog/2023.md'
