@@ -42,6 +42,7 @@ nav:
     - '2021': 'blog/2021.md'
     - '2020': 'blog/2020.md'
 - Etudes/Studies:
+    - 'Analyse du système d100': 'pages/analyse-d100.md'
     - 'Les moteurs génériques de JDR': 'pages/moteurs-generiques.md'
     - 'Les licences "ouvertes" dans le JDR': 'pages/licences.md'
     - 'Les pouvoirs psychiques dans le JDR': 'pages/psionics.md'

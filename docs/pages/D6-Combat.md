@@ -1,5 +1,6 @@
 ---
 tags:
+    - Ghostbusters
     - Risus
     - D6 System
     - Star Wars
@@ -20,7 +21,7 @@ on peut penser que le décalage d'un seul dé rend le combat statistiquement imp
 
 ![Deux courbes en cloche décalées](../images/D6-2/deuxcourbes.png)
 
-*(fait avec https://anydice.com)*
+*(Images produites avec [anydice.com](https://anydice.com))*
 
 La déformation de ces courbes est tellement importante que des seuils élevés sont presque inaccessible pour des PJs ayant beaucoup de dés dans leur "pool".
 
@@ -156,13 +157,13 @@ La figure ci-dessus montre les deux mêmes tables en courbes.
 
 On constate par exemple que la chance de gagner de 3d6 contre 4d6 en mode "strict" est de seulement 19%, soit une chance sur 5, et elle est simplement de 6% contre 5d6 !
 
-Tout comme l'écran jeu Risus proposé [ici](https://rouboudou.itch.io) propose un tableau des probabilités de réussite de jets par seuil, il serait aussi intéressant de proposer aux MJs, un tableau de probabilités de réussites en combats.
+Tout comme l'écran jeu *Risus* proposé [ici](https://rouboudou.itch.io) propose un tableau des probabilités de réussite de jets par seuil, il serait aussi intéressant de proposer aux MJs, un tableau de probabilités de réussites en combats.
 
 Cette décroissance très rapide des pourcentages explique les mécanismes de rectification des probabilités que l'on trouver dans certains jeux basés sur des pools de d6 :
 
-* Ghostbusters : la consommation d'un bon point ("brownie point") permet de rajouter un d6 au round de combat ; comme le joueur est supposer posséder de nombreux bon points, il peut compenser durant tout un combat ;
-* Risus : mécanisme de la gonflette, moins avantageux pour le joueur car ajoutant des pénalités sur les rounds suivants ;
-* Star Wars d6 : à voir.
+* *Ghostbusters* : la consommation d'un bon point ("brownie point") permet de rajouter un d6 au round de combat ; comme le joueur est supposer posséder de nombreux bon points, il peut compenser durant tout un combat ;
+* *Risus* : mécanisme de la gonflette, moins avantageux pour le joueur car ajoutant des pénalités sur les rounds suivants ;
+* *Star Wars d6* : à voir.
 
 # Pistes
 

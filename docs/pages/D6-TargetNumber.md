@@ -1,5 +1,6 @@
 ---
 tags:
+    - D&D
     - D6 System
     - Pages
 ---
@@ -8,7 +9,9 @@ tags:
 
 Après analyse, le système D6 semble un système fondamentalement défectueux.
 
-En effet, regardons la répartition de 3D6 en termes de probabilités. Quand nous lançons 3D6, nous avons 16 scores possibles. La table suivante compare les probabilités d'obtenir un certain nombre (première colonne) avec 3D6, puis avec un hypothétique "D16" où chaque face aurait la même probabilité d'apparaître (probabilité = 1/16 = 6.25%).
+En effet, regardons la répartition de 3D6 en termes de probabilités. Quand nous lançons 3D6, nous avons 16 scores possibles. La table suivante compare les probabilités d'obtenir un certain nombre (première colonne) avec 3D6, puis avec un "D16" où chaque face a la même probabilité d'apparaître (probabilité = 1/16 = 6.25%).
+
+![d16](../images/d16.webp)
 
 | Nombre | % de chance avec 3D6 | % de chances avec 1D16 |
 |--------|----------------------|------------------------|
@@ -29,7 +32,7 @@ En effet, regardons la répartition de 3D6 en termes de probabilités. Quand nou
 | 17     | 1,39                 | 6,25                   |
 | 18     | 0,46                 | 6,25                   |
 
-La figure suivante compare la répartition de probabilités entre 3D6 et 1D16. On y voit la [gaussienne](https://fr.wikipedia.org/wiki/Fonction_gaussienne) des probabilités de 3D6.
+La figure suivante compare la répartition de probabilités entre 3D6 et 1D16. On y voit la [gaussienne](https://fr.wikipedia.org/wiki/Fonction_gaussienne) des probabilités de 3D6. Pour les plus anciens d'entre nous, la gaussienne était incluse dans les premières pages du Dungeon Master Guide de *AD&D 1e*.
 
 Certains nombres sont beaucoup plus difficiles à atteindre avec 3D6 qu'avec 1D16, notamment les très petits et les très grands nombres.
 
@@ -39,7 +42,7 @@ Certains nombres sont beaucoup plus difficiles à atteindre avec 3D6 qu'avec 1D1
 
 Si le but est de faire moins qu'un certain seuil, le système D6 est très favorable.
 
-Exemple, considérons par exemple, un jet sous LUCK dans le cadre de Fighting Fantasy, le système de jeu très simple de Steve Jackson (voir [traduction](https://github.com/orey/jdr/tree/master/FightingFantasys-fr)). Avec une valeur de LUCK de 12, nous avons déjà 75% de chances de réussir, ce qui est très favorable  par rapport à un jet avec un D16 où, pour le même score, nous n'aurions qu'aux alentours de 60% de chances de réussir. Avec une LUCK de 14, nous avons 90ù de chances de réussir avec 3D6, contre 75% avec un D16.
+Exemple, considérons par exemple, un jet sous LUCK dans le cadre de Fighting Fantasy, le système de jeu très simple de Steve Jackson (voir [traduction](https://github.com/orey/jdr/tree/master/FightingFantasys-fr)). Avec une valeur de LUCK de 12, nous avons déjà 75% de chances de réussir, ce qui est très favorable  par rapport à un jet avec un D16 où, pour le même score, nous n'aurions qu'aux alentours de 60% de chances de réussir. Avec une LUCK de 14, nous avons 90% de chances de réussir avec 3D6, contre 75% avec un D16.
 
 | < ou = au seuil | Avec 3D6 | Avec 1D16 |
 |-----------------|----------|-----------|
@@ -107,13 +110,14 @@ Les probabilités d'avoir un certain score pour le wild die obéissent à une fo
 | ...          | ...                       |
 | [6n+1, 6n+5] | (1/6)^(n+1)               |
 
-Virtuellement, il existe une change infime pour que l'on fasse un très gros score.
+Virtuellement, il existe une chance infime pour que l'on fasse un très gros score.
 
 Cela change évidemment la donne. Les probabilités comparées entre 3D6, 1D16 et "2D6+Wild die" sont montrées dans la figure ci-dessous.
 
 ![image](../images/D6/2D6-wild.png)
 
 L'introduction du wild die a deux effets :
+
 - Une légère correction de la hauteur de la gaussienne,
 - Une possibilité d'avoir des tirages supérieurs à 18.
 
@@ -124,6 +128,7 @@ Regardons maintenant la courbe de dépassement de seuil, car le wild die est sup
 La courbe avec wild die suit la courbe de 3D6 au début pour prendre une position intermédiaire entre la courbe de probabilités linéaires et celle du lancer de 3D6.
 
 Nous pouvons y voir deux avantages :
+
 - Une correction d'environ 50% du biais négatif causé par la mécanique 3D6 au dessus d'un seuil ;
 - Il reste, de plus 7% de chances environ de faire 18+ au tirage.
 
@@ -132,8 +137,9 @@ Nous pouvons y voir deux avantages :
 # Autres systèmes de jeux aux probabilités linéaires
 
 Les deux plus grands systèmes de JDR, D&D et Basic Role Playing System (CoC, Runequest, etc.), n'ont pas les défauts des systèmes D6 à seuils :
+
 - Le système D&D qui est construit sur =1D20 + modificateurs > AC ou DC= est un système linéaire ;
-- Le système Basic RPS qui est construit sur des pourcentages, =jet sous une compétence=, est aussi un système linéaire.
+- Le système Basic RPS qui est construit sur des pourcentages, (jet sous une compétence), est aussi un système linéaire.
 
 Ces systèmes utilisant respectivement des seuils à dépasser ou sous lesquels passer ne mettent pas en place de mécanique de déformation des probabilités.
 
