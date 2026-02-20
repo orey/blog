@@ -1,0 +1,2154 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A Grognard Blog">
+      
+      
+        <meta name="author" content="Olivier Rey">
+      
+      
+        <link rel="canonical" href="https://orey.github.io/blog/pages/generic-engines/">
+      
+      
+      
+      
+      <link rel="icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
+    
+    
+      
+        <title>Generic engines - Cthulhu Fhtagn A Lot</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#repertoire-des-moteurs-de-jdr-simples" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Cthulhu Fhtagn A Lot" class="md-header__button md-logo" aria-label="Cthulhu Fhtagn A Lot" data-md-component="logo">
+      
+  <img src="../../images/Monstre1.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cthulhu Fhtagn A Lot
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Generic engines
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../blog/2026/" class="md-tabs__link">
+          
+  
+    
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../analyse-d100/" class="md-tabs__link">
+          
+  
+    
+  
+  Etudes/Studies
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../downloads/eldritch-wizardry/" class="md-tabs__link">
+          
+  
+    
+  
+  Downloads
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../links-en/" class="md-tabs__link">
+          
+  
+    
+  
+  Links/Liens
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tags/" class="md-tabs__link">
+        
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../about/" class="md-tabs__link">
+          
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Cthulhu Fhtagn A Lot" class="md-nav__button md-logo" aria-label="Cthulhu Fhtagn A Lot" data-md-component="logo">
+      
+  <img src="../../images/Monstre1.png" alt="logo">
+
+    </a>
+    Cthulhu Fhtagn A Lot
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Blog
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2026/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2026
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2025/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2024
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2022
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2021/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2021
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2020/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2020
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Etudes/Studies
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Etudes/Studies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analyse-d100/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analyse du système d100
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../moteurs-generiques/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les moteurs génériques de JDR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les licences "ouvertes" dans le JDR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../psionics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les pouvoirs psychiques dans le JDR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gme/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brève étude des Game Master Emulator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-systems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comparaison des systèmes D6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-TargetNumber/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Target Number dans le système D6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-Combat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Combat dans le système D6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pbta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analyse des jeux PbtA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../propp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Morphologie du Conte, de Vladimir Propp
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../enterprise-rpg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Enterprise RPG
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Downloads
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Downloads
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/eldritch-wizardry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OD&D Pouvoirs psioniques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/ghostbusters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ghostbusters
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/fighting-fantasy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fighting Fantasy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/risus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Risus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/grande-liste/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    La grande Liste des intrigues de JDR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/cthulhu-dark/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cthulhu Dark
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/mega/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Risus pour Méga
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/fudge/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fudge en une page
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/dungeonsquad/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DungeonSquad!
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Links/Liens
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Links/Liens
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links-en/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TTRPG websites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sites JDR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Author
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LICENSE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#repertoire-des-moteurs-de-jdr-simples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Répertoire des moteurs de JDR simples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Répertoire des moteurs de JDR simples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#une-explosion-des-offres" class="md-nav__link">
+    <span class="md-ellipsis">
+      Une explosion des offres
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repertoire-alphabetique-des-jeux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Répertoire alphabétique des jeux
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Répertoire alphabétique des jeux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dungeon-squad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dungeon Squad
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Risus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usr" class="md-nav__link">
+    <span class="md-ellipsis">
+      USR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#x6" class="md-nav__link">
+    <span class="md-ellipsis">
+      X6
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repertoire-chronologique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Répertoire chronologique
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Répertoire chronologique">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2000-2009" class="md-nav__link">
+    <span class="md-ellipsis">
+      2000-2009
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2010-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      2010-2019
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repertoire-des-mecaniques-de-jeu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Répertoire des mécaniques de jeu
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Répertoire des mécaniques de jeu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#archetypes-en-guise-de-pdv" class="md-nav__link">
+    <span class="md-ellipsis">
+      Archétypes en guise de PdV
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archetypes-sous-forme-de-des" class="md-nav__link">
+    <span class="md-ellipsis">
+      Archétypes sous forme de dés
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Armure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caracteristiques-sous-forme-de-des" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caractéristiques sous forme de dés
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chaine-de-des" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chaîne de dés
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competences-libres" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compétences libres
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dommages-bases-sur-la-marge-de-reussite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dommages basés sur la marge de réussite
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#explosion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Explosion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gonfler-un-archetype" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gonfler un archétype
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marge-de-reussite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marge de réussite
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#point-de-narration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Point de narration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pool-de-des" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pool de dés
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#specialisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spécialisation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#table-de-difficultes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table de difficultés
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../../tags/#tag:dd" class="md-tag">D&D</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:dcc" class="md-tag">DCC</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:dungeon-squad" class="md-tag">Dungeon Squad</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:gurps" class="md-tag">GURPS</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:ghostbusters" class="md-tag">Ghostbusters</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:osr" class="md-tag">OSR</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:risus" class="md-tag">Risus</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:shadowrun" class="md-tag">Shadowrun</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:star-wars" class="md-tag">Star Wars</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:usr" class="md-tag">USR</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Generic engines</h1>
+
+<p><img alt="CoC Wendigo" src="../../images/CoC-Wendigo.png" /></p>
+<h2 id="repertoire-des-moteurs-de-jdr-simples">Répertoire des moteurs de JDR simples<a class="headerlink" href="#repertoire-des-moteurs-de-jdr-simples" title="Permanent link">#</a></h2>
+<h3 id="une-explosion-des-offres">Une explosion des offres<a class="headerlink" href="#une-explosion-des-offres" title="Permanent link">#</a></h3>
+<p>Cela fait pas mal de temps que j'explore les moteurs de JDR aux règles simples. La plupart sont en anglais mais nous avons quelques créateurs français qui ont produit des choses très intéressantes.</p>
+<p>Ce répertoire offre une entrée multiple :</p>
+<ul>
+<li>Une entrée par lettre de l'alphabet,</li>
+<li>Une entrée par période,</li>
+<li>Une liste des mécanismes de jeu.</li>
+</ul>
+<p>La vision chronologique est parfois éclairante car, les jeux s'inspirant les uns des autres, nous avons parfois une succession de jeux aux différences très subtiles (par exemple dans le courant OSR - Old School Renaissance, courant remettant au goût du jour les anciennes versions de <em>D&amp;D</em>). Comme nous avons pu l'expliquer dans <a href="../licences/">un autre article</a>, la partie règles du jeu n'est pas quelque chose de "patentable" aux États-Unis. D'où un écosystème où les créateurs de jeux se copient et se démarquent.</p>
+<p>Note : ce petit répertoire entend couvrir des jeux simples et non :</p>
+<ul>
+<li>les jeux microscopiques : pour cela, je vous conseille le répertoire de Bruno Bord sur les <a href="https://brunobord.github.io/micro-rpg-catalog/">Micro RPG</a> ;</li>
+<li>pas les jeux couverts par l'excellentissime <a href="https://legrog.org">Grog</a>.</li>
+</ul>
+<p>Nous ferons sans doute quelques incursions dans le monde OGL (<a href="https://en.wikipedia.org/wiki/Open_Game_License">Open Game License</a>) car, force est de constater que les principes de <em>D&amp;D</em> ne cessent d'inspirer les créateurs de JDR.</p>
+<p>Dernier point, ce répertoire est, bien entendu, subjectif et vous ne trouverez pas la distinction claire du Grog entre description du jeu et critique des joueurs.</p>
+<h3 id="repertoire-alphabetique-des-jeux">Répertoire alphabétique des jeux<a class="headerlink" href="#repertoire-alphabetique-des-jeux" title="Permanent link">#</a></h3>
+<h4 id="dungeon-squad">Dungeon Squad<a class="headerlink" href="#dungeon-squad" title="Permanent link">#</a></h4>
+<table>
+<thead>
+<tr>
+<th>Nom complet</th>
+<th>Dungeon Squad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Auteur</td>
+<td>Jason Morningstar</td>
+</tr>
+<tr>
+<td>Date</td>
+<td>2005</td>
+</tr>
+<tr>
+<td>URL</td>
+<td><a href="https://github.com/orey/jdr-dungeon-squad-fr">Dungeon Squad</a></td>
+</tr>
+<tr>
+<td>Style</td>
+<td>Médiéval-fantastique</td>
+</tr>
+</tbody>
+</table>
+<p>Ce jeu est, à la base, un jeu d'initiation pour les enfants.</p>
+<p>Chaque personnage est décrit par les mêmes trois archétypes, <strong>Magicien</strong>, <strong>Voleur</strong> et <strong>Guerrier</strong>. Le joueur doit affecter un d4, un d8 et un d12 dans chacun des archétypes (voir <a href="archétypes-sous-forme-de-dés">ici</a>).</p>
+<p>Ils ont deux autres dés, un d6 et un d10, à assigner à des avantages, ces avantages étant entendues au sens large et pouvant être un sort, une arme, une armure, etc.</p>
+<p>Toutes les actions sont résolues via <a href="#table-de-difficultes">tables de difficultés</a> :</p>
+<ul>
+<li>les actions simples,</li>
+<li>les combats utilisent le dé de Guerrier contre une catégorie de monstres,</li>
+<li>la magie utilise des seuils dépendant de la situation (dans le combat et hors combat),</li>
+<li>les actions de voleur ont un seuil par type d'action. </li>
+</ul>
+<p>Pour faire des dommages, il faut avoir assigné un dé d'avantage à une arme. Chaque arme a son dé de dommages. Pour qu'une <a href="#armure">armure</a> soit utilisée, il faut qu'un avantage ait été assigné à cet armure. La protection est variable et exprimée par un dé.</p>
+<p>L'expérience permet une progression dans les archétypes selon <a href="#chaine-de-des">une chaîne de dés</a> : d4/d6/d8/d10/d12.</p>
+<h4 id="risus">Risus<a class="headerlink" href="#risus" title="Permanent link">#</a></h4>
+<table>
+<thead>
+<tr>
+<th>Nom complet</th>
+<th>Risus, The Anything RPG</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Auteur</td>
+<td>S. John Ross</td>
+</tr>
+<tr>
+<td>Date</td>
+<td>2001 (créé en 1993)</td>
+</tr>
+<tr>
+<td>URL</td>
+<td><a href="https://github.com/orey/jdr-risus">Risus</a></td>
+</tr>
+<tr>
+<td>Style</td>
+<td>Générique</td>
+</tr>
+</tbody>
+</table>
+<p>Ce jeu a marqué l'histoire du JDR. Le jeu se joue avec des d6, même s'il existe des variantes avec des dés polyédriques.</p>
+<p>Le PJ est défini avec des archétypes (nommés <strong>Clichés</strong>). Le joueur assigne 10d à ses archétypes (maximum 5d par archétype) (voir <a href="archétypes-sous-forme-de-dés">ici</a>).</p>
+<p>Le principe du jet est de lancer tous les dés de son Cliché et d'additionner les résultats. En ce sens, le jeu fonctionne comme <em>Ghostbusters</em> et comme <em>Star Wars</em> 1e et 2e.</p>
+<p>Les actions simples sont gérées via une <a href="#table-de-difficultes">table de difficultés</a>. Pour les conflits, les parties doivent faire des jets en opposition, le plus grand total l'emporte et le perdant perd un dé de Cliché pour le round suivant. Ce mécanisme est à la fois amusant, original mais réputé comme créateur de la "spirale de la mort". Le jeu ne propose pas de PdV mais une perte de dés de Clichés à la place.</p>
+<p>Un des aspects ludiques du jeu est la négociation entre le joueur et le MJ sur l'adaptation du Cliché à une situation. En effet, dans certains combats, le PJ peut ne pas avoir de Cliché applicable ; il faut donc utiliser un "Cliché inapproprié" mais convaincre pour cela le MJ que le Cliché peut quand même être utilisé.</p>
+<p>Les Clichés peuvent être "gonflés" (pump). Cela signifie qu'un joueur peut anticiper des pertes de dés de Clichés supplémentaires lors d'un conflit pour gonfler son score. Si un PJ possède un Cliché à 3d et qu'il perd un round, ce dernier se retrouvera à 2d. Si le joueur décide de booster son Cliché de 1d, il lancera 4d pour ce round (3+1) mais perdra 2d s'il perd le round (1+1). S'il le gagne son adversaire perdra 2d : celui de la perte de round et celui de la gonflette de son adversaire !</p>
+<p>Les Clichés deviennent donc une monnaie d'échange pour des actes héroïques et risqués (voir <a href="#gonfler-un-archetype">ici</a>).</p>
+<p>On notera aussi, dans le même genre, la gestion des pouvoirs spéciaux comme la magie ou les pouvoirs psioniques. Dans la mesure où les effets sont dévastateurs au travers de la "double gonflette" (on investit Xd dans la gonflette mais celle-ci donne une augmentation de 2Xd au jet, tout en ne risquant que Xd en cas d'échec), le coût du Cliché est double, par exemple 6 points pour un Cliché Nécromant[3].</p>
+<p>Ce qui est, en un sens exceptionnel, est comment ce petit jeu inspiré de <em>Ghostbusters</em> et utilisé tout d'abord pour des tests est devenu un phénomène concentrant un certain nombre d'idées dont certaines sont encore en vogue aujourd'hui. </p>
+<h4 id="usr">USR<a class="headerlink" href="#usr" title="Permanent link">#</a></h4>
+<table>
+<thead>
+<tr>
+<th>Nom complet</th>
+<th>USR (Unbelievably Simple Role-playing)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Auteur</td>
+<td>Scott Malthouse</td>
+</tr>
+<tr>
+<td>Date</td>
+<td>2012</td>
+</tr>
+<tr>
+<td>URL</td>
+<td><a href="https://www.drivethrurpg.com/en/product/98901/usr-unbelievably-simple-role-playing">USR</a></td>
+</tr>
+<tr>
+<td>Style</td>
+<td>Générique</td>
+</tr>
+</tbody>
+</table>
+<p>Les personnages sont définis par 3 caractéristiques :</p>
+<ul>
+<li><strong>Action</strong>, pour tout ce qui est physique,</li>
+<li><strong>Wits</strong>, pour tout ce qui est intelligence et perception,</li>
+<li><strong>Ego</strong>, pour tout ce qui est relations sociales.</li>
+</ul>
+<p>Le joueur doit répartir des dés dans les différentes caractéristiques : d6, d8 et d10.</p>
+<p>On retrouve cette mécanique d'attribution de dés à des caractéristiques dans de nombreux jeux (voir <a href="#caracteristiques-sous-forme-de-des">ici</a>).</p>
+<p>Les PdV (<strong>Hits</strong>) sont dérivés : il faut lancer les dés correspondant à Action et à Wits et additionner les deux. Quand les PdV tombent à 0, le personnage est mort.</p>
+<p>Les joueurs peuvent posséder en option un <strong>Narrative Point</strong> leur permettant de changer le résultat d'une action. C'est aussi une mécanique connue (voir <a href="#point-de-narration">ici</a>).</p>
+<p>Les joueurs peuvent choisir en tout 3 spécialités (<strong>specialism</strong>) rattachées à leurs caractéristiques. Cela leur donne un bonus de +2 (voir <a href="#specialisation">ici</a>). Ces spécialités sont des <a href="#competences-libres">compétences libres</a>.</p>
+<p>Pour les tests, le jeu propose une <a href="#table-de-difficultes">table de difficultés</a> avec des seuils. Pour les conflits, le MJ joue pour les PNJ et le score le plus haut gagne. Lors des combats, la différence entre les deux jets constitue les dommages (voir <a href="#dommages-bases-sur-la-marge-de-reussite">ici</a>).</p>
+<p>Les armes donnent des bonus à l'attaque, mais pas à la défense. Les armures annulent des points de dommages (voir <a href="#armure">ici</a>).</p>
+<p>L'avancement se fait via un cumul de points d'expériences. Les PJs peuvent changer de niveau et gagner +1 sur une spécialité ou obtenir une nouvelle spécialité.</p>
+<p>Un bon jeu simple.</p>
+<h4 id="x6">X6<a class="headerlink" href="#x6" title="Permanent link">#</a></h4>
+<table>
+<thead>
+<tr>
+<th>Nom complet</th>
+<th>X6 Core Second edition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Auteur</td>
+<td>Georgios Chatzipetros</td>
+</tr>
+<tr>
+<td>Date</td>
+<td>2013 (1e en 2011)</td>
+</tr>
+<tr>
+<td>URL</td>
+<td><a href="https://www.x6system.net">X6 Core</a></td>
+</tr>
+<tr>
+<td>Style</td>
+<td>Générique  ? Plutôt moderne</td>
+</tr>
+</tbody>
+</table>
+<p>Que dire de ce jeu sinon qu'il propose une vision assez simple et complète d'un jeu avec un <a href="pool-de-des">pool de d6</a>.</p>
+<p>On trouve quelques idées intéressantes :</p>
+<ul>
+<li>Les dés normaux ne sont pas binaires : 1-2 est un échec, 3-4 un succès et 5-6 deux succès ;</li>
+<li>Des dés appelés "dés gris" sont utilisés comme modificateurs dans des cas de désalignement entre caractéristique et compétence : 1-4 échec, 5 un succès et 6 deux succès.</li>
+<li>Un dé est le dé du destin : c'est un dé normal sauf que 1 enlève un succès ; cela peut amener à l'échec critique (si le résultat est 0 succès après avoir enlevé le succès) ; 6 peut exploser (voir <a href="#explosion">ici</a>) mais le risque de refaire 1 doit être pris par le joueur.</li>
+</ul>
+<p>Le jeu propose une <a href="#table-de-difficultes">table de difficultés</a> pour les actions normales et utilise le plus grand nombre de succès lors d'un combat (les deux combattants attaquent simultanément).</p>
+<p>Les règles proposent de "brûler des succès en trop" par exemple en faisant plus de dommages. L'interprétation des <a href="#marge-de-reussite">marges de réussite</a> est un grand classique du JDR, quoique ce ne soit pas du tout ma tasse de thé.</p>
+<p>Le jeu propose ensuite une déclinaison caractéristiques / compétences assez confuse.</p>
+<table>
+<thead>
+<tr>
+<th>Caractéristique <em>x6</em></th>
+<th>Caractéristique <em>D&amp;D</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Strength</td>
+<td>Strength</td>
+</tr>
+<tr>
+<td>Dexterity</td>
+<td>Dexterity</td>
+</tr>
+<tr>
+<td>Reason</td>
+<td>Intelligence</td>
+</tr>
+<tr>
+<td>Intuition</td>
+<td>Intelligence / Wisdom</td>
+</tr>
+<tr>
+<td>Willpower</td>
+<td>Wisdom</td>
+</tr>
+<tr>
+<td>Charisma</td>
+<td>Charisma</td>
+</tr>
+</tbody>
+</table>
+<p>Le split Reason/Intuition ne semble pas forcément très pertinent, car il apporte des confusions.</p>
+<p>La liste des compétences est aussi assez étonnante car peu équilibrée.</p>
+<table>
+<thead>
+<tr>
+<th>Compétences 1</th>
+<th>Compétences 2</th>
+<th>Compétences 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Athletics</td>
+<td>Business</td>
+<td>Computers</td>
+</tr>
+<tr>
+<td>Demolitions</td>
+<td>Drive</td>
+<td>Education</td>
+</tr>
+<tr>
+<td>Empathy</td>
+<td>Etiquette</td>
+<td>Firearms</td>
+</tr>
+<tr>
+<td>Investigation</td>
+<td>Medicine</td>
+<td>Melee</td>
+</tr>
+<tr>
+<td>Perception</td>
+<td>Persuasion</td>
+<td>Pilot</td>
+</tr>
+<tr>
+<td>Politics</td>
+<td>Science</td>
+<td>Stealth</td>
+</tr>
+</tbody>
+</table>
+<p>Nous n'avons pas d'esquive (Dodge) alors que c'est cité dans les exemples et que nous avons Mêlée...</p>
+<p>Les caractéristiques et les compétences ont des spécialités avec des niveaux; C'est compliqué à utiliser et cela rend la création du personnage faite d'allers et de retours. Que faut-il faire ? Prendre une compétence une spécialité de caractéristique ou une spécialité de compétence ? Et comment savoir ce que ça va donner dans le jeu ?</p>
+<p>Hé oui, parce que la mécanique n'est pas complètement simple. Pour tester une compétence, il faut :</p>
+<ul>
+<li>trouver la compétence,</li>
+<li>ajouter la caractéristique la plus adaptée,</li>
+<li>regarder les deltas entre eux pour rectifier l'addition des deux pools de dés avec des dés gris.</li>
+</ul>
+<p>Pas très simple, surtout que la caractéristique la plus adaptée n'est pas forcément facile à trouver. On ne trouve pas de rattachement naturel entre compétence et caractéristique. C'est plus souple, mais c'est plus compliqué. Et c'est plus difficile de savoir quelle est la vraie chance de réussite en conditions normales.</p>
+<p>On notera la présence d'atouts pendant la création du personnage : allié, autorité, réseau, moyens financiers. On préférera la version <em>GURPS</em>.</p>
+<p>Le combat est aussi assez étrange en proposant des actions qui se basent sur certaines compétences et/ou caractéristiques.</p>
+<p>Ce n'est que dans cette partie (il faudra attendre la page 24) que nous arrivons aux blessures. Elles sont des seuils basés sur des multiplicateurs de Strength... Là encore, déterminer les dommages est compliqué...</p>
+<p>On ressort de la lecture de ces règles avec une vraie impression de confusion, de complication. Trop de tiroirs, trop de choses ambiguës, trop d'options inutiles pour un jeu générique... qui ne fait allusion qu'à un monde moderne.</p>
+<p>On peut se demander quel est le but de l'auteur. Faire un système de jeu que l'on publie en open source sur Internet est bien, mais je vais revenir à mon dada : pourquoi faire moins bien ce qui existe déjà ? Si le jeu se voulait un jeu simple et facile, c'est raté. Si le jeu se voulait un jeu complet avec un grand nombre d'options, c'est brouillon et probablement pas très étudié en termes de probabilités. Quel est le segment visé par ce moteur de jeu "générique" qui ne l'est pas ?</p>
+<p>Difficile de croire que beaucoup de MJs soient tentés.</p>
+<h3 id="repertoire-chronologique">Répertoire chronologique<a class="headerlink" href="#repertoire-chronologique" title="Permanent link">#</a></h3>
+<h4 id="2000-2009">2000-2009<a class="headerlink" href="#2000-2009" title="Permanent link">#</a></h4>
+<ul>
+<li>2001 : <a href="#risus">Risus</a></li>
+<li>2005 : <a href="#dungeon-squad">Dungeon Squad</a></li>
+</ul>
+<h4 id="2010-2019">2010-2019<a class="headerlink" href="#2010-2019" title="Permanent link">#</a></h4>
+<ul>
+<li>2012 : <a href="#usr">USR</a></li>
+<li>2013 : <a href="#x6">x6</a></li>
+</ul>
+<h3 id="repertoire-des-mecaniques-de-jeu">Répertoire des mécaniques de jeu<a class="headerlink" href="#repertoire-des-mecaniques-de-jeu" title="Permanent link">#</a></h3>
+<p>Avertissement : la plupart des noms de "patterns" (littéralement "patron" au sens ancien de modèle) de jeux qui suivent ne sont pas forcément des plus évocateurs ou des plus réussis. Il est nécessaire de considérer cet exercice comme une tentative de classification des différents patterns de jeu. </p>
+<h4 id="archetypes-en-guise-de-pdv">Archétypes en guise de PdV<a class="headerlink" href="#archetypes-en-guise-de-pdv" title="Permanent link">#</a></h4>
+<p>Les archétypes ont soit des scores fixes, soit une formule avec des dés. Dans certains jeux, une perte d'un round de combat amène à la perte de points ou de dés d'archétypes.</p>
+<ul>
+<li><a href="#risus">Risus</a></li>
+</ul>
+<h4 id="archetypes-sous-forme-de-des">Archétypes sous forme de dés<a class="headerlink" href="#archetypes-sous-forme-de-des" title="Permanent link">#</a></h4>
+<p>Le PJ est décrit avec des archétypes qui ont chacun une formule avec des dés.</p>
+<ul>
+<li><a href="#dungeon-squad">Dungeon Squad</a></li>
+<li><a href="#risus">Risus</a></li>
+</ul>
+<h4 id="armure">Armure<a class="headerlink" href="#armure" title="Permanent link">#</a></h4>
+<p>L'armure enlève des points de dommages. Certains jeux proposent des armures enlevant un nombre fixe de points de dommage, certains jeux ont des armures enlevant un nombre variable de points de dommages (souvent exprimés via une formule avec des dés).</p>
+<ul>
+<li><a href="#usr">USR</a></li>
+</ul>
+<h4 id="caracteristiques-sous-forme-de-des">Caractéristiques sous forme de dés<a class="headerlink" href="#caracteristiques-sous-forme-de-des" title="Permanent link">#</a></h4>
+<p>Des dés (d4, d6, d8, d10, d12, etc.) sont assignées aux caractéristiques du personnage. On entend par caractéristique des traits physiques et psychiques du personnage (à distinguer des compétences).</p>
+<p>Cette façon de faire apparaît en réaction aux caractéristiques fixes des jeux comme <em>D&amp;D</em> ou <em>Call of Cthulhu</em>.</p>
+<p>Un des jeux les plus connus utilisant ce pattern est <em>Savage Worlds</em>.</p>
+<ul>
+<li><a href="#usr">USR</a></li>
+</ul>
+<h4 id="chaine-de-des">Chaîne de dés<a class="headerlink" href="#chaine-de-des" title="Permanent link">#</a></h4>
+<p>Présente dans un certain nombre de jeux, la chaîne de dés permet une progression (ou une régression) temporaire ou permanente d'une caractéristique (si cette dernière est exprimée <a href="#caracteristique-sous-forme-de-des">avec des dés</a>), ou un changement de dé à tirer lors d'un jet.</p>
+<p>La chaîne de dés occupe une position centrale dans le jeu <em>DCC</em>.</p>
+<ul>
+<li><a href="#dungeon-squad">Dungeon Squad</a> </li>
+</ul>
+<h4 id="competences-libres">Compétences libres<a class="headerlink" href="#competences-libres" title="Permanent link">#</a></h4>
+<p>Des compétences non listées dans le cadre du jeu. Un certain nombre de jeux préconisent ce système : les joueurs proposent des compétences qui sont validées ensuite par le MJ. L'utilisation de ces compétences donne généralement un bonus.</p>
+<p>On trouve parfois des compétences libres vues comme des <a href="#specialisation">spécialisations</a> de caractéristiques.</p>
+<ul>
+<li><a href="#usr">USR</a></li>
+</ul>
+<h4 id="dommages-bases-sur-la-marge-de-reussite">Dommages basés sur la marge de réussite<a class="headerlink" href="#dommages-bases-sur-la-marge-de-reussite" title="Permanent link">#</a></h4>
+<p>Les dommages sont basés sur la différence entre le jet du vainqueur et le jet du vaincu.</p>
+<ul>
+<li><a href="#usr">USR</a></li>
+</ul>
+<h4 id="explosion">Explosion<a class="headerlink" href="#explosion" title="Permanent link">#</a></h4>
+<p>On parle d'explosion de dé lorsqu'une certaine valeur (souvent la valeur maximale du dé), une fois sortie, permet au joueur de rejouer.</p>
+<p>On trouve cette règle dans <em>Star Wars</em> 2e : le 6 est comptabilisé comme 6 et en même temps est rejoué pour additionner son score au score global. Un dé qui explose peut exploser plusieurs fois ou pas.</p>
+<ul>
+<li><a href="#x6">x6</a></li>
+</ul>
+<h4 id="gonfler-un-archetype">Gonfler un archétype<a class="headerlink" href="#gonfler-un-archetype" title="Permanent link">#</a></h4>
+<p>Cette technique est assez rare dans les jeux. On la trouve dans <a href="#risus">Risus</a>. Il s'agit de miser une partie des dés de l'archétype pour gonfler le nombre de dés nécessaire au conflit. Cette "gonflette" servira de malus au perdant du combat :</p>
+<ul>
+<li>Si le PJ qui a gonflé son archétype échoue, il perdra le nombre de dés de la gonflette plus le dé de perte de round.</li>
+<li>Si le PJ qui a gonflé son archétype réussit, son adversaire perdra le nombre de dés de la gonflette plus le dé de perte de round.</li>
+</ul>
+<p>Cette technique a été inventée pour compenser les défauts structurels du jeu Risus, en particulier la spirale de la mort (<em>death spiral</em>). Elle a des échos dans des jeux plus récents avec la notion d'<strong>effort</strong>. Le PJ fait un effort en concentrant son énergie sur le round à venir mais en acceptant d'avoir moins d'énergie dans les rounds suivants.</p>
+<ul>
+<li><a href="#risus">Risus</a></li>
+</ul>
+<h4 id="marge-de-reussite">Marge de réussite<a class="headerlink" href="#marge-de-reussite" title="Permanent link">#</a></h4>
+<p>Certains jeux font usage des seuils de réussite. Dans les conflits, le fait que l'un des camp réussisse ne suffit pas, les marges de réussite comptent pour expliquer si la réussite est normale, supérieure ou grandiose. La marge s'exprime en points, en nombre de réussites, etc. et les interprétations peuvent se lire sur une table des marges de réussite.</p>
+<ul>
+<li><a href="#x6">x6</a></li>
+</ul>
+<h4 id="point-de-narration">Point de narration<a class="headerlink" href="#point-de-narration" title="Permanent link">#</a></h4>
+<p>En utilisant un point de narration, le joueur peut changer l'issue d'une situation. Il doit raconter la scène comme il a décidé qu'elle se passe et le MJ doit prendre en compte ce changement.</p>
+<ul>
+<li><a href="#usr">USR</a></li>
+</ul>
+<h4 id="pool-de-des">Pool de dés<a class="headerlink" href="#pool-de-des" title="Permanent link">#</a></h4>
+<p>On entend par pool de dés, des dés de même taille que l'on additionne pas mais qui, pris individuellement, vont indiquer le succès ou l'échec d'une tâche. Il suffira de compter les succès et de se comparer à une <a href="#table-de-difficultes">table de difficultés</a> pour savoir si l'action est réussie. plus l'action est difficile, plus le nombre de succès doit être grand.</p>
+<p>Notons que certains pools de dés utilisent des seuils variables par dé pour indiquer les difficultés. Supposons que je possède une compétence à 3d. Lors d'une utilisation facile, un jet de 4-5-6 sera un succès, mais lors d'une utilisation extrême, seuls les 6 seront des succès.</p>
+<p>On trouve cette mécanique dans <em>Shadowrun</em>.</p>
+<ul>
+<li><a href="#x6">x6</a></li>
+</ul>
+<h4 id="specialisation">Spécialisation<a class="headerlink" href="#specialisation" title="Permanent link">#</a></h4>
+<p>Les compétences sont vues comme des spécialisations des caractéristiques.</p>
+<ul>
+<li><a href="#usr">USR</a></li>
+</ul>
+<h4 id="table-de-difficultes">Table de difficultés<a class="headerlink" href="#table-de-difficultes" title="Permanent link">#</a></h4>
+<p>Un grand classique du JDR : les actions à réaliser ont un facteur de difficulté qu'il faut égaler ou battre, avec un jet de dés, pour réussir.</p>
+<ul>
+<li><a href="#dungeon-squad">Dungeon Squad</a></li>
+<li><a href="#risus">Risus</a></li>
+<li><a href="#usr">USR</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyleft Olivier Rey 2017-2025 (GNU FDL)
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>

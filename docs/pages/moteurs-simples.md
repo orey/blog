@@ -51,7 +51,7 @@ Dernier point, ce répertoire est, bien entendu, subjectif et vous ne trouverez 
 
 Ce jeu est, à la base, un jeu d'initiation pour les enfants.
 
-Chaque personnage est décrit par les mêmes trois archétypes, **Magicien**, **Voleur** et **Guerrier**. Le joueur doit affecter un d4, un d8 et un d12 dans chacun des archétypes (voir [ici](archétypes-sous-forme-de-dés)).
+Chaque personnage est décrit par les mêmes trois archétypes, **Magicien**, **Voleur** et **Guerrier**. Le joueur doit affecter un d4, un d8 et un d12 dans chacun des archétypes (voir [ici](#archetypes-sous-forme-de-des)).
 
 Ils ont deux autres dés, un d6 et un d10, à assigner à des avantages, ces avantages étant entendues au sens large et pouvant être un sort, une arme, une armure, etc.
 
@@ -66,18 +66,32 @@ Pour faire des dommages, il faut avoir assigné un dé d'avantage à une arme. C
 
 L'expérience permet une progression dans les archétypes selon [une chaîne de dés](#chaine-de-des) : d4/d6/d8/d10/d12.
 
+### Mini Six
+
+| Nom complet | Mini Six, Cinematic Roleplaying game                                                                      |
+|-------------|-----------------------------------------------------------------------------------------------------------|
+| Auteurs     | Ray Nolan and Phil Morris                                                                                 |
+| Date        | 2010                                                                                                      |
+| URL         | [Mini Six Bare Bones Edition](https://www.drivethrurpg.com/en/product/144558/mini-six-bare-bones-edition) |
+| Style       | Générique                                                                                                 |
+
+*Mini Six* fait partie de l'[Open D6](https://en.wikipedia.org/wiki/D6_System), un ensemble de publications dérivées des jeux d6 de West End Games (*Ghostbusters*, *Star Wars*, etc.). En un sens, ce jeu est une compression du D6 System et n'utilise par conséquent que des d6, notés "D".
+
+Les joueurs possèdent 4 caractéristiques (Might, Agility, Wit, Charm, équivalents *D&D* à Strength, Dexterity, Intelligence, Charisma) et ont des [compétences liées](#competences-liees) aux caractéristiques. Les compétences dépendent du genre (moderne/science-fiction ou fantasy). Les joueurs ont 12 dés à répartir sur les 4 caractéristiques et 7 dés dans les compétences et les avantages. Les dés peuvent être convertis en [pip](#pip).
+
+
 ### Risus
 
-| Nom complet | Risus, The Anything RPG                                      |
+| Nom complet | Risus, The Anything RPG                    |
 |-------------|--------------------------------------------|
 | Auteur      | S. John Ross                               |
-| Date        | 2001 (créé en 1993)                                      |
+| Date        | 2001 (créé en 1993)                        |
 | URL         | [Risus](https://github.com/orey/jdr-risus) |
 | Style       | Générique                                  |
 
 Ce jeu a marqué l'histoire du JDR. Le jeu se joue avec des d6, même s'il existe des variantes avec des dés polyédriques.
 
-Le PJ est défini avec des archétypes (nommés **Clichés**). Le joueur assigne 10d à ses archétypes (maximum 5d par archétype) (voir [ici](archétypes-sous-forme-de-dés)).
+Le PJ est défini avec des archétypes (nommés **Clichés**). Le joueur assigne 10d à ses archétypes (maximum 5d par archétype) (voir [ici](#archetypes-sous-forme-de-des)).
 
 Le principe du jet est de lancer tous les dés de son Cliché et d'additionner les résultats. En ce sens, le jeu fonctionne comme *Ghostbusters* et comme *Star Wars* 1e et 2e.
 
@@ -135,7 +149,7 @@ Un bon jeu simple.
 | URL         | [X6 Core](https://www.x6system.net) |
 | Style       | Générique  ? Plutôt moderne         |
 
-Que dire de ce jeu sinon qu'il propose une vision assez simple et complète d'un jeu avec un [pool de d6](pool-de-des).
+Que dire de ce jeu sinon qu'il propose une vision assez simple et complète d'un jeu avec un [pool de d6](#pool-de-des).
 
 On trouve quelques idées intéressantes :
 
@@ -243,7 +257,7 @@ Un des jeux les plus connus utilisant ce pattern est *Savage Worlds*.
 
 ### Chaîne de dés
 
-Présente dans un certain nombre de jeux, la chaîne de dés permet une progression (ou une régression) temporaire ou permanente d'une caractéristique (si cette dernière est exprimée [avec des dés](#caracteristique-sous-forme-de-des)), ou un changement de dé à tirer lors d'un jet.
+Présente dans un certain nombre de jeux, la chaîne de dés permet une progression (ou une régression) temporaire ou permanente d'une caractéristique (si cette dernière est exprimée [avec des dés](#caracteristiques-sous-forme-de-des)), ou un changement de dé à tirer lors d'un jet.
 
 La chaîne de dés occupe une position centrale dans le jeu *DCC*.
 
@@ -256,6 +270,12 @@ Des compétences non listées dans le cadre du jeu. Un certain nombre de jeux pr
 On trouve parfois des compétences libres vues comme des [spécialisations](#specialisation) de caractéristiques.
 
 * [USR](#usr)
+
+### Compétences liées
+
+Dans les jeux utilisant des compétences liées, ces dernières sont associées à une caractéristique.
+
+* [Mini Six](#mini-six)
 
 ### Dommages basés sur la marge de réussite
 
@@ -287,6 +307,12 @@ Cette technique a été inventée pour compenser les défauts structurels du jeu
 Certains jeux font usage des seuils de réussite. Dans les conflits, le fait que l'un des camp réussisse ne suffit pas, les marges de réussite comptent pour expliquer si la réussite est normale, supérieure ou grandiose. La marge s'exprime en points, en nombre de réussites, etc. et les interprétations peuvent se lire sur une table des marges de réussite.
 
 * [x6](#x6)
+
+### Pip
+
+"Pépin" en anglais. dans le système D6, un D6 est équivalent à 3 pips. Cela permet de diviser un D6 et d'attribuer les pips comme des modificateurs : +1/+1/+1, ou +1/+2. Si on ajoute un pip à 2D+2, alors cette formule devient 3D.
+
+* [Mini Six](#mini-six)
 
 ### Point de narration
 
