@@ -56,7 +56,9 @@ La chaîne de dés occupe une position centrale dans le jeu *DCC*.
 
 ## Combat simultané
 
-Dans un grand nombre de jeux, le combat se fait par ordre d'initiative dans un round. La version simple est celle de *D&D*, une version plus complexe peut être celle du *Basic Roleplaying System*
+Dans un grand nombre de jeux, le combat se fait par ordre d'initiative dans un round. La version simple est celle de *D&D* 5e, une version un peu plus complexe peut être celle du *Basic Roleplaying System* 5e (notamment avec les multiples actions par round).
+
+certains jeux en revanche utilisent des règles de combat simultané : les personnages font des choses *en même temps*. Il est requis de déterminer qui commence, mais uniquement dans le cas de confrontations simultanées. *Star Wars* 1e propose ce type de mécanisme. 
 
 ## Compétences libres
 

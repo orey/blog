@@ -1454,9 +1454,51 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initiative
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#les-competences-de-reaction" class="md-nav__link">
     <span class="md-ellipsis">
       Les compétences de réaction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les compétences de réaction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#utilisation-en-cours-de-round" class="md-nav__link">
+    <span class="md-ellipsis">
+      Utilisation en cours de round
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applicabilite-de-lutilisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applicabilité de l'utilisation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#une-gestion-innovante-des-armures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Une gestion innovante des armures
     </span>
   </a>
   
@@ -1529,7 +1571,7 @@
 <p><img alt="champions-1e.png" src="../../images/champions-1e.png" /></p>
 <p>En 1986, sont publiés deux jeux D6 qui ont marqué l'histoire du JDR :</p>
 <ul>
-<li><em>GURPS</em>,</li>
+<li><em>GURPS</em>, avec son système 3D6,</li>
 <li><em>Ghostbusters</em>.</li>
 </ul>
 <p>C'est <em>Ghostbusters</em> qui va inspirer Greg Costikyan pour le système de jeu de <em>Star Wars</em> 1e ("1e" comme "première édition").</p>
@@ -1550,22 +1592,21 @@
 <p>Les compétences de combat importantes sont classées comme suit :</p>
 <ul>
 <li>Sous <em>Dexterity</em> :</li>
-<li>Esquive</li>
-<li>Blaster</li>
-<li>Armes lourdes</li>
-<li>Mêlée</li>
-<li>Parade de mêlée</li>
-<li>Parade de bagarre</li>
-<li>Sous <em>Strength</em></li>
-<li>Bagarre</li>
+<li>Esquive (<em>Fodge</em>),</li>
+<li>Blaster,</li>
+<li>Armes lourdes (<em>Heavy weapons</em>),</li>
+<li>Mêlée (<em>Melee</em>),</li>
+<li>Parade de mêlée (<em>Melee Parry</em>),</li>
+<li>Parade de bagarre (<em>Brawl Parry</em>),</li>
+<li>Sous <em>Strength</em> :</li>
+<li>Bagarre (<em>Brawl</em>).</li>
 </ul>
-<p>La difficulté moyenne des actions est de 10, ce qui correspond à environ 60% de chances de réussir pour un PJ ayant une caractéristique de 3D. En effet, la courbe des probabilités de 3D est une courbe en cloche.</p>
-<p>Ainsi la probabilité de faire plus qu'un seuil est montrée dans la table suivante :</p>
+<p>La difficulté moyenne des actions est de 10, ce qui correspond à environ 60% de chances de réussir pour un PJ ayant une caractéristique de 3D. En effet, la courbe des probabilités de 3D est une courbe en cloche (bien connue des amateurs de la première édition de <em>AD&amp;D</em>). Ainsi la probabilité de faire plus qu'un seuil est montrée dans la table suivante :</p>
 <table>
 <thead>
 <tr>
 <th>Seuil</th>
-<th>Probabilité</th>
+<th>Probabilité de faire au moins le seuil avec 3D</th>
 </tr>
 </thead>
 <tbody>
@@ -1639,40 +1680,64 @@
 <h3 id="round-de-combat">Round de combat<a class="headerlink" href="#round-de-combat" title="Permanent link">#</a></h3>
 <h4 id="plusieurs-actions-a-la-fois">Plusieurs actions à la fois<a class="headerlink" href="#plusieurs-actions-a-la-fois" title="Permanent link">#</a></h4>
 <p>Les PJs possédant des compétences sous forme de nombre de dés, peuvent choisir de faire plus d'une action par round. Lorsque c'est le cas, supposons qu'un PJ veuille fait 2 actions à la fois, toutes ses actions subissent une pénalité de -1D, 3 actions donne une pénalité de -2D sur toutes les actions, etc.</p>
-<p>Cette innovation permet à n'importe quel joueur d'avoir l'opportunité de "faire le héros" et elle utilise au mieux l'idée du "<a href="../patterns/#pool-de-des">pool de dés</a>". Dans <em>D&amp;D</em>, il faut avoir beaucoup d'expérience pour disposer de deux attaque par round.</p>
+<p>Cette innovation (voir aussi <a href="../patterns/#multiples-actions-par-round">ici</a>) permet à n'importe quel joueur d'avoir l'opportunité de "faire le héros" et elle utilise au mieux l'idée du "<a href="../patterns/#pool-de-des">pool de dés</a>". Dans <em>D&amp;D</em>, il faut avoir beaucoup d'expérience pour disposer de deux attaque par round.</p>
 <p>Les combats sont divisés en rounds de 5 secondes divisé en 5 segments : décision, déclaration (joueurs d'abord et MJ ensuite), première action, deuxième action (si elle existe) et potentielles autres actions des PJ/PNJ.</p>
-<p>Il n'existe pas de mécanisme d'initiative dans cette version du jeu. Pour autant, le jeu propose un <a href="../patterns/#positionnement-physique-des-joueurs">positionnement physique des joueurs</a> selon leur rang de perception. La version de Star Wars REUP de 2015 propose un jet de Perception par camp pour trancher le sujet de l'initiative.</p>
+<p>Durant chaque segment d'action, un PJ peut faire :</p>
+<ul>
+<li>Se déplacer,</li>
+<li>Utiliser une compétence (ou une caractéristique).</li>
+</ul>
+<h4 id="initiative">Initiative<a class="headerlink" href="#initiative" title="Permanent link">#</a></h4>
+<p>Il n'existe pas de mécanisme d'initiative à proprement parler dans cette version du jeu. Pour autant, le jeu propose deux mécanismes :</p>
+<ul>
+<li>Un <a href="../patterns/#positionnement-physique-des-joueurs">positionnement physique des joueurs</a> selon leur rang de perception ;</li>
+<li>Une résolution par plus haut score si des personnages sont en interaction.</li>
+</ul>
+<p>Sur ce second point, une précision s'impose. Si A et B se tirent dessus dans le même segment, le plus haut score sera celui qui tire en premier. Si le tire de A touche, alors B ne tire pas, même si son jet était réussi.</p>
+<p>Nous sommes donc dans un cas de <a href="patterns#combat-simultane">combat simultané</a>, dont l'issue se règle en fonction des scores absolus de chaque joueur dans la compétence en opposition.</p>
+<p>On notera que la mécanique de jeu est parfaitement adaptée à la représentation de ce qui se passe dans les films. En quelque sorte, la résolution de l'initiative est faite dans le segment concerné au moment où les choses se produisent.</p>
 <h4 id="les-competences-de-reaction">Les compétences de réaction<a class="headerlink" href="#les-competences-de-reaction" title="Permanent link">#</a></h4>
-<p>L'innovation la plus importante, et pourtant une des plus décriée, est la notion de <strong>compétence de réaction</strong> (<em>Reaction skills</em>) : l'esquive et les deux parades sont des compétences de réaction. Leur utilisation est intéressante et à l'avantage des joueurs.</p>
-<p>Si un joueur n'a pas encore joué son tour, et que son PJ est visé par une attaque, il lui est possible d'utiliser une compétence de réaction <em>avant son tour</em> (esquive ou parade). Bien entendu, lorsque le joueur jouera son tour, son action (ou ses actions si le PJ fait de multiples actions dans le round) subiront un malus de -1D.</p>
-<p>Le moment intéressant est le suivant : si un PJ a <em>déjà</em> joué son tour dans le round et que quelqu'un l'attaque, il peut quand même utiliser une compétence de réaction, mais comme cela sera sa seconde action, il devra le faire avec -1D de malus. Si le joueur avait déclaré vouloir faire deux actions dans le round, ses deux actions auraient -1D de malus. Si une compétence de réaction était utilisée au milieu des deux actions, il devrait tirer la première action avec -1D, la compétence avec -2D et la seconde action avec -2D.</p>
-<p>Ce système a été décrié parce qu'il n'était pas "homogène". En effet, le rôle d'une esquive ou d'une parade en cours de round implique de recalculer les chances de succès des actions restantes. On peut voir ça comme une façon extrêmement dynamique de s'adapter à la réalité, et au final assez élégante.</p>
-<p>Cette façon de faire a été remise en cause dès le premier compagnon de règles de Star Wars en 1989. La solution proposée est beaucoup moins naturelle : le joueur doit déclarer s'il esquive ou pas en début de round. On retrouve cette approche dans le <em>D6 System</em> de 1996. Cela signifie que le PJ ne peut pas improviser durant un round durant 5 secondes.</p>
-<p>A noter que Star Wars REUP rétablit la compétence de réaction comme elle existait dans la version originale de 1987 des règles.</p>
+<p>L'innovation la plus importante, et pourtant une des plus décriée, est la notion de <strong>compétence de réaction</strong> (<em>Reaction skills</em>, voir aussi <a href="../patterns/#competences-de-reaction">ici</a>) : l'esquive et les deux parades sont des compétences de réaction. Leur utilisation est intéressante et à l'avantage des joueurs.</p>
+<p>Bien entendu, les autres JDRs possèdent plus ou moins de moyens de traiter de l'esquive ou de la parade. Mais <em>Star Wars</em> 1e apporte quelque chose d'original au sujet.</p>
+<h5 id="utilisation-en-cours-de-round">Utilisation en cours de round<a class="headerlink" href="#utilisation-en-cours-de-round" title="Permanent link">#</a></h5>
+<p>Si un joueur n'a pas encore joué son tour, et que son PJ est visé par une attaque, il lui est possible d'utiliser une compétence de réaction <strong>avant son tour</strong> (esquive ou parade). Bien entendu, lorsque le joueur jouera son tour, son action (ou ses actions si le PJ fait de multiples actions dans le round) subiront un malus de -1D en raison de cette utilisation.</p>
+<p>Le moment intéressant est le suivant : si un PJ a déjà joué son tour dans le round et que quelqu'un l'attaque, il peut quand même utiliser une compétence de réaction <strong>en cours de round</strong>, mais comme cela sera sa seconde action, il devra le faire avec -1D de malus. Si le joueur avait déclaré vouloir faire deux actions dans le round, ses deux actions auraient -1D de malus. Si une compétence de réaction était utilisée au milieu des deux actions, il devrait tirer la première action avec -1D, la compétence de réaction avec -2D et la seconde action avec -2D.</p>
+<p>Ce système a été décrié parce qu'il n'était pas "homogène". En effet, le rôle d'une esquive ou d'une parade en cours de round implique de recalculer les chances de succès des actions restantes dans les segments restants. On peut voir ça comme une façon extrêmement dynamique de s'adapter à la réalité, et au final assez élégante.</p>
+<p>Cette façon de faire a été remise en cause dès le premier compagnon de règles de Star Wars en 1989. La solution proposée est beaucoup moins naturelle : le joueur doit déclarer s'il esquive ou pas <em>en début de round</em>. On retrouve cette approche dans le <em>D6 System</em> de 1996 (dont l'exemple de combat a quelque chose d'absurde, le joueur déclarant son esquive en début de round, voir page 64). Cela signifie que le PJ ne peut pas improviser durant un round durant 5 secondes : il doit prévoir d'esquiver ou de parer.</p>
+<p>A noter que <em>Star Wars</em> <a href="http://www.d6holocron.com/downloads/books/REUP.pdf">REUP</a> rétablit la compétence de réaction comme elle existait dans la version originale de 1987 des règles, preuve que les modifications propagées par le premier compagnon de <em>Star Wars</em> de 1989, la seconde édition de <em>Star Wars</em>, le <em>D6 System</em> et tous ses dérivés ne plaisaient pas à la communauté.</p>
+<h5 id="applicabilite-de-lutilisation">Applicabilité de l'utilisation<a class="headerlink" href="#applicabilite-de-lutilisation" title="Permanent link">#</a></h5>
 <p>Le second élément attaché à la compétence de réaction est le fait que l'utilisation de cette compétence :</p>
 <ul>
-<li>Rend plus difficile le fait de toucher le PJ (mais le pénalise pour le reste de ses actions) en s'additionnant au seuil de difficulté requis pour le toucher (généralement 10, mais ce seuil dépend de la portée des armes) ;</li>
-<li>Est valable pour toutes les attaques que subira le PJ jusqu'à la fin du round.</li>
+<li>Est valable <strong>pour toutes les attaques</strong> que subira le PJ <strong>dans le segment en cours</strong> ;</li>
+<li>Rend plus difficile le fait de toucher le PJ (mais le pénalise pour le reste de ses actions dans le round) en <strong>s'additionnant au seuil de difficulté</strong> requis pour le toucher (généralement 10, mais ce seuil dépend de la portée des armes), dans le segment en cours.</li>
 </ul>
-<p>Les deux points introduisent un côté héroïque au jeu et incitent les joueurs à faire de multiples actions quand ils le peuvent plutôt que d'être certains de toucher.</p>
+<p>Cela présuppose, évidemment, que le joueur annonce que son PJ esquive avant que le jet d'attaque de son adversaire ait été fait (puisque l'esquive modifie la difficulté à toucher).</p>
 <p>Dès le compagnon de 1989, et cela sera repris dans le <em>D6 System</em> en 1996, le jet de compétences de réaction <strong>remplace</strong> le facteur de difficulté devant être battu par l'agresseur. Si l'on compte en moyenne 3D sur la caractéristique Dexterity, le PJ a presque 40% de chances de diminuer le seuil et donc d'aggraver sa situation.</p>
 <p>Certes, il est possible que les playtests aient montré qu'esquiver était donc un moyen commode de ne jamais être touché. En effet, 10 + 3D ferait en moyenne 21, ce qui est impossible à toucher pour un Stormtrooper ayant 3D en tir.</p>
-<p>Pour autant, l'idée de remplacer le facteur de difficulté peut vite devenir punitif. Si l'on veut garder l'aspect héroïque de l'action, il faut trouver un compromis :</p>
+<p>Pour autant, l'idée de remplacer le facteur de difficulté peut vite devenir punitifn surtout si un groupe de Stormtroopers attaquent le PJ en même temps. Des esquives multiples auront vite raison de la capacité de contre-attaque du PJ, et pour autant, il ne sera pas surexposé en ayant raté un jet d'esquive qui le mettrait à la portée de multiples tirs.</p>
+<p>Si l'on veut garder l'aspect héroïque de l'action, il est sans doute possible de trouver un compromis :</p>
 <ul>
-<li>Les règles de 1987 sont trop permissives,</li>
-<li>Les règles de 1989/1996 sont trop punitives (à noter que ce sont ces règles qui s'appliquent dans <em>Star Wars</em> REUP).</li>
+<li>Les règles de 1987 paraissent trop permissives ;</li>
+<li>Les règles de 1989/1996 peuvent paraître un peu trop punitives (à noter que ce sont ces règles qui s'appliquent dans <em>Star Wars</em> REUP) car, en cas d'adversaires multiples, le PJ sera pénalisé sur toutes les attaques restantes du round.</li>
 </ul>
-<p>Il y a plusieurs solutions :</p>
+<p>Il est possible d'envisager plusieurs solutions :</p>
 <ul>
-<li>Créer une table de malus pour l'attaquant dépendant du jet sur la compétence de réaction (voit ci-dessous) ;</li>
-<li>Ajouter la moitié de la compétence de réaction au seuil (arrondie à l'inférieur).</li>
+<li>Ajouter la moitié de la compétence de réaction au seuil (arrondie à l'inférieur) au lieu du total de la compétence ;</li>
+<li>Créer une table de malus pour l'attaquant dépendant du jet sur la compétence de réaction (voit ci-dessous).</li>
+</ul>
+<p>La table de malus ci-dessous propose deux cas :</p>
+<ul>
+<li>Un cas positif pour les PJs (cas n°1) basé sur une caractéristique d'esquive moyenne de 10,</li>
+<li>Un cas plus négatif (cas n°2) dans lequel il faut vraiment faire un haut score pour changer significativement les chances de toucher.</li>
 </ul>
 <table>
 <thead>
 <tr>
 <th>Compétence de réaction</th>
-<th>Malus</th>
-<th>Seuil base 10</th>
+<th>Malus 1</th>
+<th>Seuil 1 base 10</th>
+<th>Malus 2</th>
+<th>Seuil 2</th>
 </tr>
 </thead>
 <tbody>
@@ -1680,30 +1745,43 @@
 <td>2 - 5</td>
 <td>+1</td>
 <td>11</td>
+<td>+1</td>
+<td>11</td>
 </tr>
 <tr>
 <td>6 - 10</td>
 <td>+3</td>
 <td>13</td>
+<td>+2</td>
+<td>12</td>
 </tr>
 <tr>
 <td>11 - 15</td>
 <td>+5</td>
 <td>15</td>
+<td>+3</td>
+<td>13</td>
 </tr>
 <tr>
 <td>16-20</td>
 <td>+7</td>
 <td>17</td>
+<td>+4</td>
+<td>14</td>
 </tr>
 <tr>
+<td>etc.</td>
+<td>etc.</td>
 <td>etc.</td>
 <td>etc.</td>
 <td>etc.</td>
 </tr>
 </tbody>
 </table>
-<p>Si on ajoute la moitié de la compétence, cela donne en moyenne 5 et donc le seuil à atteindre passe de 10 à 15.</p>
+<p>Pour le cas 1, si on ajoute la moitié de la compétence, cela donne en moyenne 5 et donc le seuil à atteindre passe de 10 à 15, ce qui rend le toucher difficile mais pas impossible.</p>
+<h4 id="une-gestion-innovante-des-armures">Une gestion innovante des armures<a class="headerlink" href="#une-gestion-innovante-des-armures" title="Permanent link">#</a></h4>
+<p>Nous retrouvons cette mécanique de jeu sur les dés dans la mécanique des armures. Une armure de 1D donne un bonus de +1D aux jets de résistance basés sur la Force mais un malus de -1D aux jets basés sur la Dextérité. Par le fait que les compétences de Dextérité soient liées à la caractéristique, le malus s'applique naturellement à tous les jets de compétences liées, par exemple à l'esquive.</p>
+<p>Encore une fois, c'est une façon très élégante de gérer les malus liés aux armures, très élégante car totalement intégrée à la mécanique de jeu. Beaucoup d'autres jeux, en comparaison, pour atteindre le même objectif, utilisent des <a href="../patterns/#regles-ad-hoc">règles <em>ad hoc</em></a>.</p>
 
 
 
