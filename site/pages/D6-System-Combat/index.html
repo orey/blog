@@ -1,0 +1,1767 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A Grognard Blog">
+      
+      
+        <meta name="author" content="Olivier Rey">
+      
+      
+        <link rel="canonical" href="https://orey.github.io/blog/pages/D6-System-Combat/">
+      
+      
+      
+      
+      <link rel="icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
+    
+    
+      
+        <title>D6 System Combat - Cthulhu Fhtagn A Lot</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#les-premiers-jeux-nutilisant-que-des-d6" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Cthulhu Fhtagn A Lot" class="md-header__button md-logo" aria-label="Cthulhu Fhtagn A Lot" data-md-component="logo">
+      
+  <img src="../../images/Monstre1.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cthulhu Fhtagn A Lot
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              D6 System Combat
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../blog/2026/" class="md-tabs__link">
+          
+  
+    
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../analyse-d100/" class="md-tabs__link">
+          
+  
+    
+  
+  Etudes/Studies
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../downloads/eldritch-wizardry/" class="md-tabs__link">
+          
+  
+    
+  
+  Downloads
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../links-en/" class="md-tabs__link">
+          
+  
+    
+  
+  Links/Liens
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tags/" class="md-tabs__link">
+        
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../about/" class="md-tabs__link">
+          
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Cthulhu Fhtagn A Lot" class="md-nav__button md-logo" aria-label="Cthulhu Fhtagn A Lot" data-md-component="logo">
+      
+  <img src="../../images/Monstre1.png" alt="logo">
+
+    </a>
+    Cthulhu Fhtagn A Lot
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Blog
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2026/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2026
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2025/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2024
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2022
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2021/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2021
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/2020/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2020
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Etudes/Studies
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Etudes/Studies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analyse-d100/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analyse du système d100
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../moteurs-generiques/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les moteurs génériques de JDR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les licences "ouvertes" dans le JDR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../psionics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les pouvoirs psychiques dans le JDR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gme/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brève étude des Game Master Emulator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-systems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comparaison des systèmes D6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-TargetNumber/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Target Number dans le système D6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../D6-Combat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Combat dans le système D6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pbta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analyse des jeux PbtA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../propp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Morphologie du Conte, de Vladimir Propp
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../enterprise-rpg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Enterprise RPG
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Downloads
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Downloads
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/eldritch-wizardry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OD&D Pouvoirs psioniques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/ghostbusters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ghostbusters
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/fighting-fantasy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fighting Fantasy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/risus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Risus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/grande-liste/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    La grande Liste des intrigues de JDR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/cthulhu-dark/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cthulhu Dark
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/mega/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Risus pour Méga
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/fudge/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fudge en une page
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/dungeonsquad/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DungeonSquad!
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Links/Liens
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Links/Liens
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links-en/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TTRPG websites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sites JDR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Author
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LICENSE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#les-premiers-jeux-nutilisant-que-des-d6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les premiers jeux n'utilisant que des D6
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ghostbusters-rpg-le-precurseur" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ghostbusters RPG, le précurseur
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#star-wars-1e-le-premier-vrai-debut-de-laventure-d6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Star Wars 1e : le premier vrai début de l'aventure D6
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Star Wars 1e : le premier vrai début de l'aventure D6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#personnages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Personnages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-de-combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Round de combat
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Round de combat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plusieurs-actions-a-la-fois" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plusieurs actions à la fois
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-competences-de-reaction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les compétences de réaction
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../../tags/#tag:champions" class="md-tag">Champions</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:d6-system" class="md-tag">D6 System</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:gurps" class="md-tag">GURPS</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:ghostbusters" class="md-tag">Ghostbusters</a>
+      
+    
+      
+      
+      
+        <a href="../../tags/#tag:star-wars" class="md-tag">Star Wars</a>
+      
+    
+  </nav>
+
+
+
+  <h1>D6 System Combat</h1>
+
+<h2 id="les-premiers-jeux-nutilisant-que-des-d6">Les premiers jeux n'utilisant que des D6<a class="headerlink" href="#les-premiers-jeux-nutilisant-que-des-d6" title="Permanent link">#</a></h2>
+<p>Le premier jeu n'utilisant que des D6 est le JDR <em>Champions</em> en 1981. Ce jeu a donné le système <em>Hero System</em> plus tard. Dans les années 80, un certain nombre de jeux vont utiliser ce système.</p>
+<p><img alt="champions-1e.png" src="../../images/champions-1e.png" /></p>
+<p>En 1986, sont publiés deux jeux D6 qui ont marqué l'histoire du JDR :</p>
+<ul>
+<li><em>GURPS</em>,</li>
+<li><em>Ghostbusters</em>.</li>
+</ul>
+<p>C'est <em>Ghostbusters</em> qui va inspirer Greg Costikyan pour le système de jeu de <em>Star Wars</em> 1e ("1e" comme "première édition").</p>
+<p><em>Ghostbusters</em> est un système simple et amusant (voir <a href="../../downloads/ghostbusters/">la page dédiée</a> sur ce site).</p>
+<h2 id="ghostbusters-rpg-le-precurseur">Ghostbusters RPG, le précurseur<a class="headerlink" href="#ghostbusters-rpg-le-precurseur" title="Permanent link">#</a></h2>
+<p>La mécanique de <em>Ghostbusters</em> est simple. Les personnages ont des caractéristiques (<em>Traits</em>) et des <a href="../patterns/#competences-liees">compétences liées</a> (<em>Talents</em>).</p>
+<p><img alt="Ghostbusters_cover.jpg" src="../../images/Ghostbusters_cover.jpg" /></p>
+<p>Les joueurs ont 12D à répartir dans les caractéristiques <em>Brains</em>, <em>Muscle</em>, <em>Moves</em>, et <em>Cool</em> et doivent choisir une compétence par caractéristique (ce qui leur donne un bonus de +3D lorsqu'ils utilisent cette compétence). En cas de test, le MJ détermine une difficulté sur une <a href="../patterns/#table-de-difficultes">table</a> et les joueurs lancent les dés correspondant soit à leur caractéristique seule, soit au total de leur caractéristique et de leur compétence.</p>
+<p>Pour le combat, le MJ détermine quelle caractéristique/compétence est utilisée par les PJ et les PNJ et le meilleur total l'emporte.</p>
+<h2 id="star-wars-1e-le-premier-vrai-debut-de-laventure-d6">Star Wars 1e : le premier vrai début de l'aventure D6<a class="headerlink" href="#star-wars-1e-le-premier-vrai-debut-de-laventure-d6" title="Permanent link">#</a></h2>
+<p>La première édition (1e) de <em>Star Wars</em> a, en 1987, apporté de nombreuses nouveautés au monde du JDR, en tous cas en France où les systèmes de jeu étaient généralement ou <em>D&amp;D</em> avec une mécanique d20 ou <em>Call of Cthulhu</em> avec une mécanique d100.</p>
+<p><img alt="StarWars1e.png" src="../../images/StarWars1e.png" /></p>
+<p><em>(Couverture du reprint maison de la première édition US de Star Wars)</em></p>
+<p>Costikyan va développer le système d'une manière impressionnante et nous allons voir quelques unes de ces mécaniques de jeu. Certaines ont d'ailleurs été corrigées ensuite, pas forcément pour le mieux d'ailleurs.</p>
+<p>Nous allons tenter de mettre en perspective historique les règles de <em>Star Wars</em> 1e avec les règles des versions ultérieures ou du <em>D6 System</em>.</p>
+<h3 id="personnages">Personnages<a class="headerlink" href="#personnages" title="Permanent link">#</a></h3>
+<p>Costikyan garde la mécanique caractéristique et <a href="../patterns/#competences-liees">compétences liées</a> : les caractéristiques sont nommées <em>Attributes</em> et les compétences <em>Skills</em>. On compte en moyenne 3D par caractéristiques (comme le jeu en propose 6, nous aurons donc 18D de caractéristiques). Le jeu propose des modèles de personnages qui ont une certaine répartition des 18D sur les 6 caractéristiques : <em>Strength</em>, <em>Dexterity</em>, <em>Perception</em>, <em>Knowledge</em>, <em>Technical</em>, <em>Mechanical</em>.</p>
+<p>Les compétences de combat importantes sont classées comme suit :</p>
+<ul>
+<li>Sous <em>Dexterity</em> :</li>
+<li>Esquive</li>
+<li>Blaster</li>
+<li>Armes lourdes</li>
+<li>Mêlée</li>
+<li>Parade de mêlée</li>
+<li>Parade de bagarre</li>
+<li>Sous <em>Strength</em></li>
+<li>Bagarre</li>
+</ul>
+<p>La difficulté moyenne des actions est de 10, ce qui correspond à environ 60% de chances de réussir pour un PJ ayant une caractéristique de 3D. En effet, la courbe des probabilités de 3D est une courbe en cloche.</p>
+<p>Ainsi la probabilité de faire plus qu'un seuil est montrée dans la table suivante :</p>
+<table>
+<thead>
+<tr>
+<th>Seuil</th>
+<th>Probabilité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>100.00</td>
+</tr>
+<tr>
+<td>4</td>
+<td>99.54</td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td><strong>98.15</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td>95.37</td>
+</tr>
+<tr>
+<td>7</td>
+<td>90.74</td>
+</tr>
+<tr>
+<td>8</td>
+<td>83.80</td>
+</tr>
+<tr>
+<td>9</td>
+<td>74.07</td>
+</tr>
+<tr>
+<td><strong>10</strong></td>
+<td><strong>62.50</strong></td>
+</tr>
+<tr>
+<td>11</td>
+<td>50.00</td>
+</tr>
+<tr>
+<td>12</td>
+<td>37.50</td>
+</tr>
+<tr>
+<td>13</td>
+<td>25.93</td>
+</tr>
+<tr>
+<td>14</td>
+<td>16.20</td>
+</tr>
+<tr>
+<td><strong>15</strong></td>
+<td><strong>9.26</strong></td>
+</tr>
+<tr>
+<td>16</td>
+<td>4.63</td>
+</tr>
+<tr>
+<td>17</td>
+<td>1.85</td>
+</tr>
+<tr>
+<td>18</td>
+<td>0.46</td>
+</tr>
+</tbody>
+</table>
+<p>Par contre, dès lors que la difficulté augmente, les chances d'égaler ou de battre une difficulté diminuent très vite (moins de 10% pour une difficulté 15 pour un score de 3D).</p>
+<h3 id="round-de-combat">Round de combat<a class="headerlink" href="#round-de-combat" title="Permanent link">#</a></h3>
+<h4 id="plusieurs-actions-a-la-fois">Plusieurs actions à la fois<a class="headerlink" href="#plusieurs-actions-a-la-fois" title="Permanent link">#</a></h4>
+<p>Les PJs possédant des compétences sous forme de nombre de dés, peuvent choisir de faire plus d'une action par round. Lorsque c'est le cas, supposons qu'un PJ veuille fait 2 actions à la fois, toutes ses actions subissent une pénalité de -1D, 3 actions donne une pénalité de -2D sur toutes les actions, etc.</p>
+<p>Cette innovation permet à n'importe quel joueur d'avoir l'opportunité de "faire le héros" et elle utilise au mieux l'idée du "<a href="../patterns/#pool-de-des">pool de dés</a>". Dans <em>D&amp;D</em>, il faut avoir beaucoup d'expérience pour disposer de deux attaque par round.</p>
+<p>Les combats sont divisés en rounds de 5 secondes divisé en 5 segments : décision, déclaration (joueurs d'abord et MJ ensuite), première action, deuxième action (si elle existe) et potentielles autres actions des PJ/PNJ.</p>
+<p>Il n'existe pas de mécanisme d'initiative dans cette version du jeu. Pour autant, le jeu propose un <a href="../patterns/#positionnement-physique-des-joueurs">positionnement physique des joueurs</a> selon leur rang de perception. La version de Star Wars REUP de 2015 propose un jet de Perception par camp pour trancher le sujet de l'initiative.</p>
+<h4 id="les-competences-de-reaction">Les compétences de réaction<a class="headerlink" href="#les-competences-de-reaction" title="Permanent link">#</a></h4>
+<p>L'innovation la plus importante, et pourtant une des plus décriée, est la notion de <strong>compétence de réaction</strong> (<em>Reaction skills</em>) : l'esquive et les deux parades sont des compétences de réaction. Leur utilisation est intéressante et à l'avantage des joueurs.</p>
+<p>Si un joueur n'a pas encore joué son tour, et que son PJ est visé par une attaque, il lui est possible d'utiliser une compétence de réaction <em>avant son tour</em> (esquive ou parade). Bien entendu, lorsque le joueur jouera son tour, son action (ou ses actions si le PJ fait de multiples actions dans le round) subiront un malus de -1D.</p>
+<p>Le moment intéressant est le suivant : si un PJ a <em>déjà</em> joué son tour dans le round et que quelqu'un l'attaque, il peut quand même utiliser une compétence de réaction, mais comme cela sera sa seconde action, il devra le faire avec -1D de malus. Si le joueur avait déclaré vouloir faire deux actions dans le round, ses deux actions auraient -1D de malus. Si une compétence de réaction était utilisée au milieu des deux actions, il devrait tirer la première action avec -1D, la compétence avec -2D et la seconde action avec -2D.</p>
+<p>Ce système a été décrié parce qu'il n'était pas "homogène". En effet, le rôle d'une esquive ou d'une parade en cours de round implique de recalculer les chances de succès des actions restantes. On peut voir ça comme une façon extrêmement dynamique de s'adapter à la réalité, et au final assez élégante.</p>
+<p>Cette façon de faire a été remise en cause dès le premier compagnon de règles de Star Wars en 1989. La solution proposée est beaucoup moins naturelle : le joueur doit déclarer s'il esquive ou pas en début de round. On retrouve cette approche dans le <em>D6 System</em> de 1996. Cela signifie que le PJ ne peut pas improviser durant un round durant 5 secondes.</p>
+<p>A noter que Star Wars REUP rétablit la compétence de réaction comme elle existait dans la version originale de 1987 des règles.</p>
+<p>Le second élément attaché à la compétence de réaction est le fait que l'utilisation de cette compétence :</p>
+<ul>
+<li>Rend plus difficile le fait de toucher le PJ (mais le pénalise pour le reste de ses actions) en s'additionnant au seuil de difficulté requis pour le toucher (généralement 10, mais ce seuil dépend de la portée des armes) ;</li>
+<li>Est valable pour toutes les attaques que subira le PJ jusqu'à la fin du round.</li>
+</ul>
+<p>Les deux points introduisent un côté héroïque au jeu et incitent les joueurs à faire de multiples actions quand ils le peuvent plutôt que d'être certains de toucher.</p>
+<p>Dès le compagnon de 1989, et cela sera repris dans le <em>D6 System</em> en 1996, le jet de compétences de réaction <strong>remplace</strong> le facteur de difficulté devant être battu par l'agresseur. Si l'on compte en moyenne 3D sur la caractéristique Dexterity, le PJ a presque 40% de chances de diminuer le seuil et donc d'aggraver sa situation.</p>
+<p>Certes, il est possible que les playtests aient montré qu'esquiver était donc un moyen commode de ne jamais être touché. En effet, 10 + 3D ferait en moyenne 21, ce qui est impossible à toucher pour un Stormtrooper ayant 3D en tir.</p>
+<p>Pour autant, l'idée de remplacer le facteur de difficulté peut vite devenir punitif. Si l'on veut garder l'aspect héroïque de l'action, il faut trouver un compromis :</p>
+<ul>
+<li>Les règles de 1987 sont trop permissives,</li>
+<li>Les règles de 1989/1996 sont trop punitives (à noter que ce sont ces règles qui s'appliquent dans <em>Star Wars</em> REUP).</li>
+</ul>
+<p>Il y a plusieurs solutions :</p>
+<ul>
+<li>Créer une table de malus pour l'attaquant dépendant du jet sur la compétence de réaction (voit ci-dessous) ;</li>
+<li>Ajouter la moitié de la compétence de réaction au seuil (arrondie à l'inférieur).</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Compétence de réaction</th>
+<th>Malus</th>
+<th>Seuil base 10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2 - 5</td>
+<td>+1</td>
+<td>11</td>
+</tr>
+<tr>
+<td>6 - 10</td>
+<td>+3</td>
+<td>13</td>
+</tr>
+<tr>
+<td>11 - 15</td>
+<td>+5</td>
+<td>15</td>
+</tr>
+<tr>
+<td>16-20</td>
+<td>+7</td>
+<td>17</td>
+</tr>
+<tr>
+<td>etc.</td>
+<td>etc.</td>
+<td>etc.</td>
+</tr>
+</tbody>
+</table>
+<p>Si on ajoute la moitié de la compétence, cela donne en moyenne 5 et donc le seuil à atteindre passe de 10 à 15.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyleft Olivier Rey 2017-2025 (GNU FDL)
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>
